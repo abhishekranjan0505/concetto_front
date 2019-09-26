@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a941f3ab2face26efe5a79b58c3232d7",
+    "revision": "dbc83a532e448db8ef28c9117445ca25",
     "url": "/concetto_front/index.html"
   },
   {
-    "revision": "e0fd391c6d64f9695ad6",
+    "revision": "19dd25a17accecd7800f",
     "url": "/concetto_front/static/css/2.8dad266e.chunk.css"
   },
   {
-    "revision": "3f9a3326b0c7fb20545d",
+    "revision": "c9cfa8601d2d02708459",
     "url": "/concetto_front/static/css/main.312e1e0a.chunk.css"
   },
   {
-    "revision": "e0fd391c6d64f9695ad6",
-    "url": "/concetto_front/static/js/2.07327c09.chunk.js"
+    "revision": "19dd25a17accecd7800f",
+    "url": "/concetto_front/static/js/2.1a65b534.chunk.js"
   },
   {
-    "revision": "3f9a3326b0c7fb20545d",
-    "url": "/concetto_front/static/js/main.06c14e2e.chunk.js"
+    "revision": "c9cfa8601d2d02708459",
+    "url": "/concetto_front/static/js/main.2982260e.chunk.js"
   },
   {
     "revision": "e28ebcf85a03301da02a",
