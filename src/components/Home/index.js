@@ -5,6 +5,8 @@ import { withStyles } from "@material-ui/core/styles";
 import Footer from "../Footer";
 import Parallax from "../parallax";
 
+let max_offset,initial_offset;
+
 const styles = theme => ({
   logo: {
     height: "100vh",
@@ -35,10 +37,19 @@ const styles = theme => ({
 class Home extends Component {
   constructor(props) {
     super(props);
+    if(window.innerWidth<1300)
+       {
+         initial_offset=52;
+         max_offset=62;
+       }
+       else {
+      initial_offset = 30;
+      max_offset = 41;
+       }
     this.state = {
-      offset: 52,
+      offset: initial_offset,
       header: false,
-      x: 0
+      x: 0,
     };
     this.homeRef = React.createRef();
   }
@@ -69,9 +80,9 @@ class Home extends Component {
           this.homeRef.current.classList.toggle("logo-header");
         }
       }
-      if (offset !== 60) {
+      if (offset !== max_offset) {
         this.setState({
-          offset: 60
+          offset: max_offset
         });
       }
     } else {
@@ -85,7 +96,7 @@ class Home extends Component {
         }
       }
       this.setState({
-        offset: 52 + (scrollTop / window.innerHeight) * 100
+        offset: initial_offset + (scrollTop / window.innerHeight) * 100
       });
     }
   };
