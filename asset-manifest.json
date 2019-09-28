@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/concetto_front/static/css/main.5c88b3e7.chunk.css",
-    "main.js": "/concetto_front/static/js/main.0931c480.chunk.js",
-    "main.js.map": "/concetto_front/static/js/main.0931c480.chunk.js.map",
+    "main.css": "/concetto_front/static/css/main.0aa3b763.chunk.css",
+    "main.js": "/concetto_front/static/js/main.200fff77.chunk.js",
+    "main.js.map": "/concetto_front/static/js/main.200fff77.chunk.js.map",
     "runtime-main.js": "/concetto_front/static/js/runtime-main.d0636af7.js",
     "runtime-main.js.map": "/concetto_front/static/js/runtime-main.d0636af7.js.map",
     "static/css/2.8dad266e.chunk.css": "/concetto_front/static/css/2.8dad266e.chunk.css",
     "static/js/2.087520bd.chunk.js": "/concetto_front/static/js/2.087520bd.chunk.js",
     "static/js/2.087520bd.chunk.js.map": "/concetto_front/static/js/2.087520bd.chunk.js.map",
     "index.html": "/concetto_front/index.html",
-    "precache-manifest.bd284c92896f096dbfd4f4d1d4f4bea9.js": "/concetto_front/precache-manifest.bd284c92896f096dbfd4f4d1d4f4bea9.js",
+    "precache-manifest.9bf44e3f7bdabbfc7926d05723889275.js": "/concetto_front/precache-manifest.9bf44e3f7bdabbfc7926d05723889275.js",
     "service-worker.js": "/concetto_front/service-worker.js",
     "static/css/2.8dad266e.chunk.css.map": "/concetto_front/static/css/2.8dad266e.chunk.css.map",
-    "static/css/main.5c88b3e7.chunk.css.map": "/concetto_front/static/css/main.5c88b3e7.chunk.css.map",
+    "static/css/main.0aa3b763.chunk.css.map": "/concetto_front/static/css/main.0aa3b763.chunk.css.map",
     "static/media/font-awesome.css": "/concetto_front/static/media/fontawesome-webfont.fee66e71.woff"
   }
 }
