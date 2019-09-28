@@ -21,7 +21,7 @@ const styles = theme => ({
    position: 'absolute',
    left: '150px',
    opacity: 0.8,
-   zIndex: 2000,
+   zIndex: 150,
    bottom: 20,
    margin: 0,
    padding: 0,
@@ -42,7 +42,7 @@ const styles = theme => ({
    position: 'absolute',
    right: '130px',
    opacity: 0.8,
-   zIndex: 2000,
+   zIndex: 150,
    margin: 0,
    padding: 0,
    bottom: 0,
@@ -53,7 +53,7 @@ const styles = theme => ({
       position: 'relative',
       textAlign: 'center',
       padding: 0,
-      zIndex: 4000,
+      zIndex: 160,
   },
 });
 class Parallax extends React.Component {
