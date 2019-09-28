@@ -37,7 +37,6 @@ const styles = theme => ({
 class Home extends Component {
   constructor(props) {
     super(props);
-    console.log(window.innerWidth);
     if (window.innerWidth < 1400) {
       initial_offset = 52;
       max_offset = 62;
