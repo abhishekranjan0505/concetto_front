@@ -316,6 +316,9 @@ button .btn-2:focus{
   width: 100%;
   left: 0;
 }
+.btn-2:focus{
+box-shadow: none;
+}
 .active-bottom {
   border-bottom: 2px solid white;
 }
