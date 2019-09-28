@@ -63,14 +63,14 @@ state={
       end: "2019-10-20T12:30:00.890Z"
     };
     return (
-      <div style={{ display: "flex", margin: "2px" }}>
+      <div style={{ display: "flex"}}>
         <div
           style={{
             display: "flex",
             flexDirection: "column",
-            width: "25%",
-            backgroundColor: "rgba(97, 97, 97, 0.4)",
-            minHeight: "100vh"
+            width: "100rem",
+            backgroundColor: "rgba(97, 97, 97, 0.1)",
+            height: "120rem"
           }}
         >
           <div>
