@@ -41,7 +41,7 @@ color: white;
 }
 
  .logo {
-  transition: all 1s ease-in-out;
+  transition: all 0.5s ease-in-out;
   position: fixed;
   transform: translate(-50%, -50%);
 }
@@ -98,7 +98,7 @@ body
 {
   margin: 0;
   padding: 0;
-  padding-bottom: 33vh;
+  padding-bottom: 35vh;
   width: 100vw;
   overflow-x: hidden;
   /* make it look decent enough */
@@ -112,6 +112,7 @@ body
   text-decoration: none;
   color: white;
   transition: all 0.3s ease-in-out;
+  font-size: 1.95rem;
 }
 
 .nav-link:hover
