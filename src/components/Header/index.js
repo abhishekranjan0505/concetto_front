@@ -15,6 +15,7 @@ class Header extends Component {
   }
   render() {
     const { showLogo } = this.props;
+    const { isMenuOpen } = this.state;
     return (
       <div className="header fixed-top">
         <nav className="navbar navbar-expand-md navbar-dark">
@@ -30,7 +31,11 @@ class Header extends Component {
               : ""}
           </a>
           <div id="menuToggle">
-            <input type="checkbox" />
+            <input
+              type="checkbox"
+              checked={isMenuOpen}
+              onClick={this.toggleMenu}
+            />
             <span></span>
             <span></span>
             <span></span>
@@ -39,27 +44,47 @@ class Header extends Component {
               <br />
               <br />
               <li>
-                <NavLink className="nav-link" to="/home">
+                <NavLink
+                  className="nav-link"
+                  to="/home"
+                  onClick={this.toggleMenu}
+                >
                   HOME
                 </NavLink>
               </li>
               <li>
-                <NavLink className="nav-link" to="/events">
+                <NavLink
+                  className="nav-link"
+                  to="/events"
+                  onClick={this.toggleMenu}
+                >
                   EVENTS
                 </NavLink>
               </li>
               <li>
-                <NavLink className="nav-link" to="/auth">
+                <NavLink
+                  className="nav-link"
+                  to="/auth"
+                  onClick={this.toggleMenu}
+                >
                   LOGIN
                 </NavLink>
               </li>
               <li>
-                <NavLink className="nav-link" to="/home">
+                <NavLink
+                  className="nav-link"
+                  to="/home"
+                  onClick={this.toggleMenu}
+                >
                   CAP
                 </NavLink>
               </li>
               <li>
-                <NavLink className="nav-link" to="/home">
+                <NavLink
+                  className="nav-link"
+                  to="/home"
+                  onClick={this.toggleMenu}
+                >
                   OUR TEAM
                 </NavLink>
               </li>

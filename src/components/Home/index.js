@@ -69,9 +69,9 @@ class Home extends Component {
           this.homeRef.current.classList.toggle("logo-header");
         }
       }
-      if (offset !== 60) {
+      if (offset !== 65) {
         this.setState({
-          offset: 60
+          offset: 65
         });
       }
     } else {
