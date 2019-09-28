@@ -15,9 +15,7 @@ class Header extends Component {
     this.setState({ isMenuOpen: !isMenuOpen });
     if (!isMenuOpen)
       window.scrollTo(0, scrollTop + window.innerHeight / 10 + 1);
-    else {
-      window.scrollTo(0, scrollTop - window.innerHeight / 10 - 1);
-    }
+    else window.scrollTo(0, scrollTop - window.innerHeight / 10 - 1);
   }
   render() {
     const { showLogo } = this.props;
@@ -70,7 +68,7 @@ class Header extends Component {
               <li>
                 <NavLink
                   className="nav-link"
-                  to="/auth"
+                  to="/login"
                   onClick={this.toggleMenu}
                 >
                   LOGIN
