@@ -119,8 +119,32 @@ class Login extends Component {
                     </div>
                     <div class="forms_field">
                       <input
+                        type="text"
+                        placeholder="Whatsapp No."
+                        class="forms_field-input"
+                        required
+                      />
+                    </div>
+                    <div class="forms_field">
+                      <input
+                        type="text"
+                        placeholder="College"
+                        class="forms_field-input"
+                        required
+                      />
+                    </div>
+                    <div class="forms_field">
+                      <input
                         type="password"
                         placeholder="Password"
+                        class="forms_field-input"
+                        required
+                      />
+                    </div>
+                    <div class="forms_field">
+                      <input
+                        type="password"
+                        placeholder="Repeat Password"
                         class="forms_field-input"
                         required
                       />

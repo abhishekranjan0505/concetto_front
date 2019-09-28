@@ -307,6 +307,7 @@ input::placeholder {
 .user_options-forms.bounceLeft {
   -webkit-animation: bounceLeft 1s forwards;
           animation: bounceLeft 1s forwards;
+          height: 570px;
 }
 .user_options-forms.bounceLeft .user_forms-signup {
   -webkit-animation: showSignUp 1s forwards;
