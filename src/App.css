@@ -321,10 +321,10 @@ button .btn-2:focus{
 /*for image in event detail folder */
 .slides {
     padding: 0;
-    width: 100vh;
+    width: 95rem;
     height: 50vh;
     display: block;
-    margin: 0 auto;
+    margin: 0;
     position: relative;
 }
 
@@ -344,7 +344,7 @@ button .btn-2:focus{
 .slide {
     top: 0;
     opacity: 0;
-    width: 100vh;
+    width: 95rem;
     height: 50vh;
     display: block;
     position: absolute;
