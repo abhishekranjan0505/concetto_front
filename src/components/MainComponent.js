@@ -8,6 +8,7 @@ import { connect } from "react-redux";
 import { fetchEvents, getEvent } from "../redux/Actions/Events";
 import { loginUser, logoutUser, registerUser } from "../redux/Actions/Auth";
 import { fetchUsers, editUser, editPassword } from "../redux/Actions/Users";
+import Login from "./Login";
 
 const mapStateToProps = state => {
   return {
@@ -123,6 +124,24 @@ class Main extends Component {
       />
     );
 
+    const PublicRoute = ({ component: Component, ...rest }) => (
+      <Route
+        {...rest}
+        render={props =>
+          !this.props.auth.isAuthenticated ? (
+            <Component {...props} />
+          ) : (
+            <Redirect
+              to={{
+                pathname: "/home",
+                state: { from: props.location }
+              }}
+            />
+          )
+        }
+      />
+    );
+
     return (
       <div className="App">
         <Header
@@ -138,6 +157,7 @@ class Main extends Component {
             path="/home"
             component={() => <Home showLogo={!this.state.header} />}
           />
+          <Route exact path="/login" component={() => <Login />} />
           <Route
             exact
             path="/events"
