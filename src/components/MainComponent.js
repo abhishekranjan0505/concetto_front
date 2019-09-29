@@ -9,6 +9,7 @@ import { fetchEvents, getEvent } from "../redux/Actions/Events";
 import { loginUser, logoutUser, registerUser } from "../redux/Actions/Auth";
 import { fetchUsers, editUser, editPassword } from "../redux/Actions/Users";
 import Login from "./Login";
+import OurTeam from "./OurTeam";
 
 const mapStateToProps = state => {
   return {
@@ -158,6 +159,7 @@ class Main extends Component {
             component={() => <Home showLogo={!this.state.header} />}
           />
           <Route exact path="/login" component={() => <Login />} />
+          <Route exact path="/our_team" component={() => <OurTeam />} />
           <Route
             exact
             path="/events"

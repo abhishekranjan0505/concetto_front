@@ -57,15 +57,15 @@ color: white;
   padding-bottom: 100px;
   /* animation-duration: 2.5s;
   animation-iteration-count: infinite; */
-  transform-origin: 50% 50%;
+  /* transform-origin: 50% 50%; */
 }
 
 @media only screen and (min-width: 768px) {
 .logo-home{
-  height: 350px;
-  width:  756px;
+  height: 250px;
+  width:  540px;
   vertical-align: middle;
-  padding-bottom: 80px;
+  transform: translateY(-400);
 }
 }
 

@@ -86,7 +86,7 @@ class Header extends Component {
               <li>
                 <NavLink
                   className="nav-link"
-                  to="/home"
+                  to="/our_team"
                   onClick={this.toggleMenu}
                 >
                   OUR TEAM
