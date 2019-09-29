@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Register extends Component {
   render() {
     return (
-      <div>Register page</div>
+      <button type="button" className="btn btn-primary btn-lg btn-block">REGISTER</button>
     )
   }
 }
