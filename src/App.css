@@ -57,15 +57,15 @@ color: white;
   padding-bottom: 100px;
   /* animation-duration: 2.5s;
   animation-iteration-count: infinite; */
-  transform-origin: 50% 50%;
+  /* transform-origin: 50% 50%; */
 }
 
 @media only screen and (min-width: 768px) {
 .logo-home{
-  height: 350px;
-  width:  756px;
+  height: 250px;
+  width:  540px;
   vertical-align: middle;
-  padding-bottom: 80px;
+  transform: translateY(-400);
 }
 }
 
@@ -154,9 +154,7 @@ body
   position: absolute;
   top: 20px;
   right: 20px;
-
   z-index: 1;
-
   -webkit-user-select: none;
   user-select: none;
 }
@@ -286,76 +284,16 @@ body
   width: 360px;
 }
 
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,900);
-.btnFlex{
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  margin-top: 30vh;
-  /* justify-content: center; */
-}
-.btn {
-  color: #fff;
-  cursor: pointer;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 10px;
-  position: relative;
-  text-decoration: none;
-  text-transform: uppercase;
-  width: fit-content;
-}
-@media (min-width: 600px) {
-  .btn {
-    margin: 0 3em 1.2em;
-  }
-}
-.btn:hover {
-  text-decoration: none;
-  color: #fff;
-  border: 0px;
-}
-
-.btn-2 {
-  position: relative;
-  overflow:hidden;
-  transition: .3s;
-  border: 0px;
-}
-button .btn-2:focus{
-  outline: none !important;
-}
-  .btn-2:after {
-    position: absolute;
-    transition: .3s;
-    content: '';
-    width: 0;
-    left: 50%;
-    bottom: 0;
-    height: 2px;
-    background: #f7f7f7;
-    /* border: 0px; */
-  }
-  .btn-2:hover {
-  cursor: pointer;
-}
-.btn-2:hover:after {
-  width: 100%;
-  left: 0;
-}
-.active-bottom {
-  border-bottom: 2px solid white;
-}
 /*for image in event detail folder */
-.slides {
+/* .eventImage {
     padding: 0;
-    width: 95rem;
-    height: 50vh;
+    width: 100rem;
+    height: auto;
     display: block;
     margin: 0;
     position: relative;
-}
-
+} */
+/*
 .slides * {
     user-select: none;
     -ms-user-select: none;
@@ -452,6 +390,70 @@ input:checked + .slide-container .nav label { display: block; }
 input#img-1:checked ~ .nav-dots label#img-dot-1,
 input#img-2:checked ~ .nav-dots label#img-dot-2 {
 	background: rgba(0, 0, 0, 0.8);
-}
+} */
 
 /*for details of event page*/
+
+/* @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,900); */
+.btnFlex{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 30vh;
+  /* justify-content: center; */
+}
+.btn-event {
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 10px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: fit-content;
+}
+@media (min-width: 600px) {
+  .btn-event {
+    margin: 0 3em 1.2em;
+  }
+}
+.btn-event:hover {
+  text-decoration: none;
+  color: #fff;
+  border: 0px;
+}
+
+.btn-2 {
+  position: relative;
+  overflow:hidden;
+  transition: .3s;
+  border: 0px;
+}
+button .btn-2:focus{
+  outline: none !important;
+}
+  .btn-2:after {
+    position: absolute;
+    transition: .3s;
+    content: '';
+    width: 0;
+    left: 50%;
+    bottom: 0;
+    height: 2px;
+    background: #f7f7f7;
+    /* border: 0px; */
+  }
+  .btn-2:hover {
+  cursor: pointer;
+}
+.btn-2:hover:after {
+  width: 100%;
+  left: 0;
+}
+.btn-2:focus{
+box-shadow: none;
+}
+.active-bottom {
+  border-bottom: 2px solid white;
+}
