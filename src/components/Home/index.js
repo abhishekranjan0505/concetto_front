@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 import { withStyles } from "@material-ui/core/styles";
 import Footer from "../Footer";
 import Parallax from "../parallax";
+import Parallax2 from "../parallax2";
 
 let max_offset, initial_offset;
 
@@ -138,15 +139,27 @@ class Home extends Component {
         <div className={classes.parallax}>
           <Parallax
             x={x}
+            image1="assets/workshop1.png"
+            image2="assets/workshop4.png"
+            image3="assets/workshop3.png"
+          />
+          <Parallax2
+            x={x}
+            image1="assets/workshop1.png"
+            image2="assets/workshop4.png"
+            image3="assets/workshop3.png"
+          />
+          <Parallax
+            x={x}
             image1="assets/download1.jpg"
             image2="assets/download2.jpg"
             image3="assets/download3.jpg"
           />
-          <Parallax
+          <Parallax2
             x={x}
-            image1="assets/logo.png"
-            image2="assets/moon_surface.png"
-            image3="assets/index.jpeg"
+            image1="assets/workshop1.png"
+            image2="assets/workshop4.png"
+            image3="assets/workshop3.png"
           />
           <Parallax
             x={x}

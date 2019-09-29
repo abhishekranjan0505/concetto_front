@@ -2,11 +2,13 @@ import React from "react";
 import PropTypes from "prop-types";
 import { withStyles } from "@material-ui/core/styles";
 import classNames from 'classnames';
-import { NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom'; 
 
 const styles = theme => ({
   container: {
+    position: 'relative',
     margin: '100px',
+    right: '60px'
   },
   images:{
     right: '-90px',
@@ -22,7 +24,7 @@ const styles = theme => ({
    height: '60%',
    minWidth: '250px !important',
    position: 'absolute',
-   left: '-40px',
+   left: '-100px',
    opacity: 0.8,
    zIndex: 150,
    bottom: 25,
@@ -44,7 +46,7 @@ const styles = theme => ({
    height: '70% !important',
    minWidth: '300px !important',
    position: 'absolute',
-   right: '-70px',
+   right: '-10px',
    opacity: 0.6,
    zIndex: 150,
    margin: 0,
@@ -55,7 +57,7 @@ const styles = theme => ({
   },
   text:{
       minWidth: '300px',
-      marginLeft: '130px',
+      marginLeft: '160px',
       marginTop: '50px',
       position: 'relative',
       textAlign: 'center',
@@ -78,14 +80,14 @@ class Parallax extends React.Component {
     return (
     <div className={classNames(classes.container,"container")}>
      <div className="row">
+       <div className={(window.innerWidth>600)?classNames(classes.text,"col-12 col-md-3"):classNames("col-12 col-md-3")} style={{textAlign:'center',}}>
+        <NavLink to="/"><h1>Some heading here</h1></NavLink>
+         this is a random text and I wish to make it longer to understand how it behaves so there is a lot of dummy text in it to make sure how it behave for big text
+       </div>
        <div ref={this.parent} className={(window.innerWidth>600)?classNames(classes.images,"col-6"):"col-12"}>
          <img style={(window.innerWidth> 600)?{ transform: `translateY(${-(-this.parentOffsetTop+x)/8}px)`}: null } src={image1} alt="Loading..." className={(window.innerWidth>600)?classNames(classes.image1,"col-offset-2 col-8 col-md-2","image1"):classNames(classes.image1M,"col-4")} />
          <img style={(window.innerWidth> 600)?{ transform: `translateY(${(-this.parentOffsetTop+x)/16}px)` }: null} src={image2} alt="Loading..." className={(window.innerWidth>600)?classNames(classes.image2,"col-offset-2 col-8 col-md-3","image2"):classNames(classes.image2M,"col-4")} />
          <img style={(window.innerWidth> 600)?{ transform: `translateY(${-(-this.parentOffsetTop+x)/2}px)` }: null} src={image3} alt="Loading..." className={(window.innerWidth>600)?classNames(classes.image3,"col-offset-2 col-8 col-md-2","image3"):classNames(classes.image3M,"col-4")} />
-       </div>
-       <div className={(window.innerWidth>600)?classNames(classes.text,"col-12 col-md-3"):classNames("col-12 col-md-3")} style={{textAlign:'center',}}>
-        <NavLink to="/"><h1>Some heading here</h1></NavLink>
-         this is a random text and I wish to make it longer to understand how it behaves so there is a lot of dummy text in it to make sure how it behave for big text
        </div>
       </div>
       </div>
