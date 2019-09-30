@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Header from "./Header";
 import Home from "./Home";
-import EventDetail from "./EventDetail";
+import EventPage from "./EventPage";
 
 import { Switch, Route, Redirect, withRouter } from "react-router-dom";
 import { connect } from "react-redux";
@@ -9,6 +9,7 @@ import { fetchEvents, getEvent } from "../redux/Actions/Events";
 import { loginUser, logoutUser, registerUser } from "../redux/Actions/Auth";
 import { fetchUsers, editUser, editPassword } from "../redux/Actions/Users";
 import Login from "./Login";
+import EventDetail from "./EventDetail";
 
 const mapStateToProps = state => {
   return {
@@ -157,12 +158,19 @@ class Main extends Component {
             path="/home"
             component={() => <Home showLogo={!this.state.header} />}
           />
+          <Route
+            exact
+            path="/events/eventDetail"
+            component={() => (
+              <EventDetail events={this.props.events} auth={this.props.auth} />
+            )}
+          />
           <Route exact path="/login" component={() => <Login />} />
           <Route
             exact
             path="/events"
             component={() => (
-              <EventDetail events={this.props.events} auth={this.props.auth} />
+              <EventPage events={this.props.events} auth={this.props.auth} />
             )}
           />
           <Redirect to="/home" />
