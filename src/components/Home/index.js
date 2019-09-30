@@ -72,8 +72,6 @@ class Home extends Component {
 
   handleScroll = event => {
     let scrollTop = window.pageYOffset;
-    console.log(scrollTop + "  " + window.innerHeight / 10);
-    if (Math.abs(scrollTop - 0) < 2) return; //bug due to background
     const { offset, header } = this.state;
     if (scrollTop > window.innerHeight / 10) {
       if (!header) {
