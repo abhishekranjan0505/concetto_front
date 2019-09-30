@@ -13,6 +13,9 @@ const store = ConfigureStore();
 function App() {
   return (
     <Provider store={store}>
+      <div id="stars"/>
+      <div id="stars2"/>
+      <div id="stars3"/>
       <HashRouter basename="/">
         {
           // to be replaced by BrowserRouter

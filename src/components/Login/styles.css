@@ -139,7 +139,7 @@ input::placeholder {
   align-items: center;
   width: 100%;
   height: 100vh;
-  background: url("https://goo.gl/YRxqs1") no-repeat center;
+  background: url("./login_bg.jpg") no-repeat center;
   background-size: cover;
 }
 .user_options-container {
@@ -307,7 +307,7 @@ input::placeholder {
 .user_options-forms.bounceLeft {
   -webkit-animation: bounceLeft 1s forwards;
           animation: bounceLeft 1s forwards;
-          height: 570px;
+          height: 640px;
 }
 .user_options-forms.bounceLeft .user_forms-signup {
   -webkit-animation: showSignUp 1s forwards;

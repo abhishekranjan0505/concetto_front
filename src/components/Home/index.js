@@ -3,7 +3,10 @@ import Loading from "../Loading";
 import PropTypes from "prop-types";
 import { withStyles } from "@material-ui/core/styles";
 import Footer from "../Footer";
+import HomeHeader from "../HomeHeader";
 import Parallax from "../parallax";
+import Parallax2 from "../parallax2";
+import {HomeContent} from "../../shared/Content";
 
 let max_offset, initial_offset;
 
@@ -55,6 +58,7 @@ class Home extends Component {
     this.homeRef = React.createRef();
   }
   componentDidMount() {
+    this.props.hideLogo();
     window.scrollTo(0, 0);
     this.setState({ x: window.scrollY });
     window.addEventListener("scroll", this.handleScroll);
@@ -63,6 +67,7 @@ class Home extends Component {
     }
   }
   componentWillUnmount() {
+    // this.props.makeShowLogo();
     window.removeEventListener("scroll", this.handleScroll);
     window.removeEventListener("scroll", this.handleScroll1);
   }
@@ -110,6 +115,7 @@ class Home extends Component {
     const { offset, x } = this.state;
     return (
       <div>
+        <HomeHeader></HomeHeader>
         <div className={classes.logo}>
           <img
             src="./assets/logo.png"
@@ -136,24 +142,35 @@ class Home extends Component {
           </div>
         }
         <div className={classes.parallax}>
-          <Parallax
+        {HomeContent.map((text,id) => {
+          if(id%2)
+          return (<Parallax
             x={x}
-            image1="assets/download1.jpg"
-            image2="assets/download2.jpg"
-            image3="assets/download3.jpg"
-          />
-          <Parallax
+            id={id.toString()}
+            text={text}
+            image1="assets/workshop1.png"
+            image2="assets/workshop4.png"
+            image3="assets/workshop3.png"
+          />)
+          else
+        return window.innerWidth>800
+          ?<Parallax2
             x={x}
-            image1="assets/logo.png"
-            image2="assets/moon_surface.png"
-            image3="assets/index.jpeg"
+            id={id.toString()}
+            text={text}
+            image1="assets/workshop1.png"
+            image2="assets/workshop4.png"
+            image3="assets/workshop3.png"
           />
-          <Parallax
+          :<Parallax
             x={x}
-            image1="assets/download1.jpg"
-            image2="assets/download2.jpg"
-            image3="assets/download3.jpg"
+            id={id.toString()}
+            text={text}
+            image1="assets/workshop1.png"
+            image2="assets/workshop4.png"
+            image3="assets/workshop3.png"
           />
+        })}
         </div>
         <Footer />
       </div>
