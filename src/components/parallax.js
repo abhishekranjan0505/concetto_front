@@ -12,60 +12,57 @@ const styles = theme => ({
       right: '20px', 
     },
   },
-  images:{
-    right: '-90px',
-    height: '400px',
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
+  images: {
+    right: "-90px",
+    height: "400px",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
     transition: "all 0.3s linear",
     padding: 0,
-    position: 'relative',
+    position: "relative"
   },
-  image1:{
-   height: '60%',
-   minWidth: '250px !important',
-   position: 'absolute',
-   left: '-40px',
-   opacity: 0.8,
-   zIndex: 150,
-   bottom: 25,
-   margin: 0,
-   padding: 0,
+  image1: {
+    height: "60%",
+    minWidth: "250px !important",
+    position: "absolute",
+    left: "-40px",
+    opacity: 0.8,
+    zIndex: 150,
+    bottom: 25,
+    margin: 0,
+    padding: 0
   },
-  image1M:{
-  },
-  image2:{
-    position: 'relative',
+  image1M: {},
+  image2: {
+    position: "relative",
     padding: 0,
     bottom: 40,
-    minHeight: '100% !important',
-    minWidth: '75% !important',
+    minHeight: "100% !important",
+    minWidth: "75% !important"
   },
-  image2M:{
+  image2M: {},
+  image3: {
+    height: "70% !important",
+    minWidth: "300px !important",
+    position: "absolute",
+    right: "-70px",
+    opacity: 0.6,
+    zIndex: 150,
+    margin: 0,
+    padding: 0,
+    bottom: 0
   },
-  image3:{
-   height: '70% !important',
-   minWidth: '300px !important',
-   position: 'absolute',
-   right: '-70px',
-   opacity: 0.6,
-   zIndex: 150,
-   margin: 0,
-   padding: 0,
-   bottom: 0,
-  },
-  image3M: {
-  },
-  text:{
-      minWidth: '300px',
-      marginLeft: '130px',
-      marginTop: '50px',
-      position: 'relative',
-      textAlign: 'center',
-      padding: 0,
-      zIndex: 1600,
-  },
+  image3M: {},
+  text: {
+    minWidth: "300px",
+    marginLeft: "130px",
+    marginTop: "50px",
+    position: "relative",
+    textAlign: "center",
+    padding: 0,
+    zIndex: 160,
+  }
 });
 class Parallax extends React.Component {
   constructor(props) {

@@ -24,11 +24,6 @@ class Header extends Component {
         <nav className="navbar navbar-expand-md navbar-dark">
           <a className="navbar-brand" href="home">
             <span className="helper"></span>
-            <img
-              src="./assets/logo.png"
-              className="logo-header"
-              alt={"CONCETTO"}
-            />
           </a>
           <div id="menuToggle">
             <input

@@ -3,6 +3,7 @@ import Loading from "../Loading";
 import PropTypes from "prop-types";
 import { withStyles } from "@material-ui/core/styles";
 import Footer from "../Footer";
+import HomeHeader from "../HomeHeader";
 import Parallax from "../parallax";
 import Parallax2 from "../parallax2";
 import {HomeContent} from "../../shared/Content";
@@ -57,6 +58,7 @@ class Home extends Component {
     this.homeRef = React.createRef();
   }
   componentDidMount() {
+    this.props.hideLogo();
     window.scrollTo(0, 0);
     this.setState({ x: window.scrollY });
     window.addEventListener("scroll", this.handleScroll);
@@ -65,6 +67,7 @@ class Home extends Component {
     }
   }
   componentWillUnmount() {
+    // this.props.makeShowLogo();
     window.removeEventListener("scroll", this.handleScroll);
     window.removeEventListener("scroll", this.handleScroll1);
   }
@@ -112,6 +115,7 @@ class Home extends Component {
     const { offset, x } = this.state;
     return (
       <div>
+        <HomeHeader></HomeHeader>
         <div className={classes.logo}>
           <img
             src="./assets/logo.png"

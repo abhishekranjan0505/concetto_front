@@ -74,3 +74,9 @@ ul.social li a {
 	color:#fff;
 	transition: all .5s ease;
 }
+a{
+cursor: pointer;
+}
+a .highlighted{
+text-decoration: underline;
+}

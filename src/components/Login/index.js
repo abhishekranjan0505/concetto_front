@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Alert } from "reactstrap";
+import Header from "../Header";
 import Loading from "../Loading";
 import PropTypes from "prop-types";
 import "./styles.css";
@@ -17,6 +18,14 @@ class Login extends Component {
     this.bounceLeft = this.bounceLeft.bind(this);
     this.bounceRight = this.bounceRight.bind(this);
     this.handleRegisterSubmit = this.handleRegisterSubmit.bind(this);
+  }
+
+  componentDidMount() {
+    document.body.style.overflow = "hidden";
+  }
+
+  componentWillUnmount() {
+    document.body.style.overflow = "scroll";
   }
 
   bounceLeft() {
@@ -52,6 +61,7 @@ class Login extends Component {
     const { isError, error_message } = this.state;
     return (
       <div>
+        <Header />
         <section class="user">
           <div class="user_options-container">
             <div class="user_options-text">

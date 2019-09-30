@@ -12,7 +12,7 @@ const styles = theme => ({
   socialMedia: {
     display: "flex",
     justifyContent: "center",
-    alignItems: "center",
+    alignItems: "center"
   },
   a: {
     height: "40px",

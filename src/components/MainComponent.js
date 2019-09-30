@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Header from "./Header";
+import HomeHeader from "./HomeHeader";
 import Home from "./Home";
 import EventDetail from "./EventDetail";
 
@@ -44,6 +44,18 @@ class Main extends Component {
       preloader: true,
       delayed: false
     };
+    this.makeShowLogo = this.makeShowLogo.bind(this);
+    this.hideLogo = this.hideLogo.bind(this);
+  }
+
+  makeShowLogo() {
+    const { header } = this.state;
+    if (!header) this.setState({ header: true });
+  }
+
+  hideLogo() {
+    const { header } = this.state;
+    if (header) this.setState({ header: false });
   }
 
   componentDidMount() {
@@ -57,9 +69,9 @@ class Main extends Component {
     }
     window.addEventListener("scroll", this.handleScroll);
     this.setState({ preloader: false });
-    setTimeout(() => {
-      this.setState({ delayed: true });
-    }, 4000);
+    // setTimeout(() => {
+    //   this.setState({ delayed: true });
+    // }, 4000);
   }
 
   componentWillUnmount = () => {
@@ -146,18 +158,20 @@ class Main extends Component {
 
     return (
       <div className="App">
-        <Header
+        {/* <HomeHeader
           showLogo={this.state.header}
           auth={this.props.auth}
           loginUser={this.props.loginUser}
           logoutUser={this.props.logoutUser}
           registerUser={this.props.registerUser}
-        />
+        /> */}
         <Switch location={this.props.location}>
           <Route
             exact
             path="/home"
-            component={() => <Home showLogo={!this.state.header} />}
+            component={() => (
+              <Home makeShowLogo={this.makeShowLogo} hideLogo={this.hideLogo} />
+            )}
           />
           <Route exact path="/login" component={() => <Login />} />
           <Route exact path="/our_team" component={() => <OurTeam />} />

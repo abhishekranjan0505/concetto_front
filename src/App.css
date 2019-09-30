@@ -41,9 +41,10 @@ color: white;
 }
 
  .logo {
-  transition: all 0.5s ease-in-out;
+  transition: all 0.3s ease-in-out;
   position: fixed;
   transform: translate(-50%, -50%);
+  z-index: 200;
 }
 
 .logo-home{
@@ -62,10 +63,9 @@ color: white;
 
 @media only screen and (min-width: 768px) {
 .logo-home{
-  height: 250px;
-  width:  540px;
+  height: 350px;
+  width:  756px;
   vertical-align: middle;
-  transform: translateY(-400);
 }
 }
 
@@ -92,6 +92,7 @@ color: white;
   /* float:left; */
   top: 35px;
   left:80px;
+  z-index: 200;
 }
 
 body
@@ -105,7 +106,7 @@ body
   background: #232323;
   color: #cdcdcd;
   font-family: "Avenir Next", "Avenir", sans-serif;
-  
+
   /* for scrollbar*/
   margin-left: 22px;
 	float: left;
