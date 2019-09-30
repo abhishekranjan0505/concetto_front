@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Header from "../Header";
 import "./styles.css";
 
 class OurTeam extends Component {
@@ -13,6 +14,7 @@ class OurTeam extends Component {
     const { width } = this.state;
     return (
       <div>
+        <Header />
         <br />
         <br />
         {width > 486 ? (

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Header from "./Header";
+import HomeHeader from "./HomeHeader";
 import Home from "./Home";
 import EventDetail from "./EventDetail";
 
@@ -157,13 +157,13 @@ class Main extends Component {
 
     return (
       <div className="App">
-        <Header
+        {/* <HomeHeader
           showLogo={this.state.header}
           auth={this.props.auth}
           loginUser={this.props.loginUser}
           logoutUser={this.props.logoutUser}
           registerUser={this.props.registerUser}
-        />
+        /> */}
         <Switch location={this.props.location}>
           <Route
             exact

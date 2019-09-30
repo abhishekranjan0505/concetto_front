@@ -3,6 +3,7 @@ import Loading from "../Loading";
 import PropTypes from "prop-types";
 import { withStyles } from "@material-ui/core/styles";
 import Footer from "../Footer";
+import HomeHeader from "../HomeHeader";
 import Parallax from "../parallax";
 import Parallax2 from "../parallax2";
 
@@ -113,6 +114,7 @@ class Home extends Component {
     const { offset, x } = this.state;
     return (
       <div>
+        <HomeHeader></HomeHeader>
         <div className={classes.logo}>
           <img
             src="./assets/logo.png"
