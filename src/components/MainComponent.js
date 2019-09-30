@@ -68,9 +68,9 @@ class Main extends Component {
     }
     window.addEventListener("scroll", this.handleScroll);
     this.setState({ preloader: false });
-    setTimeout(() => {
-      this.setState({ delayed: true });
-    }, 4000);
+    // setTimeout(() => {
+    //   this.setState({ delayed: true });
+    // }, 4000);
   }
 
   componentWillUnmount = () => {
