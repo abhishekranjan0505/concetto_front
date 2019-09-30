@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import HomeHeader from "./HomeHeader";
 import Home from "./Home";
-import EventDetail from "./EventDetail";
+import EventPage from "./EventPage";
 
 import { Switch, Route, Redirect, withRouter } from "react-router-dom";
 import { connect } from "react-redux";
@@ -9,6 +9,7 @@ import { fetchEvents, getEvent } from "../redux/Actions/Events";
 import { loginUser, logoutUser, registerUser } from "../redux/Actions/Auth";
 import { fetchUsers, editUser, editPassword } from "../redux/Actions/Users";
 import Login from "./Login";
+import EventDetail from "./EventDetail";
 import OurTeam from "./OurTeam";
 import ComingSoon from "./ComingSoon";
 
@@ -173,6 +174,13 @@ class Main extends Component {
               <Home makeShowLogo={this.makeShowLogo} hideLogo={this.hideLogo} />
             )}
           />
+          <Route
+            exact
+            path="/events/eventDetail"
+            component={() => (
+              <EventDetail events={this.props.events} auth={this.props.auth} />
+            )}
+          />
           <Route exact path="/login" component={() => <Login />} />
           <Route exact path="/our_team" component={() => <OurTeam />} />
           <Route exact path="/coming_soon" component={() => <ComingSoon />} />
@@ -180,7 +188,7 @@ class Main extends Component {
             exact
             path="/events"
             component={() => (
-              <EventDetail events={this.props.events} auth={this.props.auth} />
+              <EventPage events={this.props.events} auth={this.props.auth} />
             )}
           />
           <Redirect to="/home" />
