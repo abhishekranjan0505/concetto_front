@@ -6,8 +6,8 @@ import Footer from "../Footer";
 import HomeHeader from "../HomeHeader";
 import Parallax from "../parallax";
 import Parallax2 from "../parallax2";
-import {HomeContent} from "../../shared/Content";
-
+import { HomeContent } from "../../shared/Content";
+import "./styles.css";
 let max_offset, initial_offset;
 
 const styles = theme => ({
@@ -110,11 +110,26 @@ class Home extends Component {
     this.setState({ x: window.scrollY });
   };
 
+  scrollDown() {
+    window.scrollTo(0, window.innerHeight);
+  }
+
   render() {
     const { classes } = this.props;
     const { offset, x } = this.state;
     return (
       <div>
+        <section id="scroll_down" class="demo">
+          <a
+            onClick={() => {
+              this.scrollDown();
+            }}
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </a>
+        </section>
         <HomeHeader></HomeHeader>
         <div className={classes.logo}>
           <img
@@ -142,35 +157,39 @@ class Home extends Component {
           </div>
         }
         <div className={classes.parallax}>
-        {HomeContent.map((text,id) => {
-          if(id%2)
-          return (<Parallax
-            x={x}
-            id={id.toString()}
-            text={text}
-            image1="assets/workshop1.png"
-            image2="assets/workshop4.png"
-            image3="assets/workshop3.png"
-          />)
-          else
-        return window.innerWidth>800
-          ?<Parallax2
-            x={x}
-            id={id.toString()}
-            text={text}
-            image1="assets/workshop1.png"
-            image2="assets/workshop4.png"
-            image3="assets/workshop3.png"
-          />
-          :<Parallax
-            x={x}
-            id={id.toString()}
-            text={text}
-            image1="assets/workshop1.png"
-            image2="assets/workshop4.png"
-            image3="assets/workshop3.png"
-          />
-        })}
+          {HomeContent.map((text, id) => {
+            if (id % 2)
+              return (
+                <Parallax
+                  x={x}
+                  id={id.toString()}
+                  text={text}
+                  image1="assets/workshop1.png"
+                  image2="assets/workshop4.png"
+                  image3="assets/workshop3.png"
+                />
+              );
+            else
+              return window.innerWidth > 800 ? (
+                <Parallax2
+                  x={x}
+                  id={id.toString()}
+                  text={text}
+                  image1="assets/workshop1.png"
+                  image2="assets/workshop4.png"
+                  image3="assets/workshop3.png"
+                />
+              ) : (
+                <Parallax
+                  x={x}
+                  id={id.toString()}
+                  text={text}
+                  image1="assets/workshop1.png"
+                  image2="assets/workshop4.png"
+                  image3="assets/workshop3.png"
+                />
+              );
+          })}
         </div>
         <Footer />
       </div>
