@@ -25,14 +25,15 @@ class Header extends Component {
         <nav className="navbar navbar-expand-md navbar-dark">
           <a className="navbar-brand" href="home">
             <span className="helper"></span>
-            {showLogo
-              ? // <img
-                //   src="./assets/logo.png"
-                //   className="logo-header"
-                //   alt={Loading}
-                // />
-                ""
-              : ""}
+            {showLogo ? (
+              <img
+                src="./assets/logo.png"
+                className="logo-header"
+                alt={"CONCETTO"}
+              />
+            ) : (
+              ""
+            )}
           </a>
           <div id="menuToggle">
             <input
@@ -44,8 +45,6 @@ class Header extends Component {
             <span></span>
             <span></span>
             <ul id="menu">
-              <br />
-              <br />
               <br />
               <li>
                 <NavLink
@@ -63,6 +62,24 @@ class Header extends Component {
                   onClick={this.toggleMenu}
                 >
                   EVENTS
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  className="nav-link"
+                  to="/workshops"
+                  onClick={this.toggleMenu}
+                >
+                  WORKSHOP
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  className="nav-link"
+                  to="/highlights"
+                  onClick={this.toggleMenu}
+                >
+                  HIGHLIGHTS
                 </NavLink>
               </li>
               <li>

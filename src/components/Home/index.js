@@ -55,6 +55,7 @@ class Home extends Component {
     this.homeRef = React.createRef();
   }
   componentDidMount() {
+    this.props.hideLogo();
     window.scrollTo(0, 0);
     this.setState({ x: window.scrollY });
     window.addEventListener("scroll", this.handleScroll);
@@ -63,6 +64,7 @@ class Home extends Component {
     }
   }
   componentWillUnmount() {
+    // this.props.makeShowLogo();
     window.removeEventListener("scroll", this.handleScroll);
     window.removeEventListener("scroll", this.handleScroll1);
   }

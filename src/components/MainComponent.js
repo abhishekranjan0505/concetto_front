@@ -43,6 +43,18 @@ class Main extends Component {
       preloader: true,
       delayed: false
     };
+    this.makeShowLogo = this.makeShowLogo.bind(this);
+    this.hideLogo = this.hideLogo.bind(this);
+  }
+
+  makeShowLogo() {
+    const { header } = this.state;
+    if (!header) this.setState({ header: true });
+  }
+
+  hideLogo() {
+    const { header } = this.state;
+    if (header) this.setState({ header: false });
   }
 
   componentDidMount() {
@@ -156,7 +168,9 @@ class Main extends Component {
           <Route
             exact
             path="/home"
-            component={() => <Home showLogo={!this.state.header} />}
+            component={() => (
+              <Home makeShowLogo={this.makeShowLogo} hideLogo={this.hideLogo} />
+            )}
           />
           <Route exact path="/login" component={() => <Login />} />
           <Route exact path="/our_team" component={() => <OurTeam />} />
