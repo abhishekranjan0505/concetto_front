@@ -10,6 +10,7 @@ import { loginUser, logoutUser, registerUser } from "../redux/Actions/Auth";
 import { fetchUsers, editUser, editPassword } from "../redux/Actions/Users";
 import Login from "./Login";
 import OurTeam from "./OurTeam";
+import ComingSoon from "./ComingSoon";
 
 const mapStateToProps = state => {
   return {
@@ -174,6 +175,7 @@ class Main extends Component {
           />
           <Route exact path="/login" component={() => <Login />} />
           <Route exact path="/our_team" component={() => <OurTeam />} />
+          <Route exact path="/coming_soon" component={() => <ComingSoon />} />
           <Route
             exact
             path="/events"

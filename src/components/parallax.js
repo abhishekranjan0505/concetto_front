@@ -1,12 +1,16 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { withStyles } from "@material-ui/core/styles";
-import classNames from "classnames";
-import { NavLink } from "react-router-dom";
+import classNames from 'classnames';
+import { Link } from 'react-router-dom';
 
 const styles = theme => ({
   container: {
-    margin: "100px"
+    margin: '100px',
+    [theme.breakpoints.down('sm')]:{
+      position: 'relative',
+      right: '20px', 
+    },
   },
   images: {
     right: "-90px",
@@ -57,7 +61,7 @@ const styles = theme => ({
     position: "relative",
     textAlign: "center",
     padding: 0,
-    zIndex: 160
+    zIndex: 160,
   }
 });
 class Parallax extends React.Component {
@@ -67,102 +71,25 @@ class Parallax extends React.Component {
     this.parentOffsetTop = 0;
   }
   componentDidMount() {
+    window.scrollTo(0,0);
     this.parentOffsetTop = this.parent.current.getBoundingClientRect().top;
-    // console.log(this.parentOffsetTop);
+     console.log(this.parentOffsetTop);
   }
   render() {
-    const { classes, image1, image2, image3, x } = this.props;
+    const { text,classes,image1,image2,image3,x } = this.props;
     return (
-      <div className={classNames(classes.container, "container")}>
-        <div className="row">
-          <div
-            ref={this.parent}
-            className={
-              window.innerWidth > 600
-                ? classNames(classes.images, "col-6")
-                : "col-12"
-            }
-          >
-            <img
-              style={
-                window.innerWidth > 600
-                  ? {
-                      transform: `translateY(${-(-this.parentOffsetTop + x) /
-                        8}px)`
-                    }
-                  : null
-              }
-              src={image1}
-              alt="Loading..."
-              className={
-                window.innerWidth > 600
-                  ? classNames(
-                      classes.image1,
-                      "col-offset-2 col-8 col-md-2",
-                      "image1"
-                    )
-                  : classNames(classes.image1M, "col-4")
-              }
-            />
-            <img
-              style={
-                window.innerWidth > 600
-                  ? {
-                      transform: `translateY(${(-this.parentOffsetTop + x) /
-                        16}px)`
-                    }
-                  : null
-              }
-              src={image2}
-              alt="Loading..."
-              className={
-                window.innerWidth > 600
-                  ? classNames(
-                      classes.image2,
-                      "col-offset-2 col-8 col-md-3",
-                      "image2"
-                    )
-                  : classNames(classes.image2M, "col-4")
-              }
-            />
-            <img
-              style={
-                window.innerWidth > 600
-                  ? {
-                      transform: `translateY(${-(-this.parentOffsetTop + x) /
-                        2}px)`
-                    }
-                  : null
-              }
-              src={image3}
-              alt="Loading..."
-              className={
-                window.innerWidth > 600
-                  ? classNames(
-                      classes.image3,
-                      "col-offset-2 col-8 col-md-2",
-                      "image3"
-                    )
-                  : classNames(classes.image3M, "col-4")
-              }
-            />
-          </div>
-          <div
-            className={
-              window.innerWidth > 600
-                ? classNames(classes.text, "col-12 col-md-3")
-                : classNames("col-12 col-md-3")
-            }
-            style={{ textAlign: "center" }}
-          >
-            <NavLink to="/events">
-              <h1>Some heading here</h1>
-            </NavLink>
-            this is a random text and I wish to make it longer to understand how
-            it behaves so there is a lot of dummy text in it to make sure how it
-            behave for big text
-          </div>
-        </div>
+    <div className={classNames(classes.container,"container")}>
+     <div className="row">
+       <div ref={this.parent} className={(window.innerWidth>600)?classNames(classes.images,"col-6"):"col-12"}>
+         <img style={(window.innerWidth> 800)?{ transform: `translateY(${-(-this.parentOffsetTop+x)/8}px)`}: null } src={image1} alt="Loading..." className={(window.innerWidth>600)?classNames(classes.image1,"col-offset-2 col-8 col-md-2","image1"):classNames(classes.image1M,"col-4")} />
+         <img style={(window.innerWidth> 800)?{ transform: `translateY(${(-this.parentOffsetTop+x)/16}px)` }: null} src={image2} alt="Loading..." className={(window.innerWidth>600)?classNames(classes.image2,"col-offset-2 col-8 col-md-3","image2"):classNames(classes.image2M,"col-4")} />
+         <img style={(window.innerWidth> 800)?{ transform: `translateY(${-(-this.parentOffsetTop+x)/2}px)` }: null} src={image3} alt="Loading..." className={(window.innerWidth>600)?classNames(classes.image3,"col-offset-2 col-8 col-md-2","image3"):classNames(classes.image3M,"col-4")} />
+       </div>
+       <div className={(window.innerWidth>600)?classNames(classes.text,"col-12 col-md-3"):classNames("col-12 col-md-3")} style={{textAlign:'center',}}>
+        <Link to={text.link}><h1 className={classes.heading}>{text.heading}</h1></Link>
+         {text.description}
+       </div>
+      </div>
       </div>
     );
   }
