@@ -6,7 +6,7 @@ import ClubEvent from "./ClubEvent";
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import AppBar from '@material-ui/core/AppBar';
-import Header from '../Header/index';
+import HomeHeader from '../HomeHeader/index';
 
 const styles = (theme) => ({
   mobileTab: {
@@ -74,10 +74,9 @@ class EventDetail extends Component {
     const { classes } = this.props;
     return (
         <div className={classes.mobileTab}>
-        <AppBar style={{ zIndex: 100, backgroundColor: 'rgba(1,1,1,0.1)' }} position="fixed">
-          <Tabs>
-            <Tab><Header /></Tab>
-          </Tabs>
+          {/* <div><HomeHeader/></div> */}
+        <AppBar style={{ zIndex: 100, backgroundColor: 'rgba(1,1,1,0.1)',overflow: 'hidden' }} position="fixed">
+
             <Tabs
               value={this.state.active}
               onChange={this.handleChange}
