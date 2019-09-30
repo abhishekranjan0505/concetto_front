@@ -70,7 +70,7 @@ class EventDetail extends Component {
             {this.state.active === 0 && <DepartmentEvent />}
             {this.state.active === 1 && <ClubEvent />}
           </div>
-          {window.innerWidth<960?<Mobileview />:''}
+        {window.innerWidth < 960 ? <Mobileview />:''}
      </div>
     );
   }

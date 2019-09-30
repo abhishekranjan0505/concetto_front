@@ -11,6 +11,7 @@
 .cards {
   display: flex;
   padding: 2rem;
+  margin-top: 2rem;
   width: 100%;
 }
 @media (min-width: 60rem) {
