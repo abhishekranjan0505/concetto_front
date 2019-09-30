@@ -35,8 +35,8 @@ const styles = theme => ({
     },
     [theme.breakpoints.down("sm")]: {
       margin: "10px",
-      marginBottom: "6px"
-    }
+      marginBottom: "6px",
+    },
   },
   facebook: {
     color: "#0018ff"
