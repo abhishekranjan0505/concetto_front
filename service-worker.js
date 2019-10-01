@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/concetto_front/precache-manifest.9804c333b5b932c8cef8cd9cf25a761e.js"
+  "/concetto_front/precache-manifest.d1f51200e23ad539912f5dbb40c0a357.js"
 );
 
 self.addEventListener('message', (event) => {
