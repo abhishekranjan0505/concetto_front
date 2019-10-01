@@ -6,6 +6,7 @@ import ClubEvent from "./ClubEvent";
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import AppBar from '@material-ui/core/AppBar';
+import HomeHeader from '../HomeHeader/index';
 
 const styles = (theme) => ({
   mobileTab: {
@@ -13,6 +14,7 @@ const styles = (theme) => ({
     flexDirection: 'column',
   },
   tabRoot: {
+  minWidth: '50%',
     textTransform: 'initial',
     fontWeight: 'bold',
     backgroundColor: 'white',
@@ -28,13 +30,14 @@ const styles = (theme) => ({
     },
   },
   tabsRoot: {
+    minWidth: '50%',
     borderBottom: '1px solid #e8e8e8',
   },
   tabsIndicator: {
     backgroundColor: '#1890ff',
   },
   tab: {
-      width: '50%',
+      width: '100%',
   },
   tabSelected: {
   },
@@ -71,7 +74,9 @@ class EventDetail extends Component {
     const { classes } = this.props;
     return (
         <div className={classes.mobileTab}>
-          <AppBar position="absolute" color="default">
+          {/* <div><HomeHeader/></div> */}
+        <AppBar style={{ zIndex: 100, backgroundColor: 'rgba(1,1,1,0.1)',overflow: 'hidden' }} position="fixed">
+
             <Tabs
               value={this.state.active}
               onChange={this.handleChange}
