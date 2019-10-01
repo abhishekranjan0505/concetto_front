@@ -1,30 +1,23 @@
 import React from "react";
 import Main from "./components/MainComponent";
-import { HashRouter } from "react-router-dom";
-import { Provider } from "react-redux";
-import { ConfigureStore } from "./redux/store.js";
+import { BrowserRouter } from "react-router-dom";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "font-awesome/css/font-awesome.css";
 import "./App.css";
 
-const store = ConfigureStore();
-
 function App() {
   return (
-    <Provider store={store}>
-      <div id="stars"/>
-      <div id="stars2"/>
-      <div id="stars3"/>
-      <HashRouter basename="/">
-        {
-          // to be replaced by BrowserRouter
-        }
+    <React.Fragment>
+      <div id="stars" />
+      <div id="stars2" />
+      <div id="stars3" />
+      <BrowserRouter>
         <div className="App">
           <Main />
         </div>
-      </HashRouter>
-    </Provider>
+      </BrowserRouter>
+    </React.Fragment>
   );
 }
 
