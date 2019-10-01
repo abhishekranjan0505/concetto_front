@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "acceb2434e4da98923d3790ba8e3bf15",
+    "revision": "f490f0512e9dd076a5188642e12f3182",
     "url": "/concetto_front/index.html"
   },
   {
-    "revision": "571b21309af756167fd5",
+    "revision": "9273330f1c68ee87e16e",
     "url": "/concetto_front/static/css/2.8dad266e.chunk.css"
   },
   {
-    "revision": "1eb081507efe45319bf7",
-    "url": "/concetto_front/static/css/main.0aa3b763.chunk.css"
+    "revision": "d9439097b996e305036b",
+    "url": "/concetto_front/static/css/main.5626823d.chunk.css"
   },
   {
-    "revision": "571b21309af756167fd5",
-    "url": "/concetto_front/static/js/2.087520bd.chunk.js"
+    "revision": "9273330f1c68ee87e16e",
+    "url": "/concetto_front/static/js/2.a3a1b07f.chunk.js"
   },
   {
-    "revision": "1eb081507efe45319bf7",
-    "url": "/concetto_front/static/js/main.200fff77.chunk.js"
+    "revision": "d9439097b996e305036b",
+    "url": "/concetto_front/static/js/main.4e61a432.chunk.js"
   },
   {
     "revision": "e28ebcf85a03301da02a",
@@ -42,5 +42,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fee66e712a8a08eef5805a46892932ad",
     "url": "/concetto_front/static/media/fontawesome-webfont.fee66e71.woff"
+  },
+  {
+    "revision": "e4ce1b3e24acba6d834dff2948fe718e",
+    "url": "/concetto_front/static/media/login_bg.e4ce1b3e.jpg"
   }
 ]);
