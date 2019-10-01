@@ -133,7 +133,7 @@ class Home extends Component {
         <HomeHeader></HomeHeader>
         <div className={classes.logo}>
           <img
-            src="./assets/logo.png"
+            src="https://concetto-front.s3.ap-south-1.amazonaws.com/logo.png"
             className={`logo logo-home`}
             ref={this.homeRef}
             alt={Loading}
@@ -149,7 +149,7 @@ class Home extends Component {
             }}
           >
             <img
-              src="./assets/moon_surface.png"
+              src="https://concetto-front.s3.ap-south-1.amazonaws.com/moon_surface.png"
               className={classes.moon}
               alt="moon"
               style={{ transform: "translateY(" + offset + "vh)" }}
@@ -157,16 +157,13 @@ class Home extends Component {
           </div>
         }
         <div className={classes.parallax}>
-          {HomeContent.map((text, id) => {
-            if (id % 2)
+          {HomeContent.map((content, id) => {
+            if (id % 2==0)
               return (
                 <Parallax
                   x={x}
                   id={id.toString()}
-                  text={text}
-                  image1="assets/workshop1.png"
-                  image2="assets/workshop4.png"
-                  image3="assets/workshop3.png"
+                  content={content}
                 />
               );
             else
@@ -174,19 +171,13 @@ class Home extends Component {
                 <Parallax2
                   x={x}
                   id={id.toString()}
-                  text={text}
-                  image1="assets/workshop1.png"
-                  image2="assets/workshop4.png"
-                  image3="assets/workshop3.png"
+                  content={content}
                 />
               ) : (
                 <Parallax
                   x={x}
                   id={id.toString()}
-                  text={text}
-                  image1="assets/workshop1.png"
-                  image2="assets/workshop4.png"
-                  image3="assets/workshop3.png"
+                  content={content}
                 />
               );
           })}

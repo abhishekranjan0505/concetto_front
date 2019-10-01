@@ -65,7 +65,7 @@ class Footer extends React.Component {
         >
           <FontAwesomeIcon icon={faInstagram} className={classes.instagram} />
         </a>
-        <a href="https://www.google.com" className={classes.a}>
+        <a href="" className={classes.a}>
           <FontAwesomeIcon icon={faYoutube} className={classes.youtube} />
         </a>
       </div>
