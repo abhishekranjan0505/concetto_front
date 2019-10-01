@@ -7,7 +7,7 @@ import ClubEvent from "./ClubEvent";
 import Mobileview from "./Mobileview";
 import HomeHeader from "../HomeHeader";
 import { Link } from "react-router-dom";
-import { Events } from "../../shared/data"
+import { Events } from "../../shared/Events"
 
 const styles = (theme) => ({
   root: {
