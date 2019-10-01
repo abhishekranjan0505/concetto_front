@@ -69,7 +69,7 @@ class Main extends Component {
       this.props.fetchUsers();
     }
     window.addEventListener("scroll", this.handleScroll);
-    this.setState({ preloader: false });
+    //this.setState({ preloader: false });
     // setTimeout(() => {
     //   this.setState({ delayed: true });
     // }, 4000);
