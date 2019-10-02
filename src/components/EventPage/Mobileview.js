@@ -98,7 +98,6 @@ class EventDetail extends Component {
           </Tabs>
         </AppBar>
         {this.state.active === 1 && <ClubEvent events={events} />}
-
         {this.state.active === 0 && <DepartmentEvent />}
         <div></div>
       </div>
