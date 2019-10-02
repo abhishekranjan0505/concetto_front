@@ -39,7 +39,9 @@ class Register extends Component {
       end: "2019-10-20T12:30:00.890Z"
     };
     return (
-      <div className="text-center">
+      <div>
+        COMMING SOON
+      <div className="text-center" style={{display:'none'}}>
         {event.is_team
           ? <div>
             <button type="button" className="btn btn-primary btn-lg" onClick={this.toggle}>REGISTER FOR TEAM</button>
@@ -79,6 +81,7 @@ class Register extends Component {
           </Modal>
           </div>
         }
+      </div>
       </div>
     )
   }

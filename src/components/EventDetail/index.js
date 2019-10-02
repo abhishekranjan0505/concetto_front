@@ -134,7 +134,7 @@ class EventDetail extends Component {
           src={event.img}
           alt={event.name}
           />
-        <div>
+          <div style={{fontSize: '40px', fontWeight: 800, textTransform: 'capitalize'}}>
             {event.name}
           </div>
           <div className={classes.desktopView}>
