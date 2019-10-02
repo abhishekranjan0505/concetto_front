@@ -69,7 +69,7 @@ class Header extends Component {
                   to="/coming_soon"
                   onClick={this.toggleMenu}
                 >
-                  HIGHLIGHTS
+                  EXHIBITION
                 </NavLink>
               </li>
               <li>

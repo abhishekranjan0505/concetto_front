@@ -9,6 +9,7 @@ class About extends Component {
         {` About:- ${event.description + "\n" + event.about} \n `}
         <br />
         <br />
+        <br />
         {`${
           event.is_club
             ? " CLUB  :  " + event.club

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Typograhy from '@material-ui/core/Typography';
+import { Link } from 'react-router-dom';
 
 class DepatmentEvent extends Component {
   render() {
@@ -10,6 +10,7 @@ class DepatmentEvent extends Component {
         return (
         <div className="cards">
           <div className="card-item">
+          <Link to={`events/${event.name}`} style={{ textDecoration: "none" }}>
             <div className="card-image">
               <img
                 src={`${event.img}`}
@@ -21,6 +22,7 @@ class DepatmentEvent extends Component {
               <p className="card-intro">{event.prizes}</p>
               <p className="card-intro club-text">{event.dept}</p>
             </div>
+            </Link>
           </div>
         </div>
         );})}
