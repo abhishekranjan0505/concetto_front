@@ -107,16 +107,17 @@ body
   color: #cdcdcd;
   font-family: "Avenir Next", "Avenir", sans-serif;
 }
-  /* for scrollbar*/
-@media (min-width: 1200px){
-  body{
-  margin-left: 25px;
+
+@media (min-width: 1200px)
+{
+ body{
+     /* for scrollbar*/
+  margin-left: 0px; /*25px*/
 	float: left;
 	overflow-y: scroll;
-  margin-bottom: 25px;
-  }
+	margin-bottom: 25px;
+ }
 }
-
 #thin::-webkit-scrollbar {
 	width: 10px;
 	background-color: #F5F5F5;

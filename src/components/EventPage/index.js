@@ -21,8 +21,8 @@ const styles = (theme) => ({
     flexDirection: "column",
     width: "20vw !important",
     backgroundColor: "rgba(97, 97, 97, 0.1)",
-    position: "sticky",
-    overflow: 'hidden',
+    position: "fixed",
+    height: '100vh',
     [theme.breakpoints.down('sm')]: {
       display: 'none',
     },
@@ -57,9 +57,11 @@ class EventDetail extends Component {
     const {classes} = this.props;
     return (
       <div>
-        <HomeHeader />
       <div className={classes.root}>
-        <div className={classes.verticalTab}>
+          <HomeHeader />
+        <div
+          className={classes.verticalTab}
+        >
           <div>
             <Link to="home"><img src="https://concetto-front.s3.ap-south-1.amazonaws.com/logo.png" className="img-fluid" alt={Loading} /></Link>
           </div>
@@ -69,7 +71,7 @@ class EventDetail extends Component {
           </div>
           </div>
           <br/>
-          <div>
+          <div style={{marginLeft: '40vh'}}>
             {this.state.active === 0 && <DepartmentEvent />}
             {this.state.active === 1 && <ClubEvent events={Events}/>}
           </div>
