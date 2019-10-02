@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { withStyles } from '@material-ui/core/styles';
 import ExpansionPanel from '@material-ui/core/ExpansionPanel';
+import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
 import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
 import Typography from '@material-ui/core/Typography';
@@ -11,19 +12,27 @@ class Mobileview extends Component {
     const {event} = this.props;
   return (
     <div>
-      <ExpansionPanel square >
-        <ExpansionPanelSummary aria-controls="panel1d-content" id="panel1d-header">
-          <Typography>ABOUT</Typography>
+      <ExpansionPanel square expandIcon={<ExpandMoreIcon />}>
+        <ExpansionPanelSummary aria-controls="panel1d-content" id="panel1d-header" style={{backgroundColor: '#666666'}}>
+          <div className="btn btn-event btn-2 active-bottom" style={{ marginLeft: '32%' }}>ABOUT</div>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <Typography>
-            {`About:- ${event.about} ${<br/>} ${event.is_club ?('CLUB:'+event.club):('DEPARTMENT: '+ event.dept)}`}
+            {" "}
+            {` About:- ${event.description + "\n" + event.about} \n `}
+            <br />
+            <br />
+            {`${
+              event.is_club
+                ? " CLUB  :  " + event.club
+                : "  DEPARTMENT  :  " + event.dept
+              }`}
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
       <ExpansionPanel square >
-        <ExpansionPanelSummary aria-controls="panel2d-content" id="panel2d-header">
-          <Typography>DETAILS</Typography>
+        <ExpansionPanelSummary aria-controls="panel2d-content" id="panel2d-header" style={{backgroundColor: '#666666'}}>
+          <div className="btn btn-event btn-2 active-bottom" style={{ marginLeft: '32%' }}>DETAILS</div>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <Typography>
@@ -31,19 +40,23 @@ class Mobileview extends Component {
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
-      <ExpansionPanel square >
-        <ExpansionPanelSummary aria-controls="panel3d-content" id="panel3d-header">
-          <Typography>RULES</Typography>
+      <ExpansionPanel square>
+        <ExpansionPanelSummary aria-controls="panel3d-content" id="panel3d-header" style={{ backgroundColor: '#666666' }}>
+          <div className="btn btn-event btn-2 active-bottom" style={{ marginLeft: '32%' }}>RULES</div>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <Typography>
-            {event.rules.split(';').map((str) => (<p>{str}<br /></p>))}
+            <ul>
+              {event.rules.split(";").map(str => (
+                <li>{"  " + str}</li>
+              ))}
+            </ul>
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
-      <ExpansionPanel square >
-        <ExpansionPanelSummary aria-controls="panel3d-content" id="panel3d-header">
-          <Typography>REGISTER</Typography>
+      <ExpansionPanel square>
+        <ExpansionPanelSummary aria-controls="panel3d-content" id="panel3d-header" style={{ backgroundColor: '#666666' }}>
+          <div className="btn btn-event btn-2 active-bottom" style={{marginLeft: '32%'}}>REGISTER</div>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <Typography>

@@ -7,7 +7,7 @@ import Rules from "./Rules";
 import Details from "./Details";
 import Register from "./Register";
 import Mobileview from "./Mobileview";
-import HomeHeader from "../HomeHeader/index";
+import Header from "../Header/index";
 
 const styles = theme => ({
   verticalTab: {
@@ -30,10 +30,11 @@ const styles = theme => ({
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
-    marginLeft: "40vh",
+    marginLeft: "20vw",
     marginTop: "50px",
     [theme.breakpoints.down("sm")]: {
-      margin: "0px"
+      marginLeft: "0px",
+      marginTop: "50px",
     }
   }
 });
@@ -127,7 +128,7 @@ class EventDetail extends Component {
             </button>
           </div>
         </div>
-          <HomeHeader />
+          <Header />
         <div className={classes.image}>
           <img src={event.img} alt={event.name} className="event-img" />
           <div
