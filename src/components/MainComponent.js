@@ -202,7 +202,7 @@ class Main extends Component {
             exact
             path="/events"
             component={() => (
-              <EventPage events={this.props.events} auth={this.props.auth} />
+              <EventPage events={events} auth={this.props.auth} />
             )}
           />
           <Route path="/events/:eventName" component={EventWithName} />
