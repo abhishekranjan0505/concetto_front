@@ -10,7 +10,8 @@ export const Events = [
     is_club: 1,
     rules:
       "There will be two rounds.;In no case should the arena be damaged by any robot.;This will lead to direct disqualification from the event.;Change of battery will not be allowed during the match unless timeout is taken by either of the team.;In case of wireless BOTS, it is suggested to have extra batteries ready and charged.;No provision will be provided for recharging of batteries around the arena.",
-    img: "",
+    img:
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/events/robo+war.jpg",
     prizes: "",
     fee: 0,
     start: "",
@@ -35,7 +36,7 @@ export const Events = [
     rules:
       "Only one Bot per team is allowed.;Sharing or exchanging of Bots within teams is prohibited.;Explicit physical contact with the bot during the course of the event is not allowed without the organizer’s permission. Doing so can lead to a penalty or even disqualification.;In case the bot leaves the defined track, the respective team will have to restart from the Starting Zone.;Each participant has to bring his/her college Identity Proof to be checked by the organizers at the time of the event.",
     img:
-      "https://concetto-front.s3.ap-south-1.amazonaws.com/events/Autonomous.jpeg",
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/events/Autonomous.jpg",
     prizes: "",
     fee: 0,
     start: "",
@@ -61,7 +62,7 @@ export const Events = [
     rules:
       "A Bot is allowed to participate only once in this event.;Team CONCETTO is not responsible for any damage to your bot on or off the event.;We request the participants to not assume anything that is not mentioned in the document without contacting organizers.(For more please refer the manual.",
     img:
-      "https://concetto-front.s3.ap-south-1.amazonaws.com/events/death+race.jpg",
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/events/deadth+race.jpg",
     prizes: "",
     fee: 0,
     start: "",
@@ -84,7 +85,8 @@ export const Events = [
     about:
       "The Quiz will be a general set which will cover topics like science, technology and earth science. It will consist of two rounds- Prelims and Finals.",
     rules: "",
-    img: "",
+    img:
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/events/scitech+quiz.jpg",
     prizes: "",
     fee: 0,
     start: "",
@@ -133,7 +135,8 @@ export const Events = [
     about:
       "In this CTF, there will be a couple of questions (tasks) from a range of categories such as Web, Forensic, Crypto, Binary or Miscellaneous. Teams gain some points for every solved task.The next task in chain can be unlocked only after your team solves the previous task. When the game is over the sum of point shows you the CTF winners.",
     rules: "",
-    img: "",
+    img:
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/events/cyberlabs.jpg",
     prizes: "",
     fee: 0,
     start: "",
@@ -180,7 +183,8 @@ export const Events = [
     about:
       "You were on the final stage of designing the next great processor. You got exhausted and went for a nap. When you return, you find a note lying over your circuit. Can you beat him?",
     rules: "",
-    img: "",
+    img:
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/events/maestronics.jpg",
     prizes: "Refer the document",
     fee: 0,
     start: "",
@@ -227,7 +231,7 @@ export const Events = [
     about:
       "The event aims to test the analytical and practical knowledge of the participants to understand the effective combinations of pulleys and running lines in handling of weights.;The assembling of pulleys should be done in such a manner that the system is capable of lifting more weights in relatively less time.",
     rules: "",
-    img: "",
+    img: "https://concetto-front.s3.ap-south-1.amazonaws.com/events/petro.jpg",
     prizes: "",
     fee: 0,
     start: "",
@@ -250,7 +254,8 @@ export const Events = [
     is_club: 0,
     about: "",
     rules: "",
-    img: "",
+    img:
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/events/cad+crafian.jpg",
     prizes: "",
     fee: 0,
     start: "",
@@ -288,7 +293,7 @@ export const Events = [
     club: ""
   },
   {
-    name: "Rock The Waggon",
+    name: "Rock The Wagon",
     is_team: 1,
     max_participents: 4,
     dept: "Mechanical Engineering",
@@ -299,7 +304,8 @@ export const Events = [
       "The principle behind the making of the car should be based on spring based rocker car system that should convert stored potential energy into spring energy. By choosing proper link lengths and coupler point location,this rocker mechanism transformes spring energy into rotational motion by a connecting 'windings of thread' to wheel rod which ultimately rotates the wheels. Hence the car will start working provided further modification can be done by adding a crank between the car set up.",
     rules:
       "There can be a maximum of 4 members and minimum of 2 members in a team. A total of 100 marks will be allotted based on quiz, design,effort and speed efficiency of the model with 30,30 and 40 marks given in the respective rounds",
-    img: "",
+    img:
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/events/rock+the+wagon.jpg",
     prizes: "",
     fee: 0,
     start: "",
@@ -323,7 +329,8 @@ export const Events = [
     about: "",
     rules:
       "Each team can consist of maximum of 4 members.;In case of any discrepancy, the decision of the judge would be binding.",
-    img: "",
+    img:
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/events/magnotech.jpg",
     prizes: "",
     fee: 0,
     start: "",
@@ -346,7 +353,8 @@ export const Events = [
     about: "",
     rules:
       "A DC Motor will be provided to the participants and the participants cannot use any other motor in their models.;Diameter of the blade must not exceed 40 cms.;Entire model must be made out of scrap materials(eg. wood and cardboard), including the blades. Use of readymade base or blades is not allowed.;Use of metal anywhere in the model is not allowed",
-    img: "",
+    img:
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/events/craft+a+vane.jpg",
     prizes: "",
     fee: 0,
     start: "",
@@ -369,7 +377,8 @@ export const Events = [
     is_club: 0,
     about: "",
     rules: "",
-    img: "",
+    img:
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/events/circuit.jpg",
     prizes: "",
     fee: 0,
     start: "",
@@ -393,7 +402,8 @@ export const Events = [
     about:
       "This is a team event. With the help of the given hints and circuit components provided, the teams have to design and implement a circuit and explain its working.",
     rules: "",
-    img: "",
+    img:
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/events/invento.jpg",
     prizes: "",
     fee: 0,
     start: "",
@@ -417,7 +427,8 @@ export const Events = [
     about:
       "This is a team event. With the help of the given hints and circuit components provided, the teams have to design and implement a circuit and explain its working.",
     rules: "Refer the nmanual",
-    img: "",
+    img:
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/events/Truss+The+Frame_main.jpg",
     prizes: "",
     fee: 0,
     start: "",
@@ -440,7 +451,8 @@ export const Events = [
     is_club: 0,
     about: "",
     rules: "",
-    img: "",
+    img:
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/events/Tech+triathlon.jpg",
     prizes: "",
     fee: 0,
     start: "",
@@ -464,7 +476,8 @@ export const Events = [
     about:
       "The energy obtained from conventional source is limited and therefore we are in a dire need of renewable and efficient sources of energy. Hence the major focus of this generation is to explore the use of alternative sources of energy to meet our ever-increasing energy demands.",
     rules: "Refer Manual;",
-    img: "",
+    img:
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/events/chem+o+car.jpg",
     prizes: "",
     fee: 0,
     start: "",
@@ -488,7 +501,8 @@ export const Events = [
     about: "",
     rules:
       "Participants should not fail to implement the conditions informed by organizers in respective rounds.(like dimension of cannon).;No usage of modified projectile in cannon is entertained.;No other mechanism is allowed to launch the projectile other than compressed air",
-    img: "",
+    img:
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/events/extreme.jpg",
     prizes: "",
     fee: 0,
     start: "",
@@ -512,7 +526,8 @@ export const Events = [
     about: "",
     rules:
       "Participants should not fail to implement the conditions informed by organizers in respective rounds.;No additional reflective material is allowed in rerouting the laser beam.;No participant is allowed to see the obstacles before their turn.;No photographs of obstacle’s arrangement are allowed.",
-    img: "",
+    img:
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/events/beam+enroute.jpg",
     prizes: "",
     fee: 0,
     start: "",
@@ -537,7 +552,7 @@ export const Events = [
       "We present to you the most celebrated event of Concetto, “Buffet Money”, an online event in which we simulate the real stock market for you. With the virtual money provided, enjoy the ups and downs of stock market in the 3-day event",
     rules:
       "Each participant has to buy stocks of minimum.;None of the participants can register more than once.;Plagiarism will lead to the detention of team from the contest.;Participants have to make at least 5 transactions.",
-    img: "",
+    img: "https://concetto-front.s3.ap-south-1.amazonaws.com/events/buffet.jpg",
     prizes: "",
     fee: 0,
     start: "",
@@ -560,7 +575,8 @@ export const Events = [
     about: "Refer Manual",
     rules:
       "The event will consist of two rounds: A preliminary and a final round.;Teams of 3 are invited.;On the spot team also can be made.",
-    img: "",
+    img:
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/events/terra'stellar.jpg",
     prizes: "",
     fee: 0,
     start: "",
@@ -584,7 +600,8 @@ export const Events = [
     about: "",
     rules:
       "Each team can consist of maximum of 4 members.;In case of any discrepancy, the decision of the judge would be binding.",
-    img: "",
+    img:
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/events/baffking+planet.jpg",
     prizes: "",
     fee: 0,
     start: "",
@@ -608,7 +625,8 @@ export const Events = [
     about: "",
     rules:
       "Each team can consist of maximum of 3 members.;In case of any discrepancy, the decision of the judge would be binding.",
-    img: "",
+    img:
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/events/pirates+of+terrain.jpg",
     prizes: "",
     fee: 0,
     start: "",
@@ -631,7 +649,8 @@ export const Events = [
     about:
       "It is a game in which a set of cards are given to the participants. Each card having different symbol of elements and candidates have to complete the chemical equation by arranging these cards according to the task given. If the reaction equation is completely arranged , they would be shortlisted basing upon less time taken and calculate correct amount(moles) of chemicals required.",
     rules: "Refer Manual",
-    img: "",
+    img:
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/events/chem+cruise.jpg",
     prizes: "",
     fee: 0,
     start: "",

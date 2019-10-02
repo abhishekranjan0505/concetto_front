@@ -20,10 +20,11 @@ export const DeveloperTeam = [
   {
     name: "Abhishek Ranjan",
     post: "FrontEnd Developer",
-    pic: "",
-    fb: "",
-    linkedin: "",
-    git: ""
+    pic:
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/dev-team/abhishek.jpeg",
+    fb: "https://www.facebook.com/profile.php?id=100015216437167",
+    linkedin: "https://www.linkedin.com/in/abhishekranjan0505",
+    git: "https://github.com/abhishekranjan0505"
   },
   {
     name: "Nikhil BN",

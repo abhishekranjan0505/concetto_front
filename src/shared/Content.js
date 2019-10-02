@@ -11,11 +11,11 @@ export const HomeContent = [
   {
     link: "coming_soon",
     heading: "ENGINEERING EXHIBITION",
-    image1:
-      "https://concetto-front.s3.ap-south-1.amazonaws.com/exhibition1.jpg",
     image2:
-      "https://concetto-front.s3.ap-south-1.amazonaws.com/exhibition2.jpg",
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/events/exibition_main.jpg",
     image3:
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/exhibition2.jpg",
+    image1:
       "https://concetto-front.s3.ap-south-1.amazonaws.com/exhibition3.jpg",
     description:
       "This year, for first time in history of concetto, we are proud to announce that we will be having an Engineering Exhibition, where we had invited various colleges and clubs to showcase their best works.... more will revealed soon."
@@ -24,9 +24,9 @@ export const HomeContent = [
     link: "coming_soon",
     heading: "DEPARTMENTAL EVENTS",
     image1:
-      "https://concetto-front.s3.ap-south-1.amazonaws.com/department1.jpg",
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/events/Truss+The+Frame_main.jpg",
     image2:
-      "https://concetto-front.s3.ap-south-1.amazonaws.com/department2.jpg",
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/events/money_main.jpg",
     image3:
       "https://concetto-front.s3.ap-south-1.amazonaws.com/department3.jpg",
     description:

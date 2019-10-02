@@ -6,6 +6,12 @@ export const CoreTeam = [
       "https://concetto-front.s3.ap-south-1.amazonaws.com/core-team/Prince+coordi.jpg"
   },
   {
+    name: "Ashutosh Jindal",
+    post: "Co-Cordinator",
+    pic:
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/core-team/Ashutosh+Jindal-+Co-Coordinator.jpg"
+  },
+  {
     name: "Neelansh Maheshwari",
     post: "Technical Head",
     pic:
@@ -82,5 +88,17 @@ export const CoreTeam = [
     post: "Sponsership Team",
     pic:
       "https://concetto-front.s3.ap-south-1.amazonaws.com/core-team/Sirisha+.jpg"
+  },
+  {
+    name: "Keshav Kumar Singh",
+    post: "Marketing and Events",
+    pic:
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/core-team/Keshav+Kumar+Singh.jpg"
+  },
+  {
+    name: "Polisetty Prudhvi Sai Manikanta",
+    post: "Marketing and Events",
+    pic:
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/core-team/Polisetty.jpg"
   }
 ];
