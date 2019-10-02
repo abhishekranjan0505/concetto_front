@@ -4,7 +4,7 @@ class About extends Component {
   render(){
     const {event} = this.props;
     return (
-      <div>           {`About:- ${event.about} ${<br />} ${event.is_club ? ('CLUB:' + event.club) : ('DEPARTMENT: ' + event.dept)}`}</div>
+      <div>           {`About:- ${event.about}  ${event.is_club ? ('CLUB:' + event.club) : ('DEPARTMENT: ' + event.dept)}`}</div>
     )
   }
 }

@@ -7,6 +7,7 @@ import Rules from "./Rules";
 import Details from "./Details";
 import Register from "./Register";
 import Mobileview from "./Mobileview";
+import HomeHeader from "../HomeHeader/index";
 
 const styles = (theme) =>({
     verticalTab: {
@@ -76,6 +77,7 @@ class EventDetail extends Component {
     const { event } = this.props;
     return (
       <div style={{ display: "flex" }}>
+        <HomeHeader />
         <div
           className={classes.verticalTab}
         >

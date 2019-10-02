@@ -6,6 +6,7 @@ import ClubEvent from "./ClubEvent";
 import Tabs from "@material-ui/core/Tabs";
 import Tab from "@material-ui/core/Tab";
 import AppBar from "@material-ui/core/AppBar";
+import Header from "../Header";
 
 const styles = theme => ({
   mobileTab: {
@@ -18,15 +19,15 @@ const styles = theme => ({
     minWidth: "50%",
     textTransform: "initial",
     fontWeight: "bold",
-    backgroundColor: "white",
-    color: theme.palette.secondary.dark,
+    backgroundColor: "#999999",
+    color: "white",
     "&:hover": {
       color: "#000",
       opacity: 1
     },
     "&$tabSelected": {
       color: "white",
-      backgroundColor: theme.palette.secondary.dark,
+      backgroundColor: "#666666",
       fontWeight: "bold"
     }
   },
@@ -46,23 +47,24 @@ const styles = theme => ({
 class EventDetail extends Component {
   constructor(props) {
     super(props);
-    this.departmentShow = this.departmentShow.bind(this);
-    this.clubShow = this.clubShow.bind(this);
+    // this.departmentShow = this.departmentShow.bind(this);
+    // this.clubShow = this.clubShow.bind(this);
+    this.handleChange = this.handleChange.bind(this);
   }
   state = {
     active: 0
   };
 
-  clubShow = active => {
-    this.setState({
-      active: 1
-    });
-  };
-  departmentShow = active => {
-    this.setState({
-      active: 0
-    });
-  };
+  // clubShow = () => {
+  //   this.setState({
+  //     active: 1
+  //   });
+  // };
+  //           departmentShow = () => {
+  //             this.setState({
+  //               active: 0
+  //             });
+  //           };
   componentDidMount() {
     window.scrollTo(0, 0);
   }
@@ -75,31 +77,33 @@ class EventDetail extends Component {
     return (
       <div className={classes.mobileTab}>
         <AppBar
-          style={{ backgroundColor: "rgba(1,1,1,0.1)", overflow: "hidden" }}
+          style={{ backgroundColor: "rgba(1,1,1)", overflow: "hidden", zIndex: 10 }}
           position="fixed"
-        >
+          >
+          <Tab><Header /></Tab>
           <Tabs
             value={this.state.active}
             onChange={this.handleChange}
-            indicatorColor="primary"
+            indicatorColor="#666666"
             textColor="secondary"
             className={classes.tab}
           >
             <Tab
               label="Department"
               classes={{ root: classes.tabRoot, selected: classes.tabSelected }}
-              onClick={this.departmentShow}
+              // onClick={this.departmentShow}
             />
             <Tab
               label="Club"
               classes={{ root: classes.tabRoot, selected: classes.tabSelected }}
-              onClick={this.clubShow}
+              // onClick={this.clubShow}
             />
           </Tabs>
         </AppBar>
+        <br />
+        <br/>
+        {this.state.active === 0 && <DepartmentEvent events={events} />}
         {this.state.active === 1 && <ClubEvent events={events} />}
-        {this.state.active === 0 && <DepartmentEvent />}
-        <div></div>
       </div>
     );
   }
