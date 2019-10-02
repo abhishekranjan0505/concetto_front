@@ -4,7 +4,7 @@ class Rules extends Component {
   render() {
     const {event} = this.props;
     return (
-      <div>{event.rules}</div>
+      <div>{event.rules.split(';').map((str)=>(<p>{str}<br/></p>))}</div>
     )
   }
 }
