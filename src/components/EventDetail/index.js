@@ -8,6 +8,7 @@ import Details from "./Details";
 import Register from "./Register";
 import Mobileview from "./Mobileview";
 import Header from "../Header/index";
+import HomeHeader from "../HomeHeader/index";
 
 const styles = theme => ({
   verticalTab: {
@@ -38,6 +39,7 @@ const styles = theme => ({
     }
   }
 });
+
 class EventDetail extends Component {
   constructor(props) {
     super(props);
@@ -128,7 +130,7 @@ class EventDetail extends Component {
             </button>
           </div>
         </div>
-          <Header />
+        {window.innerWidth < 960 ? <Header /> : <HomeHeader />}
         <div className={classes.image}>
           <img src={event.img} alt={event.name} className="event-img" />
           <div
