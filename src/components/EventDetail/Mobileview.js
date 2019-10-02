@@ -8,6 +8,7 @@ import Typography from '@material-ui/core/Typography';
 
 class Mobileview extends Component {
   render(){
+    const {event} = this.props;
   return (
     <div>
       <ExpansionPanel square >
@@ -16,9 +17,7 @@ class Mobileview extends Component {
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-            sit amet blandit leo lobortis eget. Lorem ipsum dolor sit amet, consectetur adipiscing
-            elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.
+            `About:-  {event.about} {<br/>} {event.is_club ? event.club : ''}`
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
@@ -28,9 +27,7 @@ class Mobileview extends Component {
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-            sit amet blandit leo lobortis eget. Lorem ipsum dolor sit amet, consectetur adipiscing
-            elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.
+            {event.description}
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
@@ -40,9 +37,7 @@ class Mobileview extends Component {
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-            sit amet blandit leo lobortis eget. Lorem ipsum dolor sit amet, consectetur adipiscing
-            elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.
+            {event.rules}
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
@@ -52,9 +47,7 @@ class Mobileview extends Component {
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-            sit amet blandit leo lobortis eget. Lorem ipsum dolor sit amet, consectetur adipiscing
-            elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.
+            COMMING SOON
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>

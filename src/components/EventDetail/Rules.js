@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 
 class Rules extends Component {
   render() {
+    const {event} = this.props;
     return (
-      <div>Rules page</div>
+      <div>{event.rules}</div>
     )
   }
 }
