@@ -48,8 +48,8 @@ class EventDetail extends Component {
   constructor(props) {
     super(props);
     const {events}=props;
-    this.departmentShow = this.departmentShow.bind(this);
-    this.clubShow = this.clubShow.bind(this);
+   // this.departmentShow = this.departmentShow.bind(this);
+   // this.clubShow = this.clubShow.bind(this);
     this.state = {
      active: 0,
      departmental: events.filter(event=>(event.is_club===0)),

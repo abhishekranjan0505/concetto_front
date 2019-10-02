@@ -47,7 +47,7 @@ class EventDetail extends Component {
       clubEvents: events.filter(event => (event.is_club===1)),
     };
   }
-  
+
 
   clubShow = active => {
     this.setState({
@@ -102,8 +102,8 @@ class EventDetail extends Component {
             </div>
           </div>
           <br />
-          <div style={{ marginLeft: "40vh" }}
-            /*className={classes.eventsCard}*/
+          <div
+            className={classes.eventsCard}
             >
             {this.state.active === 0 && <DepartmentEvent events={departmental}/>}
             {this.state.active === 1 && <ClubEvent events={clubEvents} />}
