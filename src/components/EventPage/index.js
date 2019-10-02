@@ -25,6 +25,13 @@ const styles = theme => ({
     [theme.breakpoints.down("sm")]: {
       display: "none"
     }
+  },
+  eventsCard: {
+    marginLeft: '40vh',
+    [theme.breakpoints.down('sm')]: {
+      marginLeft: '0px',
+      display: 'none',
+    }
   }
 });
 
@@ -95,7 +102,9 @@ class EventDetail extends Component {
             </div>
           </div>
           <br />
-          <div style={{ marginLeft: "40vh" }}>
+          <div style={{ marginLeft: "40vh" }}
+            /*className={classes.eventsCard}*/
+            >
             {this.state.active === 0 && <DepartmentEvent events={departmental}/>}
             {this.state.active === 1 && <ClubEvent events={clubEvents} />}
           </div>
