@@ -75,9 +75,7 @@ class EventDetail extends Component {
     const { classes } = this.props;
     return (
         <div className={classes.mobileTab}>
-          {/* <div><HomeHeader/></div> */}
-        <AppBar style={{ zIndex: 100, backgroundColor: 'rgba(1,1,1,0.1)',overflow: 'hidden' }} position="fixed">
-
+        <AppBar style={{ backgroundColor: 'rgba(1,1,1,0.1)',overflow: 'hidden' }} position="fixed">
             <Tabs
               value={this.state.active}
               onChange={this.handleChange}

@@ -24,8 +24,8 @@ const styles = (theme) => ({
     flexDirection: "column",
     width: "40vh",
     backgroundColor: "rgba(97, 97, 97, 0.1)",
-    position: "sticky",
-    overflowY: 'hidden',
+    position: "fixed",
+    height: '100vh',
   },
 });
 
@@ -57,8 +57,8 @@ class EventDetail extends Component {
     const {classes} = this.props;
     return (
       <div>
-        <HomeHeader />
       <div className={classes.root}>
+          <HomeHeader />
         <div
           className={classes.verticalTab}
         >
@@ -71,7 +71,7 @@ class EventDetail extends Component {
           </div>
           </div>
           <br/>
-          <div>
+          <div style={{marginLeft: '40vh'}}>
             {this.state.active === 0 && <DepartmentEvent />}
             {this.state.active === 1 && <ClubEvent events={Events}/>}
           </div>
