@@ -158,7 +158,7 @@ class Home extends Component {
         }
         <div className={classes.parallax}>
           {HomeContent.map((content, id) => {
-            if (id % 2==0)
+            if (id % 2===0)
               return (
                 <Parallax
                   x={x}

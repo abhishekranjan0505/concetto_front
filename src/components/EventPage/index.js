@@ -17,15 +17,15 @@ const styles = (theme) => ({
     },
   },
   verticalTab:{
-    [theme.breakpoints.down('sm')]: {
-      display: 'none',
-    },
     display: "flex",
     flexDirection: "column",
-    width: "40vh",
+    width: "20vw !important",
     backgroundColor: "rgba(97, 97, 97, 0.1)",
     position: "fixed",
     height: '100vh',
+    [theme.breakpoints.down('sm')]: {
+      display: 'none',
+    },
   },
 });
 
