@@ -17,15 +17,15 @@ function App() {
       <div id="stars" />
       <div id="stars2" />
       <div id="stars3" />
-      {/* <HashRouter basename="/"> */}
-      {
-        // to be replaced by BrowserRouter
-      }
-      <BrowserRouter>
+      <HashRouter basename="/">
+        {
+          // to be replaced by BrowserRouter
+        }
+        {/* <BrowserRouter> */}
         <div className="App">
           <Main />
         </div>
-      </BrowserRouter>
+      </HashRouter>
     </Provider>
   );
 }

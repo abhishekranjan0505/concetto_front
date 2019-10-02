@@ -118,6 +118,12 @@ body
 	margin-bottom: 25px;
  }
 }
+
+html,body{
+  position: relative;
+  overflow-x: hidden;
+}
+
 #thin::-webkit-scrollbar {
 	width: 10px;
 	background-color: #F5F5F5;
