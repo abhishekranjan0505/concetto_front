@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { withStyles } from '@material-ui/core/styles';
+import { withStyles } from "@material-ui/core/styles";
 import "./Styles.css";
 import Loading from "../Loading";
 import About from "./About";
@@ -9,8 +9,8 @@ import Register from "./Register";
 import Mobileview from "./Mobileview";
 import HomeHeader from "../HomeHeader/index";
 
-const styles = (theme) =>({
-    verticalTab: {
+const styles = theme => ({
+  verticalTab: {
     display: "flex",
     flexDirection: "column",
     width: "20vw !important",
@@ -31,10 +31,11 @@ const styles = (theme) =>({
     flexDirection: "column",
     alignItems: "center",
     marginLeft: "40vh",
+    marginTop: "50px",
     [theme.breakpoints.down("sm")]: {
-      margin: '0px',
+      margin: "0px"
     }
-  },
+  }
 });
 class EventDetail extends Component {
   constructor(props) {
@@ -73,14 +74,11 @@ class EventDetail extends Component {
   }
 
   render() {
-    const {classes} = this.props;
+    const { classes } = this.props;
     const { event } = this.props;
     return (
       <div style={{ display: "flex" }}>
-        <HomeHeader />
-        <div
-          className={classes.verticalTab}
-        >
+        <div className={classes.verticalTab}>
           <div>
             <a href="home">
               <img
@@ -129,29 +127,39 @@ class EventDetail extends Component {
             </button>
           </div>
         </div>
-        <div
-          className={classes.image}
-        >
-          <img
-          src={event.img}
-          alt={event.name}
-          />
-          <div style={{fontSize: '40px', fontWeight: 800, textTransform: 'capitalize'}}>
+          <HomeHeader />
+        <div className={classes.image}>
+          <img src={event.img} alt={event.name} className="event-img" />
+          <div
+            style={{
+              fontSize: "40px",
+              fontWeight: 800,
+              textTransform: "capitalize"
+            }}
+          >
             {event.name}
           </div>
           <div className={classes.desktopView}>
-          {this.state.active === 'about' && <About event={this.props.event}/>}
-          {this.state.active === 'rules' && <Rules event={this.props.event}/>}
-          {this.state.active === 'details' && <Details event={this.props.event}/>}
-          {this.state.active === 'register' && <Register event={this.props.event}/>}
-        </div>
-        <div>
-          {window.innerWidth < 960 ? <Mobileview event={event}/> : ""}
-        </div>
+            {this.state.active === "about" && (
+              <About event={this.props.event} />
+              )}
+            {this.state.active === "rules" && (
+              <Rules event={this.props.event} />
+            )}
+            {this.state.active === "details" && (
+              <Details event={this.props.event} />
+            )}
+            {this.state.active === "register" && (
+              <Register event={this.props.event} />
+            )}
+          </div>
+          <div>
+            {window.innerWidth < 960 ? <Mobileview event={event} /> : ""}
+          </div>
         </div>
       </div>
     );
   }
 }
 
-export default (withStyles(styles)(EventDetail));
+export default withStyles(styles)(EventDetail);

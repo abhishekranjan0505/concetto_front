@@ -11,10 +11,7 @@ class ClubEvent extends Component {
           return (
             <div className="cards">
               <div className="card-item" id={event.name}>
-                <Link
-                  to={`events/${event.name}`}
-                  style={{ textDecoration: "none" }}
-                >
+                <Link to={`${event.name}`} style={{ textDecoration: "none" }}>
                   <div className="card-image">
                     <img src={`${event.img}`} alt={event.name} />
                   </div>
