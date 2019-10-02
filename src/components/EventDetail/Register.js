@@ -21,7 +21,7 @@ class Register extends Component {
     const { event } = this.props;
     return (
       // <div>
-      <div className=" container text-center" style={{ display: "block" }}>
+      <div className=" container text-center" style={{ display: "block", width: "80vw" }}>
         COMMING SOON
         {/* {event.is_team ? (
             <div>

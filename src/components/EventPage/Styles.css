@@ -57,10 +57,11 @@
   margin-bottom: 0.2em;
 }
 .cards .card-image {
-  height: 200px;
+  max-height: 200px;
+  max-width: 220px;
   overflow: hidden;
   background-size: cover;
-  background-position: center;
+  /* background-position: center; */
   background-repeat: no-repeat;
   border-radius: 6px 6px 0px 0px;
   opacity: 0.91;
