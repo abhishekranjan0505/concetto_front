@@ -30,7 +30,7 @@ const styles = theme => ({
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
-    marginLeft: "40vh",
+    marginLeft: "20vw",
     marginTop: "50px",
     [theme.breakpoints.down("sm")]: {
       margin: "0px"
