@@ -1,69 +1,86 @@
 export const CoreTeam = [
   {
-    name: 'Prince Kunal',
-    post: 'Coordinator',
-    pic: 'https://concetto-front.s3.ap-south-1.amazonaws.com/core-team/Prince+coordi.jpg'
-  },{
-    name: 'Neelansh Maheshwari',
-    post: 'Technical Head',
-    pic: ''
-  }, {
-    name: 'Harshit Sethi',
-    post: 'Promotion Head',
-    pic: 'https://concetto-front.s3.ap-south-1.amazonaws.com/core-team/Harshit+Sethi-+promotion+head+.jpg'
+    name: "Prince Kunal",
+    post: "Coordinator",
+    pic:
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/core-team/Prince+coordi.jpg"
   },
   {
-    name: 'Tarun Kumar',
-    post: 'Security Head',
-    pic: 'https://concetto-front.s3.ap-south-1.amazonaws.com/core-team/Tarun+Kumar+security+(head).jpg'
+    name: "Neelansh Maheshwari",
+    post: "Technical Head",
+    pic:
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/core-team/neelansh.jpg"
   },
   {
-    name: 'Sirigireddy Dhana Laxmi',
-    post: 'Technical Team',
-    pic: 'https://concetto-front.s3.ap-south-1.amazonaws.com/core-team/Dhana.jpg'
+    name: "Harshit Sethi",
+    post: "Promotion Head",
+    pic:
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/core-team/Harshit+Sethi-+promotion+head+.jpg"
   },
   {
-    name: 'Akshay Kadam',
-    post: 'Sponsorship Team',
-    pic: 'https://concetto-front.s3.ap-south-1.amazonaws.com/core-team/Akshay+Kadam+sponsorship.jpg'
+    name: "Tarun Kumar",
+    post: "Security Head",
+    pic:
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/core-team/Tarun+Kumar+security+(head).jpg"
   },
   {
-    name: 'Kshitij Goyal',
-    post: 'Designing Team',
-    pic: 'https://concetto-front.s3.ap-south-1.amazonaws.com/core-team/Kshitij+Goyal.jpg'
+    name: "Sirigireddy Dhana Laxmi",
+    post: "Technical Team",
+    pic:
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/core-team/Dhana.jpg"
   },
   {
-    name: 'Perul Jain',
-    post: 'Techincal Team',
-    pic: 'https://concetto-front.s3.ap-south-1.amazonaws.com/core-team/perul+jain.jpg'
+    name: "Akshay Kadam",
+    post: "Sponsorship Team",
+    pic:
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/core-team/Akshay+Kadam+sponsorship.jpg"
   },
   {
-    name: 'Pushpender Singh Deora',
-    post: 'Promotion Team',
-    pic: 'https://concetto-front.s3.ap-south-1.amazonaws.com/core-team/Pushpendra.jpeg'
+    name: "Kshitij Goyal",
+    post: "Designing Team",
+    pic:
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/core-team/Kshitij+Goyal.jpg"
   },
   {
-    name: 'Ravindra Singh Mangoliya',
-    post: 'Sponsership Team',
-    pic: 'https://concetto-front.s3.ap-south-1.amazonaws.com/core-team/Ravindra.jpg'
+    name: "Perul Jain",
+    post: "Techincal Team",
+    pic:
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/core-team/perul+jain.jpg"
   },
   {
-    name: 'Shreyansh Jaiswal',
-    post: 'Sponsership Team',
-    pic:  'https://concetto-front.s3.ap-south-1.amazonaws.com/core-team/Shreyansh.jpg'
+    name: "Pushpender Singh Deora",
+    post: "Promotion Team",
+    pic:
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/core-team/Pushpendra.jpeg"
   },
   {
-    name: 'Sridhar Goel',
-    post: 'Technical Team',
-    pic: 'https://concetto-front.s3.ap-south-1.amazonaws.com/core-team/ShridharGoel.jpg'
+    name: "Ravindra Singh Mangoliya",
+    post: "Sponsership Team",
+    pic:
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/core-team/Ravindra.jpg"
   },
   {
-    name: 'Sweta suman',
-    post: 'Promotion Team',
-    pic: 'https://concetto-front.s3.ap-south-1.amazonaws.com/core-team/Shweta+Suman.jpg'
+    name: "Shreyansh Jaiswal",
+    post: "Sponsership Team",
+    pic:
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/core-team/Shreyansh.jpg"
   },
   {
-    name: 'Vislavath Shirisha',
-    post: 'Sponsership Team',
-    pic: 'https://concetto-front.s3.ap-south-1.amazonaws.com/core-team/Sirisha+.jpg'
-  }];
+    name: "Sridhar Goel",
+    post: "Technical Team",
+    pic:
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/core-team/ShridharGoel.jpg"
+  },
+  {
+    name: "Sweta suman",
+    post: "Promotion Team",
+    pic:
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/core-team/Shweta+Suman.jpg"
+  },
+  {
+    name: "Vislavath Shirisha",
+    post: "Sponsership Team",
+    pic:
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/core-team/Sirisha+.jpg"
+  }
+];

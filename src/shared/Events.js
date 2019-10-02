@@ -215,5 +215,433 @@ export const Events = [
     },
     admins: [""],
     club: "CLEVR"
+  },
+  {
+    name: "Haul N Fall",
+    is_team: 1,
+    max_participents: 5,
+    dept: "Petroleum engineering",
+    description:
+      "To lift the weights given by us without tumbling.The participants need to build a strong framework'derrick', usually pyramidal in shape and the block and tackle system, supported by the derrick.The wires in the block and tackle system shall be reeled from a reeling platform, drawn by a motor.",
+    is_club: 0,
+    about:
+      "The event aims to test the analytical and practical knowledge of the participants to understand the effective combinations of pulleys and running lines in handling of weights.;The assembling of pulleys should be done in such a manner that the system is capable of lifting more weights in relatively less time.",
+    rules: "",
+    img: "",
+    prizes: "",
+    fee: 0,
+    start: "",
+    end: "",
+    scores: {
+      first: 50,
+      second: 30,
+      third: 10
+    },
+    admins: [""],
+    club: ""
+  },
+  {
+    name: "CAD CRAFIAN",
+    is_team: 1,
+    max_participents: 2,
+    dept: "Mining Machinery Engineering",
+    description:
+      "It's an event of Cad modeling in which participants will have to design 3D models of different engineering instruments.",
+    is_club: 0,
+    about: null,
+    rules: "",
+    img: "",
+    prizes: "",
+    fee: 0,
+    start: "",
+    end: "",
+    scores: {
+      first: 50,
+      second: 30,
+      third: 10
+    },
+    admins: [""],
+    club: ""
+  },
+  {
+    name: "INDUSTRIAL DESIGN PROBLEM (IDP)",
+    is_team: 1,
+    max_participents: 4,
+    dept: "Mining Engineering",
+    description:
+      "The desire to create Is one of the deepest yearnings of the human soul. The IDP-Industrial design problems will push the students to think beyond the conventional and to look at in different way and solve in a limited amount of time. The event is simulator which will provide the competitors with the real life environmental industrial challenges.",
+    is_club: 0,
+    about: null,
+    rules:
+      "Each team can consist of maximum of 4 members.;In case of any discrepancy, the decision of the judge would be binding.",
+    img: "",
+    prizes: "",
+    fee: 0,
+    start: "",
+    end: "",
+    scores: {
+      first: 50,
+      second: 30,
+      third: 10
+    },
+    admins: [""],
+    club: ""
+  },
+  {
+    name: "Rock The Waggon",
+    is_team: 1,
+    max_participents: 4,
+    dept: "Mechanical Engineering",
+    description:
+      "Competition begins with cracking a quiz round followed by which the qualified teams will be making a rocker based car model that will be judged on different criteria.",
+    is_club: 0,
+    about:
+      "The principle behind the making of the car should be based on spring based rocker car system that should convert stored potential energy into spring energy. By choosing proper link lengths and coupler point location,this rocker mechanism transformes spring energy into rotational motion by a connecting 'windings of thread' to wheel rod which ultimately rotates the wheels. Hence the car will start working provided further modification can be done by adding a crank between the car set up.",
+    rules:
+      "There can be a maximum of 4 members and minimum of 2 members in a team. A total of 100 marks will be allotted based on quiz, design,effort and speed efficiency of the model with 30,30 and 40 marks given in the respective rounds",
+    img: "",
+    prizes: "",
+    fee: 0,
+    start: "",
+    end: "",
+    scores: {
+      first: 50,
+      second: 30,
+      third: 10
+    },
+    admins: ["Ashish Ranjan", "Varnika kumari"],
+    club: ""
+  },
+  {
+    name: "Magnotech",
+    is_team: 1,
+    max_participents: 4,
+    dept: "Mineral Engineering",
+    description:
+      "It involves Designing of magnetic separator modal With help of magnet. Point will be given on the basis of new idea,structure and separation efficiency of separator for given mixture of magnetic material and non magnetic material.",
+    is_club: 0,
+    about: null,
+    rules:
+      "Each team can consist of maximum of 4 members.;In case of any discrepancy, the decision of the judge would be binding.",
+    img: "",
+    prizes: "",
+    fee: 0,
+    start: "",
+    end: "",
+    scores: {
+      first: 50,
+      second: 30,
+      third: 10
+    },
+    admins: [""],
+    club: ""
+  },
+  {
+    name: "CRAFT-A-VANE",
+    is_team: 1,
+    max_participents: 2,
+    dept: "Environmental Engineering",
+    description: "",
+    is_club: 0,
+    about: null,
+    rules:
+      "A DC Motor will be provided to the participants and the participants cannot use any other motor in their models.;Diameter of the blade must not exceed 40 cms.;Entire model must be made out of scrap materials(eg. wood and cardboard), including the blades. Use of readymade base or blades is not allowed.;Use of metal anywhere in the model is not allowed",
+    img: "",
+    prizes: "",
+    fee: 0,
+    start: "",
+    end: "",
+    scores: {
+      first: 50,
+      second: 30,
+      third: 10
+    },
+    admins: [""],
+    club: ""
+  },
+  {
+    name: "EMBITREX",
+    is_team: 1,
+    max_participents: null,
+    dept: "Electronics Engineering",
+    description:
+      "Enchant with the flavours of electronic circuits..Embitrex, the event conducted by Electronics Engineering Department insist you with the smack of electronic devices to students by following 3 sequential rounds.",
+    is_club: 0,
+    about: null,
+    rules: "",
+    img: "",
+    prizes: "",
+    fee: 0,
+    start: "",
+    end: "",
+    scores: {
+      first: 50,
+      second: 30,
+      third: 10
+    },
+    admins: [""],
+    club: ""
+  },
+  {
+    name: "INVENTO",
+    is_team: 1,
+    max_participents: 2,
+    dept: "Electrical Engineering",
+    description:
+      "After cracking the circuit designing round ,teams will have to implement the circuit designed which will be judged on different criteria.",
+    is_club: 0,
+    about:
+      "This is a team event. With the help of the given hints and circuit components provided, the teams have to design and implement a circuit and explain its working.",
+    rules: "",
+    img: "",
+    prizes: "",
+    fee: 0,
+    start: "",
+    end: "",
+    scores: {
+      first: 50,
+      second: 30,
+      third: 10
+    },
+    admins: [""],
+    club: ""
+  },
+  {
+    name: "TRUSS THE FRAME",
+    is_team: 1,
+    max_participents: 4,
+    dept: "Civil Engineering",
+    description:
+      "A truss is an assembly of beams or other elements that creates a rigid structure.In engineering, a truss is a structure that consists of two-force members only, where the members are organized so that the assemblage as a whole behaves as a single object.",
+    is_club: 0,
+    about:
+      "This is a team event. With the help of the given hints and circuit components provided, the teams have to design and implement a circuit and explain its working.",
+    rules: "Refer the nmanual",
+    img: "",
+    prizes: "",
+    fee: 0,
+    start: "",
+    end: "",
+    scores: {
+      first: 50,
+      second: 30,
+      third: 10
+    },
+    admins: ["Rohit Kumar", "Deepansh Shrivastav"],
+    club: ""
+  },
+  {
+    name: "Tech Triathlon",
+    is_team: 1,
+    max_participents: 2,
+    dept: "Civil Engineering",
+    description:
+      "It involves basic knowledge of typical structures seen in day to day.",
+    is_club: 0,
+    about: null,
+    rules: "",
+    img: "",
+    prizes: "",
+    fee: 0,
+    start: "",
+    end: "",
+    scores: {
+      first: 50,
+      second: 30,
+      third: 10
+    },
+    admins: [""],
+    club: ""
+  },
+  {
+    name: "CHEM-E-CAR",
+    is_team: 1,
+    max_participents: 2,
+    dept: "Chemical Engineering",
+    description:
+      "The energy obtained from conventional source is limited and therefore we are in a dire need of renewable and efficient sources of energy.",
+    is_club: 0,
+    about:
+      "The energy obtained from conventional source is limited and therefore we are in a dire need of renewable and efficient sources of energy. Hence the major focus of this generation is to explore the use of alternative sources of energy to meet our ever-increasing energy demands.",
+    rules: "Refer Manual;",
+    img: "",
+    prizes: "",
+    fee: 0,
+    start: "",
+    end: "",
+    scores: {
+      first: 50,
+      second: 30,
+      third: 10
+    },
+    admins: ["Yash Goenka", "Mohit Nagar"],
+    club: ""
+  },
+  {
+    name: "EXTREME PROPULSION – 47",
+    is_team: 1,
+    max_participents: null,
+    dept: "Engineering Physics",
+    description:
+      "Participants should make a cannon which should be powered by compressed air.",
+    is_club: 0,
+    about: "",
+    rules:
+      "Participants should not fail to implement the conditions informed by organizers in respective rounds.(like dimension of cannon).;No usage of modified projectile in cannon is entertained.;No other mechanism is allowed to launch the projectile other than compressed air",
+    img: "",
+    prizes: "",
+    fee: 0,
+    start: "",
+    end: "",
+    scores: {
+      first: 50,
+      second: 30,
+      third: 10
+    },
+    admins: [""],
+    club: ""
+  },
+  {
+    name: "BEAM ENROUTE",
+    is_team: 1,
+    max_participents: 5,
+    dept: "Engineering Physics",
+    description:
+      "Participants are supposed to build a path for laser beam provided and make it reach the target provided.",
+    is_club: 0,
+    about: "",
+    rules:
+      "Participants should not fail to implement the conditions informed by organizers in respective rounds.;No additional reflective material is allowed in rerouting the laser beam.;No participant is allowed to see the obstacles before their turn.;No photographs of obstacle’s arrangement are allowed.",
+    img: "",
+    prizes: "",
+    fee: 0,
+    start: "",
+    end: "",
+    scores: {
+      first: 50,
+      second: 30,
+      third: 10
+    },
+    admins: [""],
+    club: ""
+  },
+  {
+    name: "Buffet Money 19",
+    is_team: 0,
+    max_participents: 1,
+    dept: "Applied mathematics",
+    description:
+      "It’s time to unleash the ‘Jordan Belfort’ within you, as you place bets on real-world stocks without any jeopardy of losing money.",
+    is_club: 0,
+    about:
+      "We present to you the most celebrated event of Concetto, “Buffet Money”, an online event in which we simulate the real stock market for you. With the virtual money provided, enjoy the ups and downs of stock market in the 3-day event",
+    rules:
+      "Each participant has to buy stocks of minimum.;None of the participants can register more than once.;Plagiarism will lead to the detention of team from the contest.;Participants have to make at least 5 transactions.",
+    img: "",
+    prizes: "",
+    fee: 0,
+    start: "",
+    end: "",
+    scores: {
+      first: 50,
+      second: 30,
+      third: 10
+    },
+    admins: [""],
+    club: ""
+  },
+  {
+    name: "Terra'Stellar",
+    is_team: 1,
+    max_participents: 3,
+    dept: "Applied Geophysics",
+    description: "A general quiz",
+    is_club: 0,
+    about: "Refer Manual",
+    rules:
+      "The event will consist of two rounds: A preliminary and a final round.;Teams of 3 are invited.;On the spot team also can be made.",
+    img: "",
+    prizes: "",
+    fee: 0,
+    start: "",
+    end: "",
+    scores: {
+      first: 50,
+      second: 30,
+      third: 10
+    },
+    admins: ["Shubham Dabi", "Sudeep Gupta"],
+    club: ""
+  },
+  {
+    name: "The Baffling Planet",
+    is_team: 1,
+    max_participents: 4,
+    dept: "Applied Geology",
+    description:
+      "This event is basically a three round event which tests the basic geology concepts.",
+    is_club: 0,
+    about: "",
+    rules:
+      "Each team can consist of maximum of 4 members.;In case of any discrepancy, the decision of the judge would be binding.",
+    img: "",
+    prizes: "",
+    fee: 0,
+    start: "",
+    end: "",
+    scores: {
+      first: 50,
+      second: 30,
+      third: 10
+    },
+    admins: [""],
+    club: ""
+  },
+  {
+    name: "Pirates of Terrain",
+    is_team: 1,
+    max_participents: 3,
+    dept: "Applied Geology",
+    description:
+      "This event is three round event which tests the map plotting skills.",
+    is_club: 0,
+    about: "",
+    rules:
+      "Each team can consist of maximum of 3 members.;In case of any discrepancy, the decision of the judge would be binding.",
+    img: "",
+    prizes: "",
+    fee: 0,
+    start: "",
+    end: "",
+    scores: {
+      first: 50,
+      second: 30,
+      third: 10
+    },
+    admins: [""],
+    club: ""
+  },
+  {
+    name: "Chem cruise",
+    is_team: 1,
+    max_participents: 3,
+    dept: "Applied Chemistry",
+    description: "A chemical reaction hunter.",
+    is_club: 0,
+    about:
+      "It is a game in which a set of cards are given to the participants. Each card having different symbol of elements and candidates have to complete the chemical equation by arranging these cards according to the task given. If the reaction equation is completely arranged , they would be shortlisted basing upon less time taken and calculate correct amount(moles) of chemicals required.",
+    rules: "Refer Manual",
+    img: "",
+    prizes: "",
+    fee: 0,
+    start: "",
+    end: "",
+    scores: {
+      first: 50,
+      second: 30,
+      third: 10
+    },
+    admins: [""],
+    club: ""
   }
 ];
