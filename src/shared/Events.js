@@ -3,11 +3,11 @@ export const Events = [
     name: "ROBOWARS",
     is_team: 1,
     max_participants: 5,
+    about: " ",
     dept: null,
     description:
       "To Build a Wired/Wireless, Manually controlled robot capable of subduing its opponent.",
     is_club: 1,
-    about: null,
     rules:
       "There will be two rounds.;In no case should the arena be damaged by any robot.;This will lead to direct disqualification from the event.;Change of battery will not be allowed during the match unless timeout is taken by either of the team.;In case of wireless BOTS, it is suggested to have extra batteries ready and charged.;No provision will be provided for recharging of batteries around the arena.",
     img: "",
@@ -155,9 +155,9 @@ export const Events = [
     is_club: 1,
     about:
       "CodeYaan 1.0 is an online coding contest that will be organised in Concetto’19 as a pre event in association with CodeISM. The Event is Comprised of 3 different divisions on the basis of participants types and hardness level. Each Division will have separate deck of prizes.",
-    rules:
+    rules: "",
+    img:
       "https://concetto-front.s3.ap-south-1.amazonaws.com/events/codeism.jpg",
-    img: "",
     prizes: "Refer the document",
     fee: 0,
     start: "",
@@ -248,7 +248,7 @@ export const Events = [
     description:
       "It's an event of Cad modeling in which participants will have to design 3D models of different engineering instruments.",
     is_club: 0,
-    about: null,
+    about: "",
     rules: "",
     img: "",
     prizes: "",
@@ -271,7 +271,7 @@ export const Events = [
     description:
       "The desire to create Is one of the deepest yearnings of the human soul. The IDP-Industrial design problems will push the students to think beyond the conventional and to look at in different way and solve in a limited amount of time. The event is simulator which will provide the competitors with the real life environmental industrial challenges.",
     is_club: 0,
-    about: null,
+    about: "",
     rules:
       "Each team can consist of maximum of 4 members.;In case of any discrepancy, the decision of the judge would be binding.",
     img: "",
@@ -320,7 +320,7 @@ export const Events = [
     description:
       "It involves Designing of magnetic separator modal With help of magnet. Point will be given on the basis of new idea,structure and separation efficiency of separator for given mixture of magnetic material and non magnetic material.",
     is_club: 0,
-    about: null,
+    about: "",
     rules:
       "Each team can consist of maximum of 4 members.;In case of any discrepancy, the decision of the judge would be binding.",
     img: "",
@@ -343,7 +343,7 @@ export const Events = [
     dept: "Environmental Engineering",
     description: "",
     is_club: 0,
-    about: null,
+    about: "",
     rules:
       "A DC Motor will be provided to the participants and the participants cannot use any other motor in their models.;Diameter of the blade must not exceed 40 cms.;Entire model must be made out of scrap materials(eg. wood and cardboard), including the blades. Use of readymade base or blades is not allowed.;Use of metal anywhere in the model is not allowed",
     img: "",
@@ -367,7 +367,7 @@ export const Events = [
     description:
       "Enchant with the flavours of electronic circuits..Embitrex, the event conducted by Electronics Engineering Department insist you with the smack of electronic devices to students by following 3 sequential rounds.",
     is_club: 0,
-    about: null,
+    about: "",
     rules: "",
     img: "",
     prizes: "",
@@ -438,7 +438,7 @@ export const Events = [
     description:
       "It involves basic knowledge of typical structures seen in day to day.",
     is_club: 0,
-    about: null,
+    about: "",
     rules: "",
     img: "",
     prizes: "",

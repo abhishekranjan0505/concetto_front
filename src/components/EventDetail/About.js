@@ -1,11 +1,21 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 class About extends Component {
-  render(){
-    const {event} = this.props;
+  render() {
+    const { event } = this.props;
     return (
-      <div>           {`About:- ${event.about} ${<br />} ${event.is_club ? ('CLUB:' + event.club) : ('DEPARTMENT: ' + event.dept)}`}</div>
-    )
+      <div className="container">
+        {" "}
+        {` About:- ${event.description + "\n" + event.about} \n `}
+        <br />
+        <br />
+        {`${
+          event.is_club
+            ? " CLUB  :  " + event.club
+            : "  DEPARTMENT  :  " + event.dept
+        }`}
+      </div>
+    );
   }
 }
 

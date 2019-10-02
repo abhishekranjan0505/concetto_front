@@ -4,14 +4,13 @@ class Rules extends Component {
   render() {
     const { event } = this.props;
     return (
-      <div>
+      <div className="container">
         <br />
-        {event.rules.split(";").map(str => (
-          <p>
-            {"  " + str}
-            <br />
-          </p>
-        ))}
+        <ul>
+          {event.rules.split(";").map(str => (
+            <li>{"  " + str}</li>
+          ))}
+        </ul>
       </div>
     );
   }
