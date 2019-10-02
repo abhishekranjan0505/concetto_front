@@ -71,7 +71,8 @@ state={
             flexDirection: "column",
             width: "40vh",
             backgroundColor: "rgba(97, 97, 97, 0.1)",
-            height: "100vh"
+            height: "100vh",
+            position: 'fixed'
           }}
         >
           <div>
@@ -84,7 +85,7 @@ state={
             <button className={"btn btn-event btn-2 "+((this.state.active==='register')?'active-bottom':'')} onClick={this.registerShow}>REGISTER</button>
           </div>
         </div>
-        <div style={{display: 'flex', flexDirection: 'column'}}>
+        <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', marginLeft: '40vh'}}>
           <img
           src="http://farm9.staticflickr.com/8504/8365873811_d32571df3d_z.jpg"
           alt={event.name}

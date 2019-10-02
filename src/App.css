@@ -112,7 +112,7 @@ body
 {
  body{
      /* for scrollbar*/
-  margin-left: 25px; /*25px*/
+  margin-left: 0px; /*25px*/
 	float: left;
 	overflow-y: scroll;
 	margin-bottom: 25px;
