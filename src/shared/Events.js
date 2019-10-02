@@ -24,7 +24,7 @@ export const Events = [
     admins: ["Shambhav G", "Srajan G", "Kaushal K"],
     club: "ROBOISM",
     link: "https://forms.gle/vdzkN5AgbPp8TEk77"
-},
+  },
   {
     name: "Flag Your Win",
     is_team: 1,
@@ -50,7 +50,7 @@ export const Events = [
     admins: ["Parth K.", "K. Jyothi"],
     club: "ROBOISM",
     link: "https://forms.gle/AtVNNCoA1xgPXucn8"
-    },
+  },
   {
     name: "Death Race",
     is_team: 1,
@@ -78,7 +78,7 @@ export const Events = [
     club: "ROBOISM",
     link: "https://forms.gle/uXZFLVdjHg74gr9w9"
   },
-    {
+  {
     name: "SciTech Quiz",
     is_team: 1,
     max_participants: 5,
@@ -101,7 +101,7 @@ export const Events = [
     },
     admins: [""],
     club: "Quiz Club",
-    link: "https://forms.gle/KH9uDs4JHqHaDeWRA",
+    link: "https://forms.gle/KH9uDs4JHqHaDeWRA"
   },
   {
     name: "Finding Chandler",
@@ -689,5 +689,5 @@ export const Events = [
     admins: [""],
     club: "",
     link: "https://forms.gle/HEuBvXZLY715Cqd87"
-  },
+  }
 ];
