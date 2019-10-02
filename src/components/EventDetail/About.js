@@ -4,7 +4,7 @@ class About extends Component {
   render() {
     const { event } = this.props;
     return (
-      <div className="container">
+      <div className="container" style={{ display: "block", width: "80vw" }}>
         {" "}
         {` About:- ${event.description + "\n" + event.about} \n `}
         <br />
