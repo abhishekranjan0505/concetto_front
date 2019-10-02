@@ -1,11 +1,40 @@
 import React, { Component } from "react";
+import { withStyles } from '@material-ui/core/styles';
 import "./Styles.css";
 import Loading from "../Loading";
 import About from "./About";
 import Rules from "./Rules";
 import Details from "./Details";
 import Register from "./Register";
+import Mobileview from "./Mobileview";
 
+const styles = (theme) =>({
+    verticalTab: {
+    display: "flex",
+    flexDirection: "column",
+    width: "20vw !important",
+    backgroundColor: "rgba(97, 97, 97, 0.1)",
+    position: "fixed",
+    height: "100vh",
+    [theme.breakpoints.down("sm")]: {
+      display: "none"
+    }
+  },
+  desktopView: {
+    [theme.breakpoints.down("sm")]: {
+      display: "none"
+    }
+  },
+  image: {
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    marginLeft: "40vh",
+    [theme.breakpoints.down("sm")]: {
+      margin: '0px',
+    }
+  },
+});
 class EventDetail extends Component {
   constructor(props) {
     super(props);
@@ -43,18 +72,12 @@ class EventDetail extends Component {
   }
 
   render() {
+    const {classes} = this.props;
     const { event } = this.props;
     return (
       <div style={{ display: "flex" }}>
         <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            width: "40vh",
-            backgroundColor: "rgba(97, 97, 97, 0.1)",
-            height: "100vh",
-            position: "fixed"
-          }}
+          className={classes.verticalTab}
         >
           <div>
             <a href="home">
@@ -105,12 +128,7 @@ class EventDetail extends Component {
           </div>
         </div>
         <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "center",
-            marginLeft: "40vh"
-          }}
+          className={classes.image}
         >
           <img
           src={event.img}
@@ -119,14 +137,19 @@ class EventDetail extends Component {
         <div>
             {event.name}
           </div>
+          <div className={classes.desktopView}>
           {this.state.active === 'about' && <About event={this.props.event}/>}
           {this.state.active === 'rules' && <Rules event={this.props.event}/>}
           {this.state.active === 'details' && <Details event={this.props.event}/>}
           {this.state.active === 'register' && <Register event={this.props.event}/>}
+        </div>
+        <div>
+          {window.innerWidth < 960 ? <Mobileview event={event}/> : ""}
+        </div>
         </div>
       </div>
     );
   }
 }
 
-export default EventDetail;
+export default (withStyles(styles)(EventDetail));
