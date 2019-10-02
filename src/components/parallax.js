@@ -9,7 +9,7 @@ const styles = theme => ({
     margin: '100px',
     [theme.breakpoints.down('sm')]:{
       position: 'relative',
-      right: '20px', 
+      right: '20px',
     },
   },
   images: {
@@ -73,7 +73,6 @@ class Parallax extends React.Component {
   componentDidMount() {
     window.scrollTo(0,0);
     this.parentOffsetTop = this.parent.current.getBoundingClientRect().top;
-     console.log(this.parentOffsetTop);
   }
   render() {
     const { content,classes,x } = this.props;

@@ -17,15 +17,15 @@ const styles = (theme) => ({
     },
   },
   verticalTab:{
+    display: "flex",
+    flexDirection: "column",
+    width: "20vw !important",
+    backgroundColor: "rgba(97, 97, 97, 0.1)",
+    position: "sticky",
+    overflow: 'hidden',
     [theme.breakpoints.down('sm')]: {
       display: 'none',
     },
-    display: "flex",
-    flexDirection: "column",
-    width: "40vh",
-    backgroundColor: "rgba(97, 97, 97, 0.1)",
-    position: "sticky",
-    overflowY: 'hidden',
   },
 });
 
@@ -59,9 +59,7 @@ class EventDetail extends Component {
       <div>
         <HomeHeader />
       <div className={classes.root}>
-        <div
-          className={classes.verticalTab}
-        >
+        <div className={classes.verticalTab}>
           <div>
             <Link to="home"><img src="https://concetto-front.s3.ap-south-1.amazonaws.com/logo.png" className="img-fluid" alt={Loading} /></Link>
           </div>
