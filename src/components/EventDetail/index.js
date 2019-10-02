@@ -7,6 +7,7 @@ import Rules from "./Rules";
 import Details from "./Details";
 import Register from "./Register";
 import Mobileview from "./Mobileview";
+import HomeHeader from "../HomeHeader/index";
 
 const styles = theme => ({
   verticalTab: {
@@ -30,6 +31,7 @@ const styles = theme => ({
     flexDirection: "column",
     alignItems: "center",
     marginLeft: "40vh",
+    marginTop: "50px",
     [theme.breakpoints.down("sm")]: {
       margin: "0px"
     }
@@ -125,6 +127,7 @@ class EventDetail extends Component {
             </button>
           </div>
         </div>
+          <HomeHeader />
         <div className={classes.image}>
           <img src={event.img} alt={event.name} className="event-img" />
           <div
@@ -139,7 +142,7 @@ class EventDetail extends Component {
           <div className={classes.desktopView}>
             {this.state.active === "about" && (
               <About event={this.props.event} />
-            )}
+              )}
             {this.state.active === "rules" && (
               <Rules event={this.props.event} />
             )}
