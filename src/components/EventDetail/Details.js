@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 
 class Details extends Component {
   render() {
+    const {event} =this.props;
     return (
-      <div>Details page</div>
+      <div>{event.description}</div>
     )
   }
 }
