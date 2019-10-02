@@ -22,8 +22,9 @@ export const Events = [
       third: 10
     },
     admins: ["Shambhav G", "Srajan G", "Kaushal K"],
-    club: "ROBOISM"
-  },
+    club: "ROBOISM",
+    link: "https://forms.gle/vdzkN5AgbPp8TEk77"
+},
   {
     name: "Flag Your Win",
     is_team: 1,
@@ -47,8 +48,9 @@ export const Events = [
       third: 10
     },
     admins: ["Parth K.", "K. Jyothi"],
-    club: "ROBOISM"
-  },
+    club: "ROBOISM",
+    link: "https://forms.gle/AtVNNCoA1xgPXucn8"
+    },
   {
     name: "Death Race",
     is_team: 1,
@@ -73,9 +75,10 @@ export const Events = [
       third: 10
     },
     admins: ["nikhilbnaradhya1.gem@gmail.com"],
-    club: "ROBOISM"
+    club: "ROBOISM",
+    link: "https://forms.gle/uXZFLVdjHg74gr9w9"
   },
-  {
+    {
     name: "SciTech Quiz",
     is_team: 1,
     max_participants: 5,
@@ -97,7 +100,8 @@ export const Events = [
       third: 10
     },
     admins: [""],
-    club: "Quiz Club"
+    club: "Quiz Club",
+    link: "https://forms.gle/KH9uDs4JHqHaDeWRA",
   },
   {
     name: "Finding Chandler",
@@ -123,7 +127,8 @@ export const Events = [
       third: 10
     },
     admins: [""],
-    club: "Data Science Club"
+    club: "Data Science Club",
+    link: "https://forms.gle/dbBXfoEt8gJvijLJ8"
   },
   {
     name: "Capture the flag",
@@ -147,7 +152,8 @@ export const Events = [
       third: 10
     },
     admins: ["Naman Zelawat"],
-    club: "Cyberlabs"
+    club: "Cyberlabs",
+    link: "https://forms.gle/44upo8djh6gDDBsd7"
   },
   {
     name: "CodeYaan 1.0",
@@ -171,7 +177,8 @@ export const Events = [
       third: 10
     },
     admins: ["Aryant Shukla"],
-    club: "CodeISM"
+    club: "CodeISM",
+    link: "https://forms.gle/1vhdN3E4oBjmMRGEA"
   },
   {
     name: "Maestronics",
@@ -195,7 +202,8 @@ export const Events = [
       third: 10
     },
     admins: [""],
-    club: "CLEVR"
+    club: "CLEVR",
+    link: "https://forms.gle/oSSe8ycYfLMzsd487"
   },
   {
     name: "Soft Alite",
@@ -218,7 +226,8 @@ export const Events = [
       third: 10
     },
     admins: [""],
-    club: "CLEVR"
+    club: "CLEVR",
+    link: "https://forms.gle/PyUsPhi9JVJw2DiC6"
   },
   {
     name: "Haul N Fall",
@@ -242,7 +251,8 @@ export const Events = [
       third: 10
     },
     admins: [""],
-    club: ""
+    club: "",
+    link: "https://forms.gle/1XmVRrGBG9w8wz4x6"
   },
   {
     name: "CAD CRAFIAN",
@@ -266,7 +276,8 @@ export const Events = [
       third: 10
     },
     admins: [""],
-    club: ""
+    club: "",
+    link: "https://forms.gle/A9B67iJu9nYsWSZv7"
   },
   {
     name: "INDUSTRIAL DESIGN PROBLEM (IDP)",
@@ -290,7 +301,8 @@ export const Events = [
       third: 10
     },
     admins: [""],
-    club: ""
+    club: "",
+    link: "https://forms.gle/c64mP3BAV7hRwU338"
   },
   {
     name: "Rock The Wagon",
@@ -316,7 +328,8 @@ export const Events = [
       third: 10
     },
     admins: ["Ashish Ranjan", "Varnika kumari"],
-    club: ""
+    club: "",
+    link: "https://forms.gle/y9VyuBN7NdD1JCM9A"
   },
   {
     name: "Magnotech",
@@ -341,7 +354,8 @@ export const Events = [
       third: 10
     },
     admins: [""],
-    club: ""
+    club: "",
+    link: "https://forms.gle/sXqodMYuPgmQTiGF9"
   },
   {
     name: "CRAFT-A-VANE",
@@ -365,7 +379,8 @@ export const Events = [
       third: 10
     },
     admins: [""],
-    club: ""
+    club: "",
+    link: "https://forms.gle/vcUdcqsD9KuTEpvFA"
   },
   {
     name: "EMBITREX",
@@ -389,7 +404,8 @@ export const Events = [
       third: 10
     },
     admins: [""],
-    club: ""
+    club: "",
+    link: "https://forms.gle/MeC2W3wKRKWAWhTp7"
   },
   {
     name: "INVENTO",
@@ -414,7 +430,8 @@ export const Events = [
       third: 10
     },
     admins: [""],
-    club: ""
+    club: "",
+    link: "https://forms.gle/TYXpfXVkBNA5dJ9E8"
   },
   {
     name: "TRUSS THE FRAME",
@@ -439,7 +456,8 @@ export const Events = [
       third: 10
     },
     admins: ["Rohit Kumar", "Deepansh Shrivastav"],
-    club: ""
+    club: "",
+    link: "https://forms.gle/CkGPCXCKwutCsvKP9"
   },
   {
     name: "Tech Triathlon",
@@ -463,7 +481,8 @@ export const Events = [
       third: 10
     },
     admins: [""],
-    club: ""
+    club: "",
+    link: ""
   },
   {
     name: "CHEM-E-CAR",
@@ -488,7 +507,8 @@ export const Events = [
       third: 10
     },
     admins: ["Yash Goenka", "Mohit Nagar"],
-    club: ""
+    club: "",
+    link: "https://forms.gle/RZviCaTiqpTbY5r48"
   },
   {
     name: "EXTREME PROPULSION – 47",
@@ -513,7 +533,8 @@ export const Events = [
       third: 10
     },
     admins: [""],
-    club: ""
+    club: "",
+    link: "https://forms.gle/6YCPrZ6TgjsMTh8w9"
   },
   {
     name: "BEAM ENROUTE",
@@ -538,7 +559,8 @@ export const Events = [
       third: 10
     },
     admins: [""],
-    club: ""
+    club: "",
+    link: "https://forms.gle/T4H9tLoBhPctHFxS8"
   },
   {
     name: "Buffet Money 19",
@@ -563,7 +585,8 @@ export const Events = [
       third: 10
     },
     admins: [""],
-    club: ""
+    club: "",
+    link: "https://forms.gle/T4H9tLoBhPctHFxS8"
   },
   {
     name: "Terra'Stellar",
@@ -587,7 +610,8 @@ export const Events = [
       third: 10
     },
     admins: ["Shubham Dabi", "Sudeep Gupta"],
-    club: ""
+    club: "",
+    link: "https://forms.gle/mNzRdSkLYMxA48PA7"
   },
   {
     name: "The Baffling Planet",
@@ -612,7 +636,8 @@ export const Events = [
       third: 10
     },
     admins: [""],
-    club: ""
+    club: "",
+    link: "https://forms.gle/5KUPwPLjFd1iH9ga8"
   },
   {
     name: "Pirates of Terrain",
@@ -637,7 +662,8 @@ export const Events = [
       third: 10
     },
     admins: [""],
-    club: ""
+    club: "",
+    link: "https://forms.gle/FxjUNVggrHhqqqze6"
   },
   {
     name: "Chem cruise",
@@ -661,6 +687,7 @@ export const Events = [
       third: 10
     },
     admins: [""],
-    club: ""
-  }
+    club: "",
+    link: "https://forms.gle/HEuBvXZLY715Cqd87"
+  },
 ];
