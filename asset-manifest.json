@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/concetto_front/static/css/main.5626823d.chunk.css",
-    "main.js": "/concetto_front/static/js/main.90f9924e.chunk.js",
-    "main.js.map": "/concetto_front/static/js/main.90f9924e.chunk.js.map",
+    "main.css": "/concetto_front/static/css/main.8da9998a.chunk.css",
+    "main.js": "/concetto_front/static/js/main.115d0f3a.chunk.js",
+    "main.js.map": "/concetto_front/static/js/main.115d0f3a.chunk.js.map",
     "runtime-main.js": "/concetto_front/static/js/runtime-main.d0636af7.js",
     "runtime-main.js.map": "/concetto_front/static/js/runtime-main.d0636af7.js.map",
-    "static/css/2.8dad266e.chunk.css": "/concetto_front/static/css/2.8dad266e.chunk.css",
-    "static/js/2.830f6f58.chunk.js": "/concetto_front/static/js/2.830f6f58.chunk.js",
-    "static/js/2.830f6f58.chunk.js.map": "/concetto_front/static/js/2.830f6f58.chunk.js.map",
+    "static/css/2.50822015.chunk.css": "/concetto_front/static/css/2.50822015.chunk.css",
+    "static/js/2.f56b6ffe.chunk.js": "/concetto_front/static/js/2.f56b6ffe.chunk.js",
+    "static/js/2.f56b6ffe.chunk.js.map": "/concetto_front/static/js/2.f56b6ffe.chunk.js.map",
     "index.html": "/concetto_front/index.html",
-    "precache-manifest.a15971454b577483b9787090fa88f407.js": "/concetto_front/precache-manifest.a15971454b577483b9787090fa88f407.js",
+    "precache-manifest.ce94f0653ee6e3eceb6aa5e501f752a1.js": "/concetto_front/precache-manifest.ce94f0653ee6e3eceb6aa5e501f752a1.js",
     "service-worker.js": "/concetto_front/service-worker.js",
-    "static/css/2.8dad266e.chunk.css.map": "/concetto_front/static/css/2.8dad266e.chunk.css.map",
-    "static/css/main.5626823d.chunk.css.map": "/concetto_front/static/css/main.5626823d.chunk.css.map",
+    "static/css/2.50822015.chunk.css.map": "/concetto_front/static/css/2.50822015.chunk.css.map",
+    "static/css/main.8da9998a.chunk.css.map": "/concetto_front/static/css/main.8da9998a.chunk.css.map",
     "static/media/font-awesome.css": "/concetto_front/static/media/fontawesome-webfont.fee66e71.woff",
     "static/media/styles.css": "/concetto_front/static/media/login_bg.e4ce1b3e.jpg"
   }
