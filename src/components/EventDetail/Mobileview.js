@@ -17,7 +17,7 @@ class Mobileview extends Component {
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <Typography>
-            `About:-  {event.about} {<br/>} {event.is_club ? event.club : ''}`
+            {`About:- ${event.about} ${<br/>} ${event.is_club ?('CLUB:'+event.club):('DEPARTMENT: '+ event.dept)}`}
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
@@ -37,7 +37,7 @@ class Mobileview extends Component {
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <Typography>
-            {event.rules}
+            {event.rules.split(';').map((str) => (<p>{str}<br /></p>))}
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
