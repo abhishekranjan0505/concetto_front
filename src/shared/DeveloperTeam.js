@@ -9,12 +9,13 @@ export const DeveloperTeam = [
     git: "https://github.com/cjchirag7"
   },
   {
-    name: "Shubham Srivastav",
+    name: "Shubham Srivastava",
     post: "FrontEnd Developer",
-    pic: "",
-    fb: "",
-    linkedin: "",
-    git: ""
+    pic:
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/dev-team/shubham.jpeg",
+    fb: "https://facebook.com/profile.php?id=100026299384571",
+    linkedin: "https://www.linkedin.com/in/shubham-srivastava-19306017a",
+    git: "https://github.com/shubhamSrivas"
   },
   {
     name: "Abhishek Ranjan",
