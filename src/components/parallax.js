@@ -82,7 +82,7 @@ class Parallax extends React.Component {
           <div
             ref={this.parent}
             className={
-              window.innerWidth > 600
+              window.innerWidth > 800
                 ? classNames(classes.images, "col-6")
                 : "col-12"
             }
@@ -99,7 +99,7 @@ class Parallax extends React.Component {
               src={content.image1}
               alt="Loading..."
               className={
-                window.innerWidth > 600
+                window.innerWidth > 800
                   ? classNames(
                       classes.image1,
                       "col-offset-2 col-8 col-md-2",
@@ -141,7 +141,7 @@ class Parallax extends React.Component {
               src={content.image3}
               alt="Loading..."
               className={
-                window.innerWidth > 600
+                window.innerWidth > 800
                   ? classNames(
                       classes.image3,
                       "col-offset-2 col-8 col-md-2",
@@ -153,7 +153,7 @@ class Parallax extends React.Component {
           </div>
           <div
             className={
-              window.innerWidth > 600
+              window.innerWidth > 800
                 ? classNames(classes.text, "col-12 col-md-3")
                 : classNames("col-12 col-md-3")
             }
