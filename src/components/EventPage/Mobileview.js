@@ -47,13 +47,18 @@ const styles = theme => ({
 class EventDetail extends Component {
   constructor(props) {
     super(props);
+    const {events}=props;
+    this.departmentShow = this.departmentShow.bind(this);
+    this.clubShow = this.clubShow.bind(this);
+    this.state = {
+     active: 0,
+     departmental: events.filter(event=>(event.is_club===0)),
+     clubEvents: events.filter(event=>(event.is_club===1))
+   };
     // this.departmentShow = this.departmentShow.bind(this);
     // this.clubShow = this.clubShow.bind(this);
     this.handleChange = this.handleChange.bind(this);
   }
-  state = {
-    active: 0
-  };
 
   // clubShow = () => {
   //   this.setState({
@@ -73,7 +78,8 @@ class EventDetail extends Component {
   };
 
   render() {
-    const { classes, events } = this.props;
+    const { classes } = this.props;
+    const {clubEvents,departmental}=this.state;
     return (
       <div className={classes.mobileTab}>
         <AppBar
@@ -100,10 +106,9 @@ class EventDetail extends Component {
             />
           </Tabs>
         </AppBar>
+        {this.state.active === 1 && <ClubEvent events={clubEvents} />}
+        {this.state.active === 0 && <DepartmentEvent events={departmental}/>}
         <br />
-        <br/>
-        {this.state.active === 0 && <DepartmentEvent events={events} />}
-        {this.state.active === 1 && <ClubEvent events={events} />}
       </div>
     );
   }
