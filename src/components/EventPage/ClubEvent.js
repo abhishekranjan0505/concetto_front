@@ -3,6 +3,9 @@ import "./Styles.css";
 import { Link } from "react-router-dom";
 
 class ClubEvent extends Component {
+  componentDidMount(){
+    window.scrollTo(0,0);
+  }
   render() {
     const { events } = this.props;
     return (
