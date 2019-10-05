@@ -188,7 +188,7 @@ export const Events = [
     rules: "",
     img:
       "https://concetto-front.s3.ap-south-1.amazonaws.com/events/codeism.jpg",
-    prizes: "Refer the document",
+    prizes: "",
     fee: 0,
     start: "",
     end: "",
@@ -213,7 +213,7 @@ export const Events = [
     rules: "",
     img:
       "https://concetto-front.s3.ap-south-1.amazonaws.com/events/maestronics.jpg",
-    prizes: "Refer the document",
+    prizes: "",
     fee: 0,
     start: "",
     end: "",
@@ -236,8 +236,9 @@ export const Events = [
     about:
       "Here's the mission for you. Your team is the part of interstellar space exploration mission, during the exploration you find a exoplanet similar to earth. To survey the planet you decided to send a rover but the equipments of the rover are very sensitive which might get damage with sudden impact just like an egg.. so you have to perform the soft landing very precisely",
     rules: "",
-    img: "",
-    prizes: "Refer the document",
+    img:
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/events/soft_alite.jpg",
+    prizes: "",
     fee: 0,
     start: "",
     end: "",
@@ -320,7 +321,7 @@ export const Events = [
     about: "",
     rules:
       "Each team can consist of maximum of 4 members.;In case of any discrepancy, the decision of the judge would be binding.",
-    img: "",
+    img: "https://concetto-front.s3.ap-south-1.amazonaws.com/events/IDP.jpg",
     prizes: "",
     fee: 0,
     start: "",
@@ -505,7 +506,7 @@ export const Events = [
     is_club: 0,
     about:
       "This is a team event. With the help of the given hints and circuit components provided, the teams have to design and implement a circuit and explain its working.",
-    rules: "Refer the nmanual",
+    rules: "Refer the manual",
     img:
       "https://concetto-front.s3.ap-south-1.amazonaws.com/events/Truss+The+Frame_main.jpg",
     prizes: "",
