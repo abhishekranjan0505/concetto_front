@@ -17,7 +17,7 @@ class Header extends Component {
     const { isMenuOpen } = this.state;
     return (
       <div
-        style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
+        style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }}
         className="header fixed-top"
       >
         <nav className="navbar navbar-expand-md navbar-dark">
