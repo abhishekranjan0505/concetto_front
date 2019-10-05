@@ -94,37 +94,6 @@ export const Events = [
     link: "https://forms.gle/uXZFLVdjHg74gr9w9"
   },
   {
-    name: "SciTech Quiz",
-    is_team: 1,
-    max_participants: 5,
-    dept: "",
-    description: "A general quiz.",
-    is_club: 1,
-    about:
-      "The Quiz will be a general set which will cover topics like science, technology and earth science. It will consist of two rounds- Prelims and Finals.",
-    rules: "",
-    img:
-      "https://concetto-front.s3.ap-south-1.amazonaws.com/events/scitech+quiz.jpg",
-    prizes: "",
-    fee: 0,
-    start: "",
-    end: "",
-    scores: {
-      first: 50,
-      second: 30,
-      third: 10
-    },
-    admins: [
-      "Rudraprasad Das - 8240852831",
-      "Moin Khan - 7254857834",
-      "Harshit Garg - 9917180296",
-      "Aritra Mustafi - 9123416816",
-      "Ashutosh Sahu - 9658643682"
-    ],
-    club: "Quiz Club",
-    link: "https://forms.gle/KH9uDs4JHqHaDeWRA"
-  },
-  {
     name: "Finding Chandler",
     is_team: 1,
     max_participants: 5,
@@ -281,17 +250,18 @@ export const Events = [
     link: "https://forms.gle/1XmVRrGBG9w8wz4x6"
   },
   {
-    name: "CAD CRAFIAN",
+    name: "Magnotech",
     is_team: 1,
-    max_participents: 2,
-    dept: "Mining Machinery Engineering",
+    max_participents: 4,
+    dept: "Mineral Engineering",
     description:
-      "It's an event of Cad modeling in which participants will have to design 3D models of different engineering instruments.",
+      "It involves Designing of magnetic separator modal With help of magnet. Point will be given on the basis of new idea,structure and separation efficiency of separator for given mixture of magnetic material and non magnetic material.",
     is_club: 0,
     about: "",
-    rules: "",
+    rules:
+      "Each team can consist of maximum of 4 members.;In case of any discrepancy, the decision of the judge would be binding.",
     img:
-      "https://concetto-front.s3.ap-south-1.amazonaws.com/events/cad+crafian.jpg",
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/events/magnotech.jpg",
     prizes: "",
     fee: 0,
     start: "",
@@ -302,13 +272,13 @@ export const Events = [
       third: 10
     },
     admins: [
-      "Saurav Kumar - 952874701",
-      "Sayantani Bhattacharya - 8097009033",
-      "Gaurav Kumar - 8864094008",
-      "Akash Kumar - 7355745553"
+      "Jitesh Kumar Sharma - 9334881812",
+      "Ramesh Kumar - 7727887068",
+      "Akash Jaiswal - 7232852288",
+      "Rohit B. Shirude - 9370320152"
     ],
     club: "",
-    link: "https://forms.gle/A9B67iJu9nYsWSZv7"
+    link: "https://forms.gle/sXqodMYuPgmQTiGF9"
   },
   {
     name: "INDUSTRIAL DESIGN PROBLEM (IDP)",
@@ -373,18 +343,17 @@ export const Events = [
     link: "https://forms.gle/y9VyuBN7NdD1JCM9A"
   },
   {
-    name: "Magnotech",
+    name: "CAD CRAFIAN",
     is_team: 1,
-    max_participents: 4,
-    dept: "Mineral Engineering",
+    max_participents: 2,
+    dept: "Mining Machinery Engineering",
     description:
-      "It involves Designing of magnetic separator modal With help of magnet. Point will be given on the basis of new idea,structure and separation efficiency of separator for given mixture of magnetic material and non magnetic material.",
+      "It's an event of Cad modeling in which participants will have to design 3D models of different engineering instruments.",
     is_club: 0,
     about: "",
-    rules:
-      "Each team can consist of maximum of 4 members.;In case of any discrepancy, the decision of the judge would be binding.",
+    rules: "",
     img:
-      "https://concetto-front.s3.ap-south-1.amazonaws.com/events/magnotech.jpg",
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/events/cad+crafian.jpg",
     prizes: "",
     fee: 0,
     start: "",
@@ -395,13 +364,13 @@ export const Events = [
       third: 10
     },
     admins: [
-      "Jitesh Kumar Sharma - 9334881812",
-      "Ramesh Kumar - 7727887068",
-      "Akash Jaiswal - 7232852288",
-      "Rohit B. Shirude - 9370320152"
+      "Saurav Kumar - 952874701",
+      "Sayantani Bhattacharya - 8097009033",
+      "Gaurav Kumar - 8864094008",
+      "Akash Kumar - 7355745553"
     ],
     club: "",
-    link: "https://forms.gle/sXqodMYuPgmQTiGF9"
+    link: "https://forms.gle/A9B67iJu9nYsWSZv7"
   },
   {
     name: "CRAFT-A-VANE",
@@ -434,17 +403,18 @@ export const Events = [
     link: "https://forms.gle/vcUdcqsD9KuTEpvFA"
   },
   {
-    name: "EMBITREX",
+    name: "Pirates of Terrain",
     is_team: 1,
-    max_participents: null,
-    dept: "Electronics Engineering",
+    max_participents: 3,
+    dept: "Applied Geology",
     description:
-      "Enchant with the flavours of electronic circuits..Embitrex, the event conducted by Electronics Engineering Department insist you with the smack of electronic devices to students by following 3 sequential rounds.",
+      "This event is three round event which tests the map plotting skills.",
     is_club: 0,
     about: "",
-    rules: "",
+    rules:
+      "Each team can consist of maximum of 3 members.;In case of any discrepancy, the decision of the judge would be binding.",
     img:
-      "https://concetto-front.s3.ap-south-1.amazonaws.com/events/circuit.jpg",
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/events/pirates+of+terrain.jpg",
     prizes: "",
     fee: 0,
     start: "",
@@ -455,15 +425,43 @@ export const Events = [
       third: 10
     },
     admins: [
-      "Vartika Singh - 9199406248",
-      "Saurabh Kumar - 9123416045",
-      "Mekala Sahaj - 9490044379",
-      "Banoth Naveen - 9133973790",
-      "Harshika Dhoot - 7987068044",
-      "Shruti Simran - 8107898266"
+      "Durgam Mohan Pranay - 8309883701",
+      "Akshay - 7255925721",
+      "Prateek Dubey - 8959534800",
+      "Lakshya Attreya - 9479814055"
     ],
     club: "",
-    link: "https://forms.gle/MeC2W3wKRKWAWhTp7"
+    link: "https://forms.gle/FxjUNVggrHhqqqze6"
+  },
+  {
+    name: "EArTH",
+    is_team: 0,
+    max_participents: 1,
+    dept: "Computer Science And Engineering",
+    description: "Fun Filled Treasure Hunt",
+    is_club: 0,
+    about:
+      "It is not just a treasure hunt but it is a totally fun-filled event enhancing the adventurous experiences through latest AR technologies. Roam around the campus just as you roam around in amusement parks trying different rides at different times.",
+    rules:
+      "The initial clue would be released at the starting point of the treasure hunt i.e. Penman Quadrangle.; The participants would then have to solve the riddle and traverse the path that follows.; The first one to reach the final treasure, after solving all the clues, wins the hunt.What are the restrictions?; Scanning wrong objects consecutively for more than three times would lead to a penalty of 2 minutes wait.; Anyone caught trying to fiddle with the augmented objects would be disqualified.; If 2 or more teams are found helping each other to solve a riddle then both the teams would be disqualified.; Only one member of the team has to download the application for scanning the objects. Multiple downloads per team may result in disqualification.",
+    img: "https://concetto-front.s3.ap-south-1.amazonaws.com/department3.jpg",
+    prizes: "",
+    fee: 0,
+    start: "",
+    end: "",
+    scores: {
+      first: 50,
+      second: 30,
+      third: 10
+    },
+    admins: [
+      "Abhishek Raj Parmani - 9079868390",
+      "Swapnil Narayan - 7864024344",
+      "Sahil Siyag - 9829102475",
+      "Sameer Jain - 9893636504"
+    ],
+    club: "",
+    link: "https://forms.gle/z21DDUtvxYVBqkPU6"
   },
   {
     name: "INVENTO",
@@ -558,6 +556,37 @@ export const Events = [
     link: ""
   },
   {
+    name: "BEAM ENROUTE",
+    is_team: 1,
+    max_participents: 5,
+    dept: "Engineering Physics",
+    description:
+      "Participants are supposed to build a path for laser beam provided and make it reach the target provided.",
+    is_club: 0,
+    about: "",
+    rules:
+      "Participants should not fail to implement the conditions informed by organizers in respective rounds.;No additional reflective material is allowed in rerouting the laser beam.;No participant is allowed to see the obstacles before their turn.;No photographs of obstacle’s arrangement are allowed.",
+    img:
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/events/beam+enroute.jpg",
+    prizes: "",
+    fee: 0,
+    start: "",
+    end: "",
+    scores: {
+      first: 50,
+      second: 30,
+      third: 10
+    },
+    admins: [
+      "Sumit Kumar - 7255932551",
+      "Suraj Prakash Paliwal - 9636215569",
+      "Kotapaati Siddharth Choudhary - 9000796689",
+      "Anshuman Parui - 7384955287"
+    ],
+    club: "",
+    link: "https://forms.gle/T4H9tLoBhPctHFxS8"
+  },
+  {
     name: "CHEM-E-CAR",
     is_team: 1,
     max_participents: 2,
@@ -620,18 +649,17 @@ export const Events = [
     link: "https://forms.gle/6YCPrZ6TgjsMTh8w9"
   },
   {
-    name: "BEAM ENROUTE",
+    name: "Chem cruise",
     is_team: 1,
-    max_participents: 5,
-    dept: "Engineering Physics",
-    description:
-      "Participants are supposed to build a path for laser beam provided and make it reach the target provided.",
+    max_participents: 3,
+    dept: "Applied Chemistry",
+    description: "A chemical reaction hunter.",
     is_club: 0,
-    about: "",
-    rules:
-      "Participants should not fail to implement the conditions informed by organizers in respective rounds.;No additional reflective material is allowed in rerouting the laser beam.;No participant is allowed to see the obstacles before their turn.;No photographs of obstacle’s arrangement are allowed.",
+    about:
+      "It is a game in which a set of cards are given to the participants. Each card having different symbol of elements and candidates have to complete the chemical equation by arranging these cards according to the task given. If the reaction equation is completely arranged , they would be shortlisted basing upon less time taken and calculate correct amount(moles) of chemicals required.",
+    rules: "Refer Manual",
     img:
-      "https://concetto-front.s3.ap-south-1.amazonaws.com/events/beam+enroute.jpg",
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/events/chem+cruise.jpg",
     prizes: "",
     fee: 0,
     start: "",
@@ -642,13 +670,45 @@ export const Events = [
       third: 10
     },
     admins: [
-      "Sumit Kumar - 7255932551",
-      "Suraj Prakash Paliwal - 9636215569",
-      "Kotapaati Siddharth Choudhary - 9000796689",
-      "Anshuman Parui - 7384955287"
+      "Anil - 8529108753",
+      "Harsh Sharma - 7906669140",
+      "Suraj Kumar - 7654597395",
+      "Jayprakash Saini - 7062398533"
     ],
     club: "",
-    link: "https://forms.gle/T4H9tLoBhPctHFxS8"
+    link: "https://forms.gle/HEuBvXZLY715Cqd87"
+  },
+  {
+    name: "EMBITREX",
+    is_team: 1,
+    max_participents: null,
+    dept: "Electronics Engineering",
+    description:
+      "Enchant with the flavours of electronic circuits..Embitrex, the event conducted by Electronics Engineering Department insist you with the smack of electronic devices to students by following 3 sequential rounds.",
+    is_club: 0,
+    about: "",
+    rules: "",
+    img:
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/events/circuit.jpg",
+    prizes: "",
+    fee: 0,
+    start: "",
+    end: "",
+    scores: {
+      first: 50,
+      second: 30,
+      third: 10
+    },
+    admins: [
+      "Vartika Singh - 9199406248",
+      "Saurabh Kumar - 9123416045",
+      "Mekala Sahaj - 9490044379",
+      "Banoth Naveen - 9133973790",
+      "Harshika Dhoot - 7987068044",
+      "Shruti Simran - 8107898266"
+    ],
+    club: "",
+    link: "https://forms.gle/MeC2W3wKRKWAWhTp7"
   },
   {
     name: "Buffet Money 19",
@@ -743,67 +803,6 @@ export const Events = [
     link: "https://forms.gle/5KUPwPLjFd1iH9ga8"
   },
   {
-    name: "Pirates of Terrain",
-    is_team: 1,
-    max_participents: 3,
-    dept: "Applied Geology",
-    description:
-      "This event is three round event which tests the map plotting skills.",
-    is_club: 0,
-    about: "",
-    rules:
-      "Each team can consist of maximum of 3 members.;In case of any discrepancy, the decision of the judge would be binding.",
-    img:
-      "https://concetto-front.s3.ap-south-1.amazonaws.com/events/pirates+of+terrain.jpg",
-    prizes: "",
-    fee: 0,
-    start: "",
-    end: "",
-    scores: {
-      first: 50,
-      second: 30,
-      third: 10
-    },
-    admins: [
-      "Durgam Mohan Pranay - 8309883701",
-      "Akshay - 7255925721",
-      "Prateek Dubey - 8959534800",
-      "Lakshya Attreya - 9479814055"
-    ],
-    club: "",
-    link: "https://forms.gle/FxjUNVggrHhqqqze6"
-  },
-  {
-    name: "Chem cruise",
-    is_team: 1,
-    max_participents: 3,
-    dept: "Applied Chemistry",
-    description: "A chemical reaction hunter.",
-    is_club: 0,
-    about:
-      "It is a game in which a set of cards are given to the participants. Each card having different symbol of elements and candidates have to complete the chemical equation by arranging these cards according to the task given. If the reaction equation is completely arranged , they would be shortlisted basing upon less time taken and calculate correct amount(moles) of chemicals required.",
-    rules: "Refer Manual",
-    img:
-      "https://concetto-front.s3.ap-south-1.amazonaws.com/events/chem+cruise.jpg",
-    prizes: "",
-    fee: 0,
-    start: "",
-    end: "",
-    scores: {
-      first: 50,
-      second: 30,
-      third: 10
-    },
-    admins: [
-      "Anil - 8529108753",
-      "Harsh Sharma - 7906669140",
-      "Suraj Kumar - 7654597395",
-      "Jayprakash Saini - 7062398533"
-    ],
-    club: "",
-    link: "https://forms.gle/HEuBvXZLY715Cqd87"
-  },
-  {
     name: "Build a Bit",
     is_team: 1,
     max_participents: 5,
@@ -835,17 +834,17 @@ export const Events = [
     link: "https://forms.gle/4zSx14sLFHrbmqAm7"
   },
   {
-    name: "EArTH",
-    is_team: 0,
-    max_participents: 1,
-    dept: "Computer Science And Engineering",
-    description: "Fun Filled Treasure Hunt",
-    is_club: 0,
+    name: "SciTech Quiz",
+    is_team: 1,
+    max_participants: 5,
+    dept: "",
+    description: "A general quiz.",
+    is_club: 1,
     about:
-      "It is not just a treasure hunt but it is a totally fun-filled event enhancing the adventurous experiences through latest AR technologies. Roam around the campus just as you roam around in amusement parks trying different rides at different times.",
-    rules:
-      "The initial clue would be released at the starting point of the treasure hunt i.e. Penman Quadrangle.; The participants would then have to solve the riddle and traverse the path that follows.; The first one to reach the final treasure, after solving all the clues, wins the hunt.What are the restrictions?; Scanning wrong objects consecutively for more than three times would lead to a penalty of 2 minutes wait.; Anyone caught trying to fiddle with the augmented objects would be disqualified.; If 2 or more teams are found helping each other to solve a riddle then both the teams would be disqualified.; Only one member of the team has to download the application for scanning the objects. Multiple downloads per team may result in disqualification.",
-    img: "https://concetto-front.s3.ap-south-1.amazonaws.com/department3.jpg",
+      "The Quiz will be a general set which will cover topics like science, technology and earth science. It will consist of two rounds- Prelims and Finals.",
+    rules: "",
+    img:
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/events/scitech+quiz.jpg",
     prizes: "",
     fee: 0,
     start: "",
@@ -856,12 +855,13 @@ export const Events = [
       third: 10
     },
     admins: [
-      "Abhishek Raj Parmani - 9079868390",
-      "Swapnil Narayan - 7864024344",
-      "Sahil Siyag - 9829102475",
-      "Sameer Jain - 9893636504"
+      "Rudraprasad Das - 8240852831",
+      "Moin Khan - 7254857834",
+      "Harshit Garg - 9917180296",
+      "Aritra Mustafi - 9123416816",
+      "Ashutosh Sahu - 9658643682"
     ],
-    club: "",
-    link: "https://forms.gle/z21DDUtvxYVBqkPU6"
+    club: "Quiz Club",
+    link: "https://forms.gle/KH9uDs4JHqHaDeWRA"
   }
 ];
