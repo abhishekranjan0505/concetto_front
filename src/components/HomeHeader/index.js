@@ -10,12 +10,12 @@ class Header extends Component {
     this.toggleMenu = this.toggleMenu.bind(this);
   }
   toggleMenu() {
-    let scrollTop = window.pageYOffset;
+    //let scrollTop = window.pageYOffset;
     const { isMenuOpen } = this.state;
     this.setState({ isMenuOpen: !isMenuOpen });
     if (!isMenuOpen)
-      window.scrollTo(0, scrollTop + window.innerHeight / 10 + 1);
-    else window.scrollTo(0, scrollTop - window.innerHeight / 10 - 1);
+      window.scrollBy(0, window.innerHeight / 10 + 1);
+    else window.scrollBy(0, - window.innerHeight / 10 - 1);
   }
   render() {
     const { isMenuOpen } = this.state;
