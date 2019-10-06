@@ -35,6 +35,20 @@ export const CoreTeam = [
     phone: "8507359111"
   },
   {
+    name: "Vamshi Krishna",
+    post: "Marketing and Events Head",
+    pic:
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/core-team/VamshiKrishna.jpg",
+    phone: ""
+  },
+  {
+    name: "Shashwat Raj",
+    post: "Public Relations Head",
+    pic:
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/core-team/ShashwatRaj.jpg",
+    phone: ""
+  },
+  {
     name: "Vislavath Shirisha",
     post: "Exhibition Coordinator",
     pic:
@@ -63,8 +77,15 @@ export const CoreTeam = [
     phone: "9425725040"
   },
   {
+    name: "Bharadwaj Donthula",
+    post: "Graphics Designing",
+    pic:
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/core-team/BharadwajDonthula.jpg",
+    phone: ""
+  },
+  {
     name: "Perul Jain",
-    post: "Techincal Team",
+    post: "Technical Team",
     pic:
       "https://concetto-front.s3.ap-south-1.amazonaws.com/core-team/perul+jain.jpg",
     phone: "7891167889"
@@ -78,24 +99,45 @@ export const CoreTeam = [
   },
   {
     name: "Ravindra Singh Mangoliya",
-    post: "Sponsership Team",
+    post: "Sponsorship Team",
     pic:
       "https://concetto-front.s3.ap-south-1.amazonaws.com/core-team/Ravindra.jpg",
     phone: "9752288121"
   },
   {
     name: "Shreyansh Jaiswal",
-    post: "Sponsership Team",
+    post: "Sponsorship Team",
     pic:
       "https://concetto-front.s3.ap-south-1.amazonaws.com/core-team/Shreyansh.jpg",
     phone: "8770026706"
   },
   {
     name: "Vaibhav Mahajan",
-    post: "Sponsership Team",
+    post: "Sponsorship Team",
     pic:
       "https://concetto-front.s3.ap-south-1.amazonaws.com/core-team/Vaibhav.jpg",
     phone: "7385515896"
+  },
+  {
+    name: "Ankit Kumar",
+    post: "Sponsorship Team",
+    pic:
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/core-team/AnkitKumar.jpg",
+    phone: ""
+  },
+  {
+    name: "Pulkit Singh",
+    post: "Sponsorship Team",
+    pic:
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/core-team/PulkitSingh.jpg",
+    phone: ""
+  },
+  {
+    name: "Avtar Arora",
+    post: "Sponsorship & Security Team",
+    pic:
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/core-team/AvtarArora.jpg",
+    phone: ""
   },
   {
     name: "Shridhar Goel",
@@ -119,10 +161,45 @@ export const CoreTeam = [
     phone: "8409381530"
   },
   {
+    name: "Jalaj Tripathi",
+    post: "Marketing and Events",
+    pic:
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/core-team/JalajTripathi.jpg",
+    phone: ""
+  },
+  {
     name: "Polisetty Prudhvi Sai Manikanta",
     post: "Marketing and Events",
     pic:
       "https://concetto-front.s3.ap-south-1.amazonaws.com/core-team/Polisetty.jpg",
     phone: "9553876396"
-  }
+  },
+  {
+    name: "Tomar",
+    post: "Marketing and Events",
+    pic:
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/core-team/Tomar.jpg",
+    phone: ""
+  },
+  {
+    name: "Neelabh Krishna",
+    post: "Finance Team",
+    pic:
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/core-team/NeelabhKrishna.jpg",
+    phone: ""
+  },
+  {
+    name: "Parth Hetamsaria",
+    post: "Finance Team",
+    pic:
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/core-team/ParthHetamsaria.jpg",
+    phone: ""
+  },
+  {
+    name: "Sai Vishal S",
+    post: "",
+    pic:
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/core-team/SaiVishal.jpg",
+    phone: ""
+  },
 ];
