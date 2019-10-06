@@ -6,12 +6,14 @@ import { Link } from "react-router-dom";
 
 const styles = theme => ({
   container: {
+    marginTop: '200px',
+    minWidth: '1800px',
     position: "relative",
     margin: "100px",
     right: "60px"
   },
   images: {
-    right: "-90px",
+    right: "-70px",
     height: "400px",
     display: "flex",
     justifyContent: "center",
@@ -53,8 +55,8 @@ const styles = theme => ({
   },
   image3M: {},
   text: {
-    minWidth: "400px",
-    marginLeft: "160px",
+    minWidth: "500px",
+    marginLeft: "250px",
     marginTop: "50px",
     position: "relative",
     textAlign: "center",
