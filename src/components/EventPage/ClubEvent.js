@@ -29,7 +29,6 @@ class ClubEvent extends Component {
                       xmlns="http://www.w3.org/2000/svg"
                       preserveAspectRatio="xMidYMid slice"
                       focusable="false"
-                      role="img"
                     />
                   </div>
                   <div className="card-info">

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { withStyles } from "@material-ui/core/styles";
 import "../EventDetail/Styles.css";
-import Loading from "../Loading";
+// import Loading from "../Loading";
 import DepartmentEvent from "./DepartmentEvent";
 import ClubEvent from "./ClubEvent";
 import Mobileview from "./Mobileview";
