@@ -72,7 +72,7 @@ class Header extends Component {
               <li>
                 <NavLink
                   className="nav-link"
-                  to="/coming_soon"
+                  to="/coming-soon"
                   onClick={this.toggleMenu}
                 >
                   EXHIBITION
@@ -90,7 +90,7 @@ class Header extends Component {
               {/* <li>
                 <NavLink
                   className="nav-link"
-                  to="/coming_soon"
+                  to="/coming-soon"
                   onClick={this.toggleMenu}
                 >
                   CAP
@@ -99,7 +99,7 @@ class Header extends Component {
               <li>
                 <NavLink
                   className="nav-link"
-                  to="/our_team"
+                  to="/our-team"
                   onClick={this.toggleMenu}
                 >
                   OUR TEAM
@@ -108,7 +108,7 @@ class Header extends Component {
               <li>
                 <NavLink
                   className="nav-link"
-                  to="/coming_soon"
+                  to="/coming-soon"
                   onClick={this.toggleMenu}
                 >
                   GUEST TALKS

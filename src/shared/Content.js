@@ -9,7 +9,7 @@ export const HomeContent = [
       "CONCETTO-2019, the annual Techno-Management fest of IIT (ISM) Dhanbad will be organized from 18th to 20th October 2019, where every year thousands of participants from all across the country come to compete in what is called the largest technical festival of eastern India. Participants shows their talent in technical and management skills on the platform provided by CONCETTO."
   },
   {
-    link: "coming_soon",
+    link: "coming-soon",
     heading: "ENGINEERING EXHIBITION",
     image2:
       "https://concetto-front.s3.ap-south-1.amazonaws.com/events/exibition_main.jpg",
