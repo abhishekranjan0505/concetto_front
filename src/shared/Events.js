@@ -22,7 +22,7 @@ export const Events = [
       third: 10
     },
     admins: [
-      "Shambhav Goswami - 784494368",
+      "Shambhav Goswami - 7844949368",
       "Srajan Gupta - 8223060677",
       "Shantanu Rawat - 9424697088",
       "Sourav Sahu - 8825268970"
