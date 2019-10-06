@@ -40,11 +40,11 @@ class OurTeam extends Component {
             </a>{" "}
           </h2>
         ) : (
-          <h2 align="center">
+          <h2 align="center" style={{ color: "black" }}>
             <a
               href="#"
               className="highlighted"
-              style={{ borderBottom: "2px solid white" }}
+              style={{ borderBottom: "2px solid black", color: "black" }}
             >
               {" "}
               OUR TEAM{" "}

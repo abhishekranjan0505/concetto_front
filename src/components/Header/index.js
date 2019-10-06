@@ -21,14 +21,16 @@ class Header extends Component {
         className="header fixed-top"
       >
         <nav className="navbar navbar-expand-md navbar-dark">
-          <a className="navbar-brand" href="home">
-            <span className="helper"></span>
-            <img
-              src="https://concetto-front.s3.ap-south-1.amazonaws.com/logo.png"
-              className="logo-header"
-              alt={"CONCETTO"}
-            />
-          </a>
+          <NavLink to="../home" exact strict>
+            <a className="navbar-brand">
+              <span className="helper"></span>
+              <img
+                src={window.location.origin + "/images/logo.png"}
+                className="logo-header"
+                alt={"CONCETTO"}
+              />
+            </a>
+          </NavLink>
           <div id="menuToggle">
             <input
               type="checkbox"

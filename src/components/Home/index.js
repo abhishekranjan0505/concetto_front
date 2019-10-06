@@ -133,7 +133,7 @@ class Home extends Component {
         <HomeHeader></HomeHeader>
         <div className={classes.logo}>
           <img
-            src="https://concetto-front.s3.ap-south-1.amazonaws.com/logo.png"
+            src="images/logo.png"
             className={`logo logo-home`}
             ref={this.homeRef}
             alt={Loading}

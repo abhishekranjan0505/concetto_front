@@ -8,7 +8,6 @@ import { Switch, Route, Redirect, withRouter } from "react-router-dom";
 // import { fetchEvents, getEvent } from "../redux/Actions/Events";
 // import { loginUser, logoutUser, registerUser } from "../redux/Actions/Auth";
 // import { fetchUsers, editUser, editPassword } from "../redux/Actions/Users";
-import Login from "./Login";
 import EventDetail from "./EventDetail";
 import OurTeam from "./OurTeam";
 import ComingSoon from "./ComingSoon";
