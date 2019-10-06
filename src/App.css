@@ -118,7 +118,6 @@ body
      /* for scrollbar*/
   margin-left: 0px; /*25px*/
 	float: left;
-	overflow-y: scroll;
 	margin-bottom: 25px;
  }
  #thin::-webkit-scrollbar {
@@ -145,10 +144,16 @@ body
 }
 
 html,body{
-  position: relative;
-  overflow-x: hidden;
+   /* position: relative; */
+  /* overflow-x: hidden; */
 }
 
+@media (max-width: 800px){
+   html,body{
+     position: relative;
+     overflow-x: hidden;
+   }
+}
 
 .nav-link
 {
