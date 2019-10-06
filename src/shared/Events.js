@@ -834,7 +834,7 @@ export const Events = [
     link: "https://forms.gle/4zSx14sLFHrbmqAm7"
   },
   {
-    name: "SciTech Quiz",
+    name: "General Quiz",
     is_team: 1,
     max_participants: 5,
     dept: "",
