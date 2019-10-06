@@ -55,7 +55,7 @@ const styles = theme => ({
   },
   image3M: {},
   text: {
-    minWidth: "300px",
+    minWidth: "400px",
     marginLeft: "130px",
     marginTop: "50px",
     position: "relative",

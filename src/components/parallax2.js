@@ -53,7 +53,7 @@ const styles = theme => ({
   },
   image3M: {},
   text: {
-    minWidth: "300px",
+    minWidth: "400px",
     marginLeft: "160px",
     marginTop: "50px",
     position: "relative",

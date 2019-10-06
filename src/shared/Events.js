@@ -248,7 +248,9 @@ export const Events = [
     },
     admins: ["Kshitiz Goyal - 9425723040", "Ashish Shukla - 9636092918"],
     club: "",
-    link: "https://forms.gle/1XmVRrGBG9w8wz4x6"
+    link: "https://forms.gle/1XmVRrGBG9w8wz4x6",
+    pdf:
+      "https://drive.google.com/file/d/12kR1UMdaP1bMRmytQ-8Ws2q1x9gkFvD5/view?usp=sharing"
   },
   {
     name: "Magnotech",
@@ -279,7 +281,9 @@ export const Events = [
       "Rohit B. Shirude - 9370320152"
     ],
     club: "",
-    link: "https://forms.gle/sXqodMYuPgmQTiGF9"
+    link: "https://forms.gle/sXqodMYuPgmQTiGF9",
+    pdf:
+      "https://drive.google.com/file/d/1s4ZsmW5o5oneHa2BFuHaywuIMd7DOxDc/view?usp=sharing"
   },
   {
     name: "INDUSTRIAL DESIGN PROBLEM (IDP)",
@@ -309,7 +313,9 @@ export const Events = [
       "Santh Prithvi Raj - 9182473044"
     ],
     club: "",
-    link: "https://forms.gle/c64mP3BAV7hRwU338"
+    link: "https://forms.gle/c64mP3BAV7hRwU338",
+    pdf:
+      "https://drive.google.com/file/d/16rN2l-r3gAOtpoQ0y8gb6dWysZrCia8V/view?usp=sharing"
   },
   {
     name: "Rock The Wagon",
@@ -341,7 +347,9 @@ export const Events = [
       "Samiksha Umesh Patil - 9370446885"
     ],
     club: "",
-    link: "https://forms.gle/y9VyuBN7NdD1JCM9A"
+    link: "https://forms.gle/y9VyuBN7NdD1JCM9A",
+    pdf:
+      "https://drive.google.com/file/d/1sm6u5XFHFP2VaaDRI1X3Izz2Pa5LaE8K/view?usp=sharing"
   },
   {
     name: "CAD CRAFIAN",
@@ -371,7 +379,9 @@ export const Events = [
       "Akash Kumar - 7355745553"
     ],
     club: "",
-    link: "https://forms.gle/A9B67iJu9nYsWSZv7"
+    link: "https://forms.gle/A9B67iJu9nYsWSZv7",
+    pdf:
+      "https://drive.google.com/file/d/1pLWqB95tKDvZ-vWMIM8ZsHeiTZ0SAG79/view?usp=sharing"
   },
   {
     name: "CRAFT-A-VANE",
@@ -401,7 +411,9 @@ export const Events = [
       "Divya Srivastava - 6388505689"
     ],
     club: "",
-    link: "https://forms.gle/vcUdcqsD9KuTEpvFA"
+    link: "https://forms.gle/vcUdcqsD9KuTEpvFA",
+    pdf:
+      "https://drive.google.com/file/d/1ljGRnqVeNX3Z69GZ0uZQAKzr0Ffjri8x/view?usp=sharing"
   },
   {
     name: "Pirates of Terrain",
@@ -432,7 +444,9 @@ export const Events = [
       "Lakshya Attreya - 9479814055"
     ],
     club: "",
-    link: "https://forms.gle/FxjUNVggrHhqqqze6"
+    link: "https://forms.gle/FxjUNVggrHhqqqze6",
+    pdf:
+      "https://drive.google.com/file/d/1KYA2Li0X52hAOzCjVDKL8K-mjj346Aw1/view?usp=sharing"
   },
   {
     name: "EArTH",
@@ -462,7 +476,9 @@ export const Events = [
       "Sameer Jain - 9893636504"
     ],
     club: "",
-    link: "https://forms.gle/z21DDUtvxYVBqkPU6"
+    link: "https://forms.gle/z21DDUtvxYVBqkPU6",
+    pdf:
+      "https://drive.google.com/file/d/19vT0rHW8P1pg_nPze0vNkS_SI1jhVzhI/view?usp=sharing"
   },
   {
     name: "INVENTO",
@@ -493,7 +509,9 @@ export const Events = [
       "Naman Joshil - 9198637851"
     ],
     club: "",
-    link: "https://forms.gle/TYXpfXVkBNA5dJ9E8"
+    link: "https://forms.gle/TYXpfXVkBNA5dJ9E8",
+    pdf:
+      "https://drive.google.com/file/d/1J4NH0COUe7pi5ZePyVuK3fKMloNwv93P/view?usp=sharing"
   },
   {
     name: "TRUSS THE FRAME",
@@ -524,7 +542,9 @@ export const Events = [
       "Aditya Shrivastava - 8409975522"
     ],
     club: "",
-    link: "https://forms.gle/CkGPCXCKwutCsvKP9"
+    link: "https://forms.gle/CkGPCXCKwutCsvKP9",
+    pdf:
+      "https://drive.google.com/file/d/1KofkDHpuanGUU3ijq-lFBEMenKakvqk1/view?usp=sharing"
   },
   {
     name: "Tech Triathlon",
@@ -554,7 +574,9 @@ export const Events = [
       "Aditya Shrivastava - 8409975522"
     ],
     club: "",
-    link: ""
+    link: "",
+    pdf:
+      "https://drive.google.com/file/d/1-0eabA2kpdnBN2Gzk97n7tXDNyd241Ec/view?usp=sharing"
   },
   {
     name: "BEAM ENROUTE",
@@ -585,7 +607,9 @@ export const Events = [
       "Anshuman Parui - 7384955287"
     ],
     club: "",
-    link: "https://forms.gle/T4H9tLoBhPctHFxS8"
+    link: "https://forms.gle/T4H9tLoBhPctHFxS8",
+    pdf:
+      "https://drive.google.com/file/d/1k0azmAPp83MNz6OUtjXzi5b2bg_6tfdp/view?usp=sharing"
   },
   {
     name: "CHEM-E-CAR",
@@ -616,7 +640,9 @@ export const Events = [
       "Mohit Nagar - 9116801959"
     ],
     club: "",
-    link: "https://forms.gle/RZviCaTiqpTbY5r48"
+    link: "https://forms.gle/RZviCaTiqpTbY5r48",
+    pdf:
+      "https://drive.google.com/file/d/1C2iUVslvsTx2JSN4kTFDpG1JDTLVnNZI/view?usp=sharing"
   },
   {
     name: "EXTREME PROPULSION – 47",
@@ -647,7 +673,9 @@ export const Events = [
       "Anshuman Parui - 7384955287"
     ],
     club: "",
-    link: "https://forms.gle/6YCPrZ6TgjsMTh8w9"
+    link: "https://forms.gle/6YCPrZ6TgjsMTh8w9",
+    pdf:
+      "https://drive.google.com/file/d/10xs0CBuKrTRUk-gHKoAOpSfSdRdktOpp/view?usp=sharing"
   },
   {
     name: "Chem cruise",
@@ -677,7 +705,9 @@ export const Events = [
       "Jayprakash Saini - 7062398533"
     ],
     club: "",
-    link: "https://forms.gle/HEuBvXZLY715Cqd87"
+    link: "https://forms.gle/HEuBvXZLY715Cqd87",
+    pdf:
+      "https://drive.google.com/file/d/1re7FJ_rhBJVNWVi0a7uOne7byv1J15dF/view?usp=sharing"
   },
   {
     name: "EMBITREX",
@@ -709,7 +739,9 @@ export const Events = [
       "Shruti Simran - 8107898266"
     ],
     club: "",
-    link: "https://forms.gle/MeC2W3wKRKWAWhTp7"
+    link: "https://forms.gle/MeC2W3wKRKWAWhTp7",
+    pdf:
+      "https://drive.google.com/file/d/1IlJ5_ABeJMClPH1Jv-mLqSARSKpZx7ne/view?usp=sharing"
   },
   {
     name: "Buffet Money 19",
@@ -740,7 +772,9 @@ export const Events = [
       "Himalay Gupta - 8102359522"
     ],
     club: "",
-    link: "https://forms.gle/T4H9tLoBhPctHFxS8"
+    link: "https://forms.gle/T4H9tLoBhPctHFxS8",
+    pdf:
+      "https://drive.google.com/file/d/1kn2p3xP_Gz6OjkM4k8fmbPShsNQTahbo/view?usp=sharing"
   },
   {
     name: "Terra'Stellar",
@@ -770,7 +804,9 @@ export const Events = [
       "Sudeep Gupta - 9451278517"
     ],
     club: "",
-    link: "https://forms.gle/mNzRdSkLYMxA48PA7"
+    link: "https://forms.gle/mNzRdSkLYMxA48PA7",
+    pdf:
+      "https://drive.google.com/file/d/1KWQcYpDC6FNyQYnRA-p7sWdKlQMJ1xTw/view?usp=sharing"
   },
   {
     name: "The Baffling Planet",
@@ -801,7 +837,9 @@ export const Events = [
       "Lakshya Attreya - 9479814055"
     ],
     club: "",
-    link: "https://forms.gle/5KUPwPLjFd1iH9ga8"
+    link: "https://forms.gle/5KUPwPLjFd1iH9ga8",
+    pdf:
+      "https://drive.google.com/file/d/1EaKn47-0Z-7apCkBH9PBBeDAC7BV3YMT/view?usp=sharing"
   },
   {
     name: "Build a Bit",
@@ -832,7 +870,9 @@ export const Events = [
       "Sameer Jain - 9893636504"
     ],
     club: "",
-    link: "https://forms.gle/4zSx14sLFHrbmqAm7"
+    link: "https://forms.gle/4zSx14sLFHrbmqAm7",
+    pdf:
+      "https://drive.google.com/file/d/10jB4rrkn_KIFc3DFsXgDO9GXrUXv7pVZ/view?usp=sharing"
   },
   {
     name: "General Quiz",
