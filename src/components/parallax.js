@@ -160,7 +160,9 @@ class Parallax extends React.Component {
             style={{ textAlign: "center" }}
           >
             <Link to={content.link}>
-              <h1 className={classes.heading}>{content.heading}</h1>
+              <h1 className={classes.heading} style={{ color: "lightblue" }}>
+                {content.heading}
+              </h1>
             </Link>
             {content.description}
           </div>
