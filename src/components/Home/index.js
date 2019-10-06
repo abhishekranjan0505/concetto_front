@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Loading from "../Loading";
+// import Loading from "../Loading";
 import PropTypes from "prop-types";
 import { withStyles } from "@material-ui/core/styles";
 import Footer from "../Footer";
@@ -136,7 +136,7 @@ class Home extends Component {
             src="images/logo.png"
             className={`logo logo-home`}
             ref={this.homeRef}
-            alt={Loading}
+            alt={"Loading.."}
           />
         </div>
         {
