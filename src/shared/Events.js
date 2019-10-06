@@ -28,7 +28,8 @@ export const Events = [
       "Sourav Sahu - 8825268970"
     ],
     club: "ROBOISM",
-    link: "https://forms.gle/vdzkN5AgbPp8TEk77"
+    link: "https://forms.gle/vdzkN5AgbPp8TEk77",
+    pdf: "https://drive.google.com/open?id=11XvGu7VI1M_O2L0VLMw2ZVjr0NYO1ZnF"
   },
   {
     name: "Flag Your Win",
@@ -59,7 +60,8 @@ export const Events = [
       "Ankur Chourasia - 8210037651"
     ],
     club: "ROBOISM",
-    link: "https://forms.gle/AtVNNCoA1xgPXucn8"
+    link: "https://forms.gle/AtVNNCoA1xgPXucn8",
+    pdf: "https://drive.google.com/open?id=1k0p0JswdUrEgO0qP9j1hBWmfMM4uzKqF"
   },
   {
     name: "Death Race",
@@ -91,7 +93,8 @@ export const Events = [
       "Pradyumann - 7023086751"
     ],
     club: "ROBOISM",
-    link: "https://forms.gle/uXZFLVdjHg74gr9w9"
+    link: "https://forms.gle/uXZFLVdjHg74gr9w9",
+    pdf: "https://drive.google.com/open?id=1PmpYs8XW8_wkqubwsgfZDjOUg9NeIOb9"
   },
   {
     name: "Finding Chandler",
@@ -118,7 +121,8 @@ export const Events = [
     },
     admins: ["Naman Khetan - 8949093379", "Sumit Bhattacharya - 9734212678"],
     club: "Data Science Club",
-    link: "https://forms.gle/dbBXfoEt8gJvijLJ8"
+    link: "https://forms.gle/dbBXfoEt8gJvijLJ8",
+    pdf: "https://drive.google.com/open?id=1Oy7Ze7fqfJlkPbRnqLSGSKrINsZzQUrs"
   },
   {
     name: "Capture the flag",
@@ -143,7 +147,8 @@ export const Events = [
     },
     admins: ["Mayank Kumar - 9097982652", "Pawan Dogra - 8988404140"],
     club: "Cyberlabs",
-    link: "https://forms.gle/44upo8djh6gDDBsd7"
+    link: "https://forms.gle/44upo8djh6gDDBsd7",
+    pdf: "https://drive.google.com/open?id=1vXo-SZxxhBY_SreBjx8c2TfNndlOHs4P"
   },
   {
     name: "CodeYaan 1.0",
@@ -194,7 +199,8 @@ export const Events = [
     },
     admins: ["Yash Raj - 7488420275", "Aryan Prakash - 8809075447"],
     club: "CLEVR",
-    link: "https://forms.gle/oSSe8ycYfLMzsd487"
+    link: "https://forms.gle/oSSe8ycYfLMzsd487",
+    pdf: "https://drive.google.com/open?id=1zC9GoR8Fvqr9oQnx3yPew_0E2iDRRRdb"
   },
   {
     name: "Soft Alite",
@@ -864,6 +870,7 @@ export const Events = [
       "Ashutosh Sahu - 9658643682"
     ],
     club: "Quiz Club",
-    link: "https://forms.gle/KH9uDs4JHqHaDeWRA"
+    link: "https://forms.gle/KH9uDs4JHqHaDeWRA",
+    pdf: "https://drive.google.com/open?id=1AFqXn8x4sPwlm9i2Yw3jfXJrV-9mypiB"
   }
 ];
