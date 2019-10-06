@@ -3,7 +3,8 @@ export const CoreTeam = [
     name: "Prince Kunal",
     post: "Coordinator",
     pic:
-      "https://concetto-front.s3.ap-south-1.amazonaws.com/core-team/Prince+coordi.jpg",
+      // "https://concetto-front.s3.ap-south-1.amazonaws.com/core-team/Prince+coordi.jpg",
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/core-team/Prince.jpg",
     phone: "9386667625"
   },
   {
@@ -78,21 +79,21 @@ export const CoreTeam = [
   },
   {
     name: "Ravindra Singh Mangoliya",
-    post: "Sponsership Team",
+    post: "Sponsorship Team",
     pic:
       "https://concetto-front.s3.ap-south-1.amazonaws.com/core-team/Ravindra.jpg",
     phone: "9752288121"
   },
   {
     name: "Shreyansh Jaiswal",
-    post: "Sponsership Team",
+    post: "Sponsorship Team",
     pic:
       "https://concetto-front.s3.ap-south-1.amazonaws.com/core-team/Shreyansh.jpg",
     phone: "8770026706"
   },
   {
     name: "Vaibhav Mahajan",
-    post: "Sponsership Team",
+    post: "Sponsorship Team",
     pic:
       "https://concetto-front.s3.ap-south-1.amazonaws.com/core-team/Vaibhav.jpg",
     phone: "7385515896"
