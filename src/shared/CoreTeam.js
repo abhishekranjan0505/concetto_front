@@ -78,6 +78,12 @@ export const CoreTeam = [
       "https://concetto-front.s3.ap-south-1.amazonaws.com/core-team/Shreyansh.jpg"
   },
   {
+    name: "Vaibhav Mahajan",
+    post: "Sponsership Team",
+    pic:
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/core-team/Vaibhav.jpg"
+  },
+  {
     name: "Shridhar Goel",
     post: "Technical Team",
     pic:

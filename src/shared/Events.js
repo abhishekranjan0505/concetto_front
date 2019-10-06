@@ -456,7 +456,7 @@ export const Events = [
       "https://drive.google.com/file/d/1KYA2Li0X52hAOzCjVDKL8K-mjj346Aw1/view?usp=sharing"
   },
   {
-    name: "EArTH",
+    name: "EARTH",
     is_team: 0,
     max_participents: 1,
     dept: "Computer Science And Engineering",
