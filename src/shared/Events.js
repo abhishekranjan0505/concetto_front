@@ -395,7 +395,7 @@ export const Events = [
     is_team: 1,
     max_participents: 2,
     dept: "Environmental Engineering",
-    description: "",
+    description: " Participants need to make a wind wane.",
     is_club: 0,
     about: "",
     rules:
@@ -420,7 +420,7 @@ export const Events = [
     club: "",
     link: "https://forms.gle/vcUdcqsD9KuTEpvFA",
     pdf:
-      "https://drive.google.com/file/d/1ljGRnqVeNX3Z69GZ0uZQAKzr0Ffjri8x/view?usp=sharing"
+      "https://drive.google.com/file/d/1n2pb8JhjwU50GUdFL44z-7OX15ypobzQ/view?usp=sharing"
   },
   {
     name: "Pirates of Terrain",
@@ -853,7 +853,7 @@ export const Events = [
     is_team: 1,
     max_participents: 5,
     dept: "Computer Science And Engineering",
-    description: "innovate and create",
+    description: "Innovate and Create. ",
     is_club: 0,
     about:
       "The second iteration of one of the most successful events of Concetto'18 welcomes you to a part of Concetto'19.\nWe welcomes multinationals and major companies from the sector of information technology who will provide problem statements to the participating techies of Build-a-Bit. The event would stretch for a duration of around 12 hours, thus, making it an overnight event. At the end, the participants with the most efficient and innovative solutions to the provided problem statements would be declared winners. The winners would solely be decided by the visiting companies and rewarded with exciting goodies. The event has a cash prize of worth more than ?20,000. The rewards don't only end here. If impressed with the quality of skills, the winners might be given an opportunity to pursue an internship under the respective companies. So don't hold back your skills, unleash your passion for coding and participate in this thrilling event of Build-a-Bit.",
