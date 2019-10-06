@@ -222,7 +222,8 @@ export const Events = [
       "Snehasis Reddy - 9470186670"
     ],
     club: "ARKA",
-    link: "https://forms.gle/PyUsPhi9JVJw2DiC6"
+    link: "https://forms.gle/PyUsPhi9JVJw2DiC6",
+    pdf: "https://drive.google.com/open?id=1ZFRnAx-euZJZ7w-wJ_lh116KM9tps5B8"
   },
   {
     name: "Haul N Fall",
