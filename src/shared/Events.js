@@ -203,7 +203,7 @@ export const Events = [
     pdf: "https://drive.google.com/open?id=1zC9GoR8Fvqr9oQnx3yPew_0E2iDRRRdb"
   },
   {
-    name: "Soft Alite",
+    name: "Soft Alight",
     is_team: 1,
     max_participants: 4,
     dept: "",
@@ -237,11 +237,10 @@ export const Events = [
     is_team: 1,
     max_participents: 5,
     dept: "Petroleum engineering",
-    description:
-      "To lift the weights given by us without tumbling.The participants need to build a strong framework'derrick', usually pyramidal in shape and the block and tackle system, supported by the derrick.The wires in the block and tackle system shall be reeled from a reeling platform, drawn by a motor.",
+    description: "",
     is_club: 0,
     about:
-      "The event aims to test the analytical and practical knowledge of the participants to understand the effective combinations of pulleys and running lines in handling of weights.;The assembling of pulleys should be done in such a manner that the system is capable of lifting more weights in relatively less time.",
+      "The event aims to test the analytical and practical knowledge of the participants to understand the effective combinations of pulleys and running lines in handling of weights. The assembling of pulleys should be done in such a manner that the system is capable of lifting more weights in relatively less time.",
     rules: "",
     img: "https://concetto-front.s3.ap-south-1.amazonaws.com/events/petro.jpg",
     prizes: "",
@@ -265,7 +264,7 @@ export const Events = [
     max_participents: 4,
     dept: "Mineral Engineering",
     description:
-      "It involves Designing of magnetic separator modal With help of magnet. Point will be given on the basis of new idea,structure and separation efficiency of separator for given mixture of magnetic material and non magnetic material.",
+      "It involves designing a magnetic separator modal with the help of the magnet. Points will be given based on the new idea, structure and separation efficiency of separator for a given mixture of magnetic material and non-magnetic material.",
     is_club: 0,
     about: "",
     rules:
@@ -298,9 +297,10 @@ export const Events = [
     max_participents: 4,
     dept: "Mining Engineering",
     description:
-      "The desire to create Is one of the deepest yearnings of the human soul. The IDP-Industrial design problems will push the students to think beyond the conventional and to look at in different way and solve in a limited amount of time. The event is simulator which will provide the competitors with the real life environmental industrial challenges.",
+      "The desire to create is one of the deepest yearnings of the human soul. The IDP-Industrial design problems will push the students to think beyond the conventional and to look at differently and solve in a limited amount of time. The event is a simulator which will provide the competitors with the real-life environmental industrial challenges.",
     is_club: 0,
-    about: "",
+    about:
+      "The desire to create is one of the deepest yearnings of the human soul. The IDP-Industrial design problems will push the students to think beyond the conventional and to look at differently and solve in a limited amount of time. The event is a simulator which will provide the competitors with the real-life environmental industrial challenges.",
     rules:
       "Each team can consist of maximum of 4 members.;In case of any discrepancy, the decision of the judge would be binding.",
     img: "https://concetto-front.s3.ap-south-1.amazonaws.com/events/IDP.jpg",
