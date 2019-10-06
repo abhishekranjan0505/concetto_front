@@ -6,6 +6,8 @@ import { Link } from "react-router-dom";
 
 const styles = theme => ({
   container: {
+    marginTop: '200px',
+    minWidth: '1500px',
     margin: "100px",
     [theme.breakpoints.down("sm")]: {
       position: "relative"
@@ -55,7 +57,7 @@ const styles = theme => ({
   },
   image3M: {},
   text: {
-    minWidth: "400px",
+    minWidth: "500px",
     marginLeft: "130px",
     marginTop: "50px",
     position: "relative",
