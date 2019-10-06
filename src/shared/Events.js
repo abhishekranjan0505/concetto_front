@@ -168,7 +168,8 @@ export const Events = [
     },
     admins: ["Aryant Shukla - 7355691693"],
     club: "CodeISM",
-    link: "https://forms.gle/1vhdN3E4oBjmMRGEA"
+    link: "http://tiny.cc/CodeYaan",
+    pdf: "https://drive.google.com/open?id=13Sq058RE7AADvqP0myWxO9YQBDBEA9if"
   },
   {
     name: "Maestronics",
@@ -179,7 +180,7 @@ export const Events = [
     is_club: 1,
     about:
       "You were on the final stage of designing the next great processor. You got exhausted and went for a nap. When you return, you find a note lying over your circuit. Can you beat him?",
-    rules: "Refer the rulebook",
+    rules: "",
     img:
       "https://concetto-front.s3.ap-south-1.amazonaws.com/events/maestronics.jpg",
     prizes: "",
@@ -322,7 +323,7 @@ export const Events = [
     about:
       "The principle behind the making of the car should be based on spring based rocker car system that should convert stored potential energy into spring energy. By choosing proper link lengths and coupler point location,this rocker mechanism transformes spring energy into rotational motion by a connecting 'windings of thread' to wheel rod which ultimately rotates the wheels. Hence the car will start working provided further modification can be done by adding a crank between the car set up.",
     rules:
-      "There can be a maximum of 4 members and minimum of 2 members in a team. A total of 100 marks will be allotted based on quiz, design,effort and speed efficiency of the model with 30,30 and 40 marks given in the respective rounds",
+      "There can be a maximum of 4 members and minimum of 2 members in a team; A total of 100 marks will be allotted based on quiz, design,effort and speed efficiency of the model with 30,30 and 40 marks given in the respective rounds",
     img:
       "https://concetto-front.s3.ap-south-1.amazonaws.com/events/rock+the+wagon.jpg",
     prizes: "",
@@ -382,7 +383,7 @@ export const Events = [
     is_club: 0,
     about: "",
     rules:
-      "A DC Motor will be provided to the participants and the participants cannot use any other motor in their models.;Diameter of the blade must not exceed 40 cms.;Entire model must be made out of scrap materials(eg. wood and cardboard), including the blades. Use of readymade base or blades is not allowed.;Use of metal anywhere in the model is not allowed",
+      "A DC Motor will be provided to the participants and the participants cannot use any other motor in their models.;Diameter of the blade must not exceed 40 cms.;Entire model must be made out of scrap materials(eg. wood and cardboard), including the blades.; Use of readymade base or blades is not allowed.;Use of metal anywhere in the model is not allowed",
     img:
       "https://concetto-front.s3.ap-south-1.amazonaws.com/events/craft+a+vane.jpg",
     prizes: "",
@@ -444,7 +445,7 @@ export const Events = [
     about:
       "It is not just a treasure hunt but it is a totally fun-filled event enhancing the adventurous experiences through latest AR technologies. Roam around the campus just as you roam around in amusement parks trying different rides at different times.",
     rules:
-      "The initial clue would be released at the starting point of the treasure hunt i.e. Penman Quadrangle.; The participants would then have to solve the riddle and traverse the path that follows.; The first one to reach the final treasure, after solving all the clues, wins the hunt.What are the restrictions?; Scanning wrong objects consecutively for more than three times would lead to a penalty of 2 minutes wait.; Anyone caught trying to fiddle with the augmented objects would be disqualified.; If 2 or more teams are found helping each other to solve a riddle then both the teams would be disqualified.; Only one member of the team has to download the application for scanning the objects. Multiple downloads per team may result in disqualification.",
+      "The initial clue would be released at the starting point of the treasure hunt i.e. Penman Quadrangle.; The participants would then have to solve the riddle and traverse the path that follows.; The first one to reach the final treasure, after solving all the clues, wins the hunt; Scanning wrong objects consecutively for more than three times would lead to a penalty of 2 minutes wait.; Anyone caught trying to fiddle with the augmented objects would be disqualified.; If 2 or more teams are found helping each other to solve a riddle then both the teams would be disqualified.; Only one member of the team has to download the application for scanning the objects. Multiple downloads per team may result in disqualification.",
     img: "https://concetto-front.s3.ap-south-1.amazonaws.com/department3.jpg",
     prizes: "",
     fee: 0,
@@ -505,7 +506,7 @@ export const Events = [
     is_club: 0,
     about:
       "This is a team event. With the help of the given hints and circuit components provided, the teams have to design and implement a circuit and explain its working.",
-    rules: "Refer the manual",
+    rules: "",
     img:
       "https://concetto-front.s3.ap-south-1.amazonaws.com/events/Truss+The+Frame_main.jpg",
     prizes: "",
@@ -597,7 +598,7 @@ export const Events = [
     is_club: 0,
     about:
       "The energy obtained from conventional source is limited and therefore we are in a dire need of renewable and efficient sources of energy. Hence the major focus of this generation is to explore the use of alternative sources of energy to meet our ever-increasing energy demands.",
-    rules: "Refer Manual;",
+    rules: "",
     img:
       "https://concetto-front.s3.ap-south-1.amazonaws.com/events/chem+o+car.jpg",
     prizes: "",
@@ -658,7 +659,7 @@ export const Events = [
     is_club: 0,
     about:
       "It is a game in which a set of cards are given to the participants. Each card having different symbol of elements and candidates have to complete the chemical equation by arranging these cards according to the task given. If the reaction equation is completely arranged , they would be shortlisted basing upon less time taken and calculate correct amount(moles) of chemicals required.",
-    rules: "Refer Manual",
+    rules: "",
     img:
       "https://concetto-front.s3.ap-south-1.amazonaws.com/events/chem+cruise.jpg",
     prizes: "",
@@ -835,7 +836,7 @@ export const Events = [
     link: "https://forms.gle/4zSx14sLFHrbmqAm7"
   },
   {
-    name: "SciTech Quiz",
+    name: "General Quiz",
     is_team: 1,
     max_participants: 5,
     dept: "",
