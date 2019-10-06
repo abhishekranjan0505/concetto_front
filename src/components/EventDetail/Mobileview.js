@@ -102,9 +102,9 @@ class Mobileview extends Component {
               REGISTER
             </div>
           </ExpansionPanelSummary>
-          <ExpansionPanelDetails>
+          <ExpansionPanelDetails style={{ paddingLeft: "35%" }}>
             <a href={event.link} target="_#">
-              <button type="button" style={{marginLeft: "100%"}} className="btn btn-primary btn-lg">
+              <button type="button" className="btn btn-primary btn-lg">
                 REGISTER
               </button>
             </a>
