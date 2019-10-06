@@ -627,7 +627,7 @@ export const Events = [
       "The energy obtained from conventional source is limited and therefore we are in a dire need of renewable and efficient sources of energy.",
     is_club: 0,
     about:
-      "The energy obtained from conventional source is limited and therefore we are in a dire need of renewable and efficient sources of energy. Hence the major focus of this generation is to explore the use of alternative sources of energy to meet our ever-increasing energy demands.",
+      "The energy obtained from conventional sources is not expected to last long considering the present day requirements. Thus there is an urgent requirement to find alternative sources. Keeping all this in mind, this event provides you with an opportunity to design a small chemically powered car. You need to safely control and harness the energy of a chemical reaction and use it to make your chem-e-car run while carrying a payload.",
     rules: "",
     img:
       "https://concetto-front.s3.ap-south-1.amazonaws.com/events/chem+o+car.jpg",
