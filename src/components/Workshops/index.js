@@ -17,6 +17,7 @@ class Workshops extends Component {
             textAlign: "center",
             marginTop: "15px"
           }}
+          className="title"
         >
           WORKSHOPS
         </h1>
