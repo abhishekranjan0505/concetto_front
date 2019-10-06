@@ -179,7 +179,7 @@ export const Events = [
     is_club: 1,
     about:
       "You were on the final stage of designing the next great processor. You got exhausted and went for a nap. When you return, you find a note lying over your circuit. Can you beat him?",
-    rules: "",
+    rules: "Refer the rulebook",
     img:
       "https://concetto-front.s3.ap-south-1.amazonaws.com/events/maestronics.jpg",
     prizes: "",
