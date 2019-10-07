@@ -76,7 +76,8 @@ class Home extends Component {
     window.scrollTo(0, 0);
     // this.setState({ x: window.scrollY });
     window.addEventListener("scroll", this.handleScroll);
-    document.body.style.paddingBottom = "38vh";
+    if (window.innerHeight < 670) document.body.style.paddingBottom = "38vh";
+    else document.body.style.paddingBottom = "30vh";
   }
   componentWillUnmount() {
     // this.props.makeShowLogo();
