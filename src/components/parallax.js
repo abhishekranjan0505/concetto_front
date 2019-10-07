@@ -155,14 +155,14 @@ class Parallax extends React.Component {
             className={
               window.innerWidth > 800
                 ? classNames(classes.text, "col-12 col-md-3")
-                : classNames("col-12 col-md-3")
+                : classNames("row")
             }
             style={{ textAlign: "center" }}
           >
-            <Link to={content.link} className={" title"}>
-              <h1 style={{ color: "lightblue" }}>{content.heading}</h1>
+            <Link to={content.link} className={window.innerWidth<800?"col-12 title":"title"}>
+              <h1 style={window.innerWidth>800?{color:"lightblue"}:{ color: "lightblue",fontSize:'1.75em' }}>{content.heading}</h1>
             </Link>
-            {content.description}
+            <p className={window.innerWidth<800?"col-12":""}>{content.description}</p>
           </div>
         </div>
       </div>
