@@ -136,10 +136,6 @@ class Home extends Component {
       this.setState({ previous_scroll: scrollTop });
   };
 
-  // handleScroll1 = event => {
-  //   this.setState({ x: window.scrollY });
-  // };
-
   scrollDown() {
     window.scrollTo(0, window.innerHeight);
   }
