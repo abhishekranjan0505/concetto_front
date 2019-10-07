@@ -15,7 +15,7 @@ class Workshops extends Component {
         <h1
           style={{
             textAlign: "center",
-            marginTop: "15px"
+            marginTop: "20px"
           }}
           className="title"
         >

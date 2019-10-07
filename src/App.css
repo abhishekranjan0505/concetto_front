@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Grenze&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Atomic+Age&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Atomic+Age&display=swap'); */
+@import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
 
 .row-header {
   margin: 0px auto;
   padding: 0px auto;
+}
+
+a, a:hover{
+color: lightseagreen;
 }
 
 .row-content {
@@ -376,7 +381,8 @@ box-shadow: none;
 
 .title{
   color: lightblue;
-  font-family: "Atomic Age",Arial, Helvetica, sans-serif;
+  font-family: "Orbitron", Helvetica, sans-serif;
+  text-shadow: 2px 2px 2px #aaa;
   /* font-size: 2.2rem; */
   /* text-shadow: 2px 2px 2px #aaa; */
 }
