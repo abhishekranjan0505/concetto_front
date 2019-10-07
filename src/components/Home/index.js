@@ -40,21 +40,35 @@ const styles = theme => ({
 class Home extends Component {
   constructor(props) {
     super(props);
-    if (window.innerWidth < 1400) {
-      initial_offset = 52;
-      max_offset = 62;
-    } else if (window.innerWidth < 1700) {
-      initial_offset = 42;
+    if (window.innerHeight < 450) {
+      initial_offset = 110;
+      max_offset = 130;
+    } else if (window.innerHeight < 600) {
+      initial_offset = 80;
+      max_offset = 90;
+    } else if (window.innerHeight < 670) {
+      initial_offset = 58;
+      max_offset = 68;
+    } else if (window.innerHeight < 745) {
+      initial_offset = 54;
+      max_offset = 64;
+    } else if (window.innerHeight < 850) {
+      initial_offset = 50;
+      max_offset = 56;
+    } else if (window.innerHeight < 910) {
+      initial_offset = 47;
       max_offset = 52;
     } else {
-      initial_offset = 35;
-      max_offset = 44;
+      initial_offset = 38;
+      max_offset = 43;
     }
     this.state = {
       offset: initial_offset,
       header: false,
-      x: 0
+      x: 0,
+      previous_scroll: 0
     };
+    // console.log(window.innerHeight);
     this.homeRef = React.createRef();
   }
   componentDidMount() {
@@ -73,7 +87,7 @@ class Home extends Component {
 
   handleScroll = event => {
     let scrollTop = window.pageYOffset;
-    const { offset, header } = this.state;
+    const { offset, header, previous_scroll } = this.state;
     if (window.innerWidth > 800) this.setState({ x: window.scrollY });
     if (scrollTop > window.innerHeight / 10) {
       if (!header) {
@@ -85,7 +99,7 @@ class Home extends Component {
           this.homeRef.current.classList.toggle("logo-header");
         }
       }
-      if (offset !== max_offset) {
+      if (offset <= max_offset) {
         this.setState({
           offset: max_offset
         });
@@ -100,10 +114,24 @@ class Home extends Component {
           this.homeRef.current.classList.toggle("logo-home");
         }
       }
-      this.setState({
-        offset: initial_offset + (scrollTop / window.innerHeight) * 100
-      });
+      if (scrollTop <= previous_scroll) {
+        this.setState({
+          offset:
+            max_offset -
+            ((max_offset - initial_offset) *
+              (window.innerHeight / 10 - scrollTop)) /
+              (window.innerHeight / 10)
+        });
+      } else {
+        this.setState({
+          offset:
+            initial_offset +
+            ((max_offset - initial_offset) * scrollTop) /
+              (window.innerHeight / 10)
+        });
+      }
     }
+    this.setState({ previous_scroll: scrollTop });
   };
 
   // handleScroll1 = event => {
