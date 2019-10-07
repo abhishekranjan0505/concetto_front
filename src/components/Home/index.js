@@ -131,7 +131,8 @@ class Home extends Component {
         });
       }
     }
-    this.setState({ previous_scroll: scrollTop });
+    if (previous_scroll < window.innerHeight / 10 + 5)
+      this.setState({ previous_scroll: scrollTop });
   };
 
   // handleScroll1 = event => {

@@ -3,7 +3,7 @@ export const Events = [
     name: "ROBOWARS",
     is_team: 1,
     max_participants: 5,
-    about: " ",
+    about: "",
     dept: null,
     description:
       "To Build a Wired/Wireless, Manually controlled robot capable of subduing its opponent.",
@@ -56,8 +56,8 @@ export const Events = [
     admins: [
       "Jyothi Swaroop - 9381070838",
       "Abhishek Das - 9602624394",
-      "Eric John - 9570093144",
-      "Ankur Chourasia - 8210037651"
+      "Aayushman Mishra - 7050069256",
+      "Pradyumna Gupta - 7023086751"
     ],
     club: "RoboISM",
     link: "https://forms.gle/AtVNNCoA1xgPXucn8",
@@ -89,8 +89,8 @@ export const Events = [
     admins: [
       "Suddunuri Sandeep - 9381334004",
       "Harshit Jain - 9302267426",
-      "Aayushmaan Mishra - 7050069256",
-      "Pradyumann - 7023086751"
+      "Eric John - 9570093144",
+      "Ankur Chourasia - 8210037651"
     ],
     club: "RoboISM",
     link: "https://forms.gle/uXZFLVdjHg74gr9w9",
