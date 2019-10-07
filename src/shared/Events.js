@@ -226,7 +226,7 @@ export const Events = [
     admins: [
       "GS Rehan - 7737662383",
       "Shubham Kumar - 7254922359",
-      "Snehasis Reddy - 9470186670"
+      "Snehasis Addy - 9470186670"
     ],
     club: "ARKA",
     link: "https://forms.gle/PyUsPhi9JVJw2DiC6",
