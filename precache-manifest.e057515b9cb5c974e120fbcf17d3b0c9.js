@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cd07e153dfa3f29057f9674aa9280166",
+    "revision": "65f8ef460c45eea5d0b778eae7a1a9f7",
     "url": "/concetto_front/index.html"
   },
   {
-    "revision": "7c9c49acb0c766351e8e",
+    "revision": "ea70914c5a8c74820edf",
     "url": "/concetto_front/static/css/2.8dad266e.chunk.css"
   },
   {
-    "revision": "9437d91a763345a6bbfa",
-    "url": "/concetto_front/static/css/main.4d9cb9b5.chunk.css"
+    "revision": "70104aa96c38b4c9d42d",
+    "url": "/concetto_front/static/css/main.3176a997.chunk.css"
   },
   {
-    "revision": "7c9c49acb0c766351e8e",
-    "url": "/concetto_front/static/js/2.978d68b9.chunk.js"
+    "revision": "ea70914c5a8c74820edf",
+    "url": "/concetto_front/static/js/2.a27f593c.chunk.js"
   },
   {
-    "revision": "9437d91a763345a6bbfa",
-    "url": "/concetto_front/static/js/main.08557425.chunk.js"
+    "revision": "70104aa96c38b4c9d42d",
+    "url": "/concetto_front/static/js/main.4ec73eca.chunk.js"
   },
   {
     "revision": "e28ebcf85a03301da02a",
@@ -42,9 +42,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fee66e712a8a08eef5805a46892932ad",
     "url": "/concetto_front/static/media/fontawesome-webfont.fee66e71.woff"
-  },
-  {
-    "revision": "e4ce1b3e24acba6d834dff2948fe718e",
-    "url": "/concetto_front/static/media/login_bg.e4ce1b3e.jpg"
   }
 ]);
