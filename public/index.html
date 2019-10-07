@@ -1,6 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <style>
+      body {
+        background: #000000;
+      }
+      body .vertical-centered-box {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+      }
+      body .vertical-centered-box:after {
+        content: "";
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle;
+        margin-right: -0.25em;
+      }
+      body .vertical-centered-box .content {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        display: inline-block;
+        vertical-align: middle;
+        text-align: left;
+        font-size: 0;
+      }
+    </style>
     <meta charset="utf-8" />
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -28,7 +55,13 @@
   </head>
   <body id="thin" style="overflow-x: hidden">
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+    <div id="root">
+      <div class="vertical-centered-box">
+        <div class="content">
+          <img src="./composition-logo.gif" class="loading-image" />
+        </div>
+      </div>
+    </div>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
