@@ -27,6 +27,11 @@
         text-align: left;
         font-size: 0;
       }
+      @media (max-width: 635px) {
+        .loading-image {
+          width: 90vw;
+        }
+      }
     </style>
     <meta charset="utf-8" />
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
@@ -51,14 +56,14 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>Concetto</title>
-    <link href="./background.css" rel="stylesheet" type="text/css" />
+    <!-- <link href="./background.css" rel="stylesheet" type="text/css" /> -->
   </head>
   <body id="thin" style="overflow-x: hidden">
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root">
       <div class="vertical-centered-box">
         <div class="content">
-          <img src="./composition-logo.gif" class="loading-image" />
+          <img src="./pre-loader.gif" class="loading-image" />
         </div>
       </div>
     </div>

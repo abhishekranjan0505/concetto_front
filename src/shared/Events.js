@@ -809,7 +809,7 @@ export const Events = [
       "Himalay Gupta - 8102359522"
     ],
     club: "",
-    link: "https://forms.gle/T4H9tLoBhPctHFxS8",
+    link: "https://forms.gle/qHk5LnjGPygrLhyc9",
     pdf:
       "https://drive.google.com/file/d/1kn2p3xP_Gz6OjkM4k8fmbPShsNQTahbo/view?usp=sharing"
   },
