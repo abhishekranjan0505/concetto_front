@@ -61,7 +61,8 @@ export const Events = [
     ],
     club: "RoboISM",
     link: "https://forms.gle/AtVNNCoA1xgPXucn8",
-    pdf: "https://drive.google.com/file/d/1hqOCFJ8_UZIoVu70Xe_YAabGcEwbRL8B/view?usp=sharing"
+    pdf:
+      "https://drive.google.com/file/d/1hqOCFJ8_UZIoVu70Xe_YAabGcEwbRL8B/view?usp=sharing"
   },
   {
     name: "Death Race",
@@ -183,7 +184,8 @@ export const Events = [
     dept: "",
     description: "An Electronic Hunt",
     is_club: 1,
-    about: "You were in the final stage of designing the next great processor. You got exhausted and went for a nap. When you return, you see someone has left a note for you!\nThe excitement of being the next great thing in the industry is clouded by anxiety. It\'s time to get your neurons buzzing as you are running out of time! \nCan you outwit the riddler?",
+    about:
+      "You were in the final stage of designing the next great processor. You got exhausted and went for a nap. When you return, you see someone has left a note for you!\nThe excitement of being the next great thing in the industry is clouded by anxiety. It's time to get your neurons buzzing as you are running out of time! \nCan you outwit the riddler?",
     rules: "",
     img:
       "https://concetto-front.s3.ap-south-1.amazonaws.com/events/maestronics.jpg",
@@ -196,10 +198,17 @@ export const Events = [
       second: 30,
       third: 10
     },
-    admins: ["Yash Raj - 7488420275", "Ayan Prakash - 8809075447","Saket Gupta - 9974928447","Avinash - 9794723866","Udit Khemka - 8009383745"],
+    admins: [
+      "Yash Raj - 7488420275",
+      "Ayan Prakash - 8809075447",
+      "Saket Gupta - 9974928447",
+      "Avinash - 9794723866",
+      "Udit Khemka - 8009383745"
+    ],
     club: "CLEVR",
     link: "https://forms.gle/oSSe8ycYfLMzsd487",
-    pdf: "https://docs.google.com/document/d/1sfHekZQr51ms1Q5hERrcaYMQyhTWVpbn4fNS1VJdRkQ/edit?usp=sharing"
+    pdf:
+      "https://docs.google.com/document/d/1sfHekZQr51ms1Q5hERrcaYMQyhTWVpbn4fNS1VJdRkQ/edit?usp=sharing"
   },
   {
     name: "Bizathon",
