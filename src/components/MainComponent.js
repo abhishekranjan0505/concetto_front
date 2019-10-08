@@ -46,7 +46,7 @@ class Main extends Component {
       header: false,
       preloader: true,
       delayed: false,
-      events: Events
+      events: Events,
     };
     this.makeShowLogo = this.makeShowLogo.bind(this);
     this.hideLogo = this.hideLogo.bind(this);
@@ -83,7 +83,7 @@ class Main extends Component {
   };
 
   render() {
-    const { events } = this.state;
+    const { events, departmental, clubEvents } = this.state;
     const EventWithName = ({ match }) => {
       let selectedEvent = events.filter(
         event => event.name === match.params.eventName
@@ -201,11 +201,25 @@ class Main extends Component {
           <Route exact path="/coming-soon" component={() => <ComingSoon />} />
           <Route exact path="/workshops" component={() => <Workshops />} />
           <Route exact path="/about-theme" component={() => <AboutTheme />} />
-          <Route
+          {/* <Route
             exact
             path="/events"
             component={() => (
-              <EventPage events={events} auth={this.props.auth} />
+              <EventPage events={events} active={0} auth={this.props.auth} />
+            )}
+          /> */}
+          <Route
+            exact
+            path="/department-events"
+            component={() => (
+              <EventPage events={events} active={0}auth={this.props.auth} />
+            )}
+          />
+          <Route
+            exact
+            path="/club-events"
+            component={() => (
+              <EventPage events={events} active={1} auth={this.props.auth} />
             )}
           />
           <Route path="/events/:eventName" component={EventWithName} />
