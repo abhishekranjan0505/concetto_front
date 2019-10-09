@@ -9,7 +9,7 @@ const styles = theme => ({
     margin: "100px",
     [theme.breakpoints.down("sm")]: {
       position: "relative",
-      margin: '40px',
+      margin: "40px"
       // right: "10px"
     }
   },
@@ -21,7 +21,7 @@ const styles = theme => ({
     alignItems: "center",
     transition: "all 0.3s linear",
     padding: 0,
-    position: "relative",
+    position: "relative"
   },
   image1: {
     height: "60%",
@@ -35,7 +35,7 @@ const styles = theme => ({
     padding: 0
   },
   image1M: {
-      marginBottom: '30px',
+    marginBottom: "30px"
   },
   image2: {
     position: "relative",
@@ -111,56 +111,52 @@ class Parallax extends React.Component {
                   : classNames(classes.image1M, "col-12")
               }
             />
-            {
-            window.innerWidth>800?
-            <img
-              style={
-                window.innerWidth > 800
-                  ? {
-                      transform: `translateY(${(-this.parentOffsetTop + x) /
-                        16}px)`
-                    }
-                  : null
-              }
-              src={content.image2}
-              alt="Loading..."
-              className={
-                window.innerWidth > 600
-                  ? classNames(
-                      classes.image2,
-                      "col-offset-2 col-8 col-md-3",
-                      "image2"
-                    )
-                  : classNames(classes.image2M, "col-4")
-              }
-            />
-            : null
-            }
-            {
-            window.innerWidth>800?
-            <img
-              style={
-                window.innerWidth > 800
-                  ? {
-                      transform: `translateY(${-(-this.parentOffsetTop + x) /
-                        2}px)`
-                    }
-                  : null
-              }
-              src={content.image3}
-              alt="Loading..."
-              className={
-                window.innerWidth > 800
-                  ? classNames(
-                      classes.image3,
-                      "col-offset-2 col-8 col-md-2",
-                      "image3"
-                    )
-                  : classNames(classes.image3M, "col-4")
-              }
-            />
-            : null
-            }
+            {window.innerWidth > 800 ? (
+              <img
+                style={
+                  window.innerWidth > 800
+                    ? {
+                        transform: `translateY(${(-this.parentOffsetTop + x) /
+                          16}px)`
+                      }
+                    : null
+                }
+                src={content.image2}
+                alt="Loading..."
+                className={
+                  window.innerWidth > 600
+                    ? classNames(
+                        classes.image2,
+                        "col-offset-2 col-8 col-md-3",
+                        "image2"
+                      )
+                    : classNames(classes.image2M, "col-4")
+                }
+              />
+            ) : null}
+            {window.innerWidth > 800 ? (
+              <img
+                style={
+                  window.innerWidth > 800
+                    ? {
+                        transform: `translateY(${-(-this.parentOffsetTop + x) /
+                          2}px)`
+                      }
+                    : null
+                }
+                src={content.image3}
+                alt="Loading..."
+                className={
+                  window.innerWidth > 800
+                    ? classNames(
+                        classes.image3,
+                        "col-offset-2 col-8 col-md-2",
+                        "image3"
+                      )
+                    : classNames(classes.image3M, "col-4")
+                }
+              />
+            ) : null}
           </div>
           <div
             className={
@@ -171,7 +167,9 @@ class Parallax extends React.Component {
             style={{ textAlign: "center" }}
           >
             <Link to={content.link} className={" title"}>
-              <h1 style={{ color: "lightblue" }} className="title">{content.heading}</h1>
+              <h1 style={{ color: "lightblue" }} className="title">
+                {content.heading}
+              </h1>
             </Link>
             {content.description}
           </div>
