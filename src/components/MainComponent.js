@@ -87,7 +87,7 @@ class Main extends Component {
     const { events } = this.state;
     const EventWithName = ({ match }) => {
       let selectedEvent = events.filter(
-        event => event.name === match.params.eventName
+        event => event.name.split(" ").join("-") === match.params.eventName
       )[0];
       // let notFoundErr = null;
       if (selectedEvent === undefined) {
