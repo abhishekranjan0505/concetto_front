@@ -8,7 +8,8 @@ const styles = theme => ({
   container: {
     margin: "100px",
     [theme.breakpoints.down("sm")]: {
-      position: "relative"
+      position: "relative",
+      margin: '40px',
       // right: "10px"
     }
   },
@@ -20,7 +21,7 @@ const styles = theme => ({
     alignItems: "center",
     transition: "all 0.3s linear",
     padding: 0,
-    position: "relative"
+    position: "relative",
   },
   image1: {
     height: "60%",
@@ -33,7 +34,9 @@ const styles = theme => ({
     margin: 0,
     padding: 0
   },
-  image1M: {},
+  image1M: {
+      marginBottom: '30px',
+  },
   image2: {
     position: "relative",
     padding: 0,
@@ -105,9 +108,11 @@ class Parallax extends React.Component {
                       "col-offset-2 col-8 col-md-2",
                       "image1"
                     )
-                  : classNames(classes.image1M, "col-4")
+                  : classNames(classes.image1M, "col-12")
               }
             />
+            {
+            window.innerWidth>800?
             <img
               style={
                 window.innerWidth > 800
@@ -129,6 +134,10 @@ class Parallax extends React.Component {
                   : classNames(classes.image2M, "col-4")
               }
             />
+            : null
+            }
+            {
+            window.innerWidth>800?
             <img
               style={
                 window.innerWidth > 800
@@ -150,6 +159,8 @@ class Parallax extends React.Component {
                   : classNames(classes.image3M, "col-4")
               }
             />
+            : null
+            }
           </div>
           <div
             className={
