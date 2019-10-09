@@ -86,9 +86,9 @@ class Main extends Component {
   render() {
     const { events } = this.state;
     const EventWithName = ({ match }) => {
-      let selectedEvent = events.filter(
-        event => event.name === match.params.eventName
-      )[0];
+      let matchName = match.params.eventName.split("-").join(" ");
+      console.log(matchName);
+      let selectedEvent = events.filter(event => event.name === matchName)[0];
       // let notFoundErr = null;
       if (selectedEvent === undefined) {
         return <ComingSoon />;
