@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
-class DepatmentEvent extends Component {
+class DepartmentEvent extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
   }
@@ -13,7 +13,7 @@ class DepatmentEvent extends Component {
         {events.map((event, id) => {
           return (
             <div className="cards">
-              <div className="card-item">
+              <div className="card-item" key={event.name}>
                 <Link
                   to={`department-events/${event.name.split(" ").join("-")}`}
                   style={{ textDecoration: "none" }}
@@ -49,4 +49,4 @@ class DepatmentEvent extends Component {
     );
   }
 }
-export default DepatmentEvent;
+export default DepartmentEvent;
