@@ -213,13 +213,23 @@ class Main extends Component {
         /> */}
         <Switch location={this.props.location}>
           <Route
+            path={"/sitemap.xml"}
+            component={({ match }) => (
+              <Redirect
+                to={{
+                  pathname: `sitemap.xml`
+                }}
+              />
+            )}
+          />
+          />
+          <Route
             exact
             path="/home"
             component={() => (
               <Home makeShowLogo={this.makeShowLogo} hideLogo={this.hideLogo} />
             )}
           />
-
           {/* <Route
             exact
             path="/events/eventDetail"
