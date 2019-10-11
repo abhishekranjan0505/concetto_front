@@ -113,6 +113,20 @@ export const CoreTeam = [
     phone: "8239310248"
   },
   {
+    name: "Laraibzemam A Ansari",
+    post: "Promotion Team",
+    pic:
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/core-team/Iarib.jpg",
+    phone: "7470268955"
+  },
+  {
+    name: "Rajshekhar Dutta Choudhury",
+    post: "Promotion Team",
+    pic:
+      "https://concetto-front.s3.ap-south-1.amazonaws.com/core-team/RD_choudhary.jpg",
+    phone: "7002100742"
+  },
+  {
     name: "Ravindra Singh Mangoliya",
     post: "Sponsorship Team",
     pic:
