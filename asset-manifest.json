@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/concetto_front/static/css/main.7fbb9365.chunk.css",
-    "main.js": "/concetto_front/static/js/main.923deb9e.chunk.js",
-    "main.js.map": "/concetto_front/static/js/main.923deb9e.chunk.js.map",
+    "main.css": "/concetto_front/static/css/main.ecfd2117.chunk.css",
+    "main.js": "/concetto_front/static/js/main.a996f1af.chunk.js",
+    "main.js.map": "/concetto_front/static/js/main.a996f1af.chunk.js.map",
     "runtime-main.js": "/concetto_front/static/js/runtime-main.d0636af7.js",
     "runtime-main.js.map": "/concetto_front/static/js/runtime-main.d0636af7.js.map",
-    "static/css/2.8dad266e.chunk.css": "/concetto_front/static/css/2.8dad266e.chunk.css",
-    "static/js/2.348b0068.chunk.js": "/concetto_front/static/js/2.348b0068.chunk.js",
-    "static/js/2.348b0068.chunk.js.map": "/concetto_front/static/js/2.348b0068.chunk.js.map",
+    "static/css/2.50822015.chunk.css": "/concetto_front/static/css/2.50822015.chunk.css",
+    "static/js/2.63c2f22a.chunk.js": "/concetto_front/static/js/2.63c2f22a.chunk.js",
+    "static/js/2.63c2f22a.chunk.js.map": "/concetto_front/static/js/2.63c2f22a.chunk.js.map",
     "index.html": "/concetto_front/index.html",
-    "precache-manifest.cb9ae1f7685808e7cf16e0d3de69ee95.js": "/concetto_front/precache-manifest.cb9ae1f7685808e7cf16e0d3de69ee95.js",
+    "precache-manifest.2004f31b5836237b3c88274abb226724.js": "/concetto_front/precache-manifest.2004f31b5836237b3c88274abb226724.js",
     "service-worker.js": "/concetto_front/service-worker.js",
-    "static/css/2.8dad266e.chunk.css.map": "/concetto_front/static/css/2.8dad266e.chunk.css.map",
-    "static/css/main.7fbb9365.chunk.css.map": "/concetto_front/static/css/main.7fbb9365.chunk.css.map",
+    "static/css/2.50822015.chunk.css.map": "/concetto_front/static/css/2.50822015.chunk.css.map",
+    "static/css/main.ecfd2117.chunk.css.map": "/concetto_front/static/css/main.ecfd2117.chunk.css.map",
     "static/media/font-awesome.css": "/concetto_front/static/media/fontawesome-webfont.fee66e71.woff"
   }
 }
