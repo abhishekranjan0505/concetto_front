@@ -48,19 +48,22 @@
           width: 90vw;
         }
       }
+      video {
+        pointer-events: none;
+      }
     </style>
     <meta charset="utf-8" />
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="UTF-8" />
-    <meta
+    <!-- <meta
       name="description"
       content="Concetto is one of the largest Techno-management fest of IIT (ISM) Dhanbad in Eastern India with a massive participation of more than 2000 participants from 300 different colleges and institutes, who stalk the grounds of ISM to prove their technical expertise."
     />
     <meta
       name="keywords"
       content="iit ism dhanbad techfest, iit dhanbad techfest,Concetto,Concetto 19,Concetto 2019,Concetto 2k19,Concetto IIT,Concetto IIT (ISM) DHANBAD,Concetto IIT ISM,Concetto techfest,Concetto tecnical fest, Concetto 2019-2020, Concetto tech fest 19,Concetto tech fest 2019,IIT ISM, IIT (ISM) DHANBAD, events, exhibition, Workshops,Techno-management fest"
-    />
+    /> -->
     <meta name="author" content="IIT (ISM) DHANBAD" />
     <meta name="theme-color" content="#000000" />
     <!--
@@ -85,7 +88,14 @@
     <div id="root">
       <div class="vertical-centered-box">
         <div class="content">
-          <img src="./pre-loader.gif" class="loading-image" />
+          <video autoplay loop class="loading-image">
+            <source
+              src="https://concetto-front.s3.ap-south-1.amazonaws.com/pre-loader.webm"
+              class="loading-image"
+              type="video/webm"
+            />
+            Loading ....
+          </video>
         </div>
       </div>
     </div>
