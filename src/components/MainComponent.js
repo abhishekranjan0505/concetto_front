@@ -231,7 +231,7 @@ class Main extends Component {
           <Route exact path="/our-team" component={() => <OurTeam />} />
           <Route exact path="/coming-soon" component={() => <ComingSoon />} />
           <Route exact path="/workshops" component={() => <Workshops />} />
-          <Route exact path="/about-theme" component={() => <AboutTheme />} />
+          <Route exact path="/about-us" component={() => <AboutTheme />} />
           <Route exact path="/guest-talks" component={() => <GuestTalk />} />
           {/* <Route
             exact
