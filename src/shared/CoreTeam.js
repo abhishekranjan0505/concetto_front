@@ -142,7 +142,7 @@ export const CoreTeam = [
   },
   {
     name: "Avtar Arora",
-    post: "Sponsorship & Security Team",
+    post: "Security Team",
     pic:
       "https://concetto-front.s3.ap-south-1.amazonaws.com/core-team/AvtarArora.jpg",
     phone: "8193814303"

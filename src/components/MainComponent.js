@@ -13,7 +13,7 @@ import OurTeam from "./OurTeam";
 import ComingSoon from "./ComingSoon";
 import { Events } from "../shared/Events";
 import Workshops from "./Workshops";
-import AboutTheme from "./AboutTheme";
+import AboutUs from "./AboutUs";
 import GuestTalk from "./GuestTalks";
 
 // const mapStateToProps = state => {
@@ -231,7 +231,7 @@ class Main extends Component {
           <Route exact path="/our-team" component={() => <OurTeam />} />
           <Route exact path="/coming-soon" component={() => <ComingSoon />} />
           <Route exact path="/workshops" component={() => <Workshops />} />
-          <Route exact path="/about-us" component={() => <AboutTheme />} />
+          <Route exact path="/about-us" component={() => <AboutUs />} />
           <Route exact path="/guest-talks" component={() => <GuestTalk />} />
           {/* <Route
             exact
