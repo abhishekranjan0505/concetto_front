@@ -82,7 +82,7 @@ class AboutUs extends Component {
                   <a href="/images/CAMPUS-MAP.jpg" target="_blank">
                     <Button
                       type="button"
-                      className="btn btn-primary btn-lg"
+                      className="btn btn-info btn-lg"
                       style={{ margin: "auto" }}
                     >
                       <i className="fa fa-eye" /> View
