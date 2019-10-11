@@ -243,16 +243,12 @@ class Main extends Component {
           <Route
             exact
             path="/department-events"
-            component={() => (
-              <EventPage events={events} active={0} auth={this.props.auth} />
-            )}
+            component={() => <EventPage events={events} active={0} />}
           />
           <Route
             exact
             path="/club-events"
-            component={() => (
-              <EventPage events={events} active={1} auth={this.props.auth} />
-            )}
+            component={() => <EventPage events={events} active={1} />}
           />
           <Route
             path="/department-events/:eventName/about"

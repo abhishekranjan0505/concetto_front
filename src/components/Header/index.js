@@ -30,7 +30,7 @@ class Header extends Component {
         className="header fixed-top"
       >
         <nav className="navbar navbar-expand-md navbar-dark">
-          <NavLink to="../home" exact strict>
+          <NavLink to="home" exact strict>
             <a className="navbar-brand">
               <span className="helper"></span>
               <img
