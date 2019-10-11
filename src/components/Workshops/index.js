@@ -54,7 +54,7 @@ class Workshops extends Component {
                     preserveAspectRatio="xMidYMid slice"
                     focusable="false"
                     aria-label="Placeholder: 500x500"
-                    alt="Loading..."
+                    alt={workshop.name}
                   ></img>
                 </div>
                 <div class={"col-md-7 " + (id % 2 === 0 ? "order-md-1" : "")}>

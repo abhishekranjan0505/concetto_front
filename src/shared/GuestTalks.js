@@ -12,7 +12,7 @@ export const GuestTalks = [
   },
   {
     guest: "DHARVENDRA YADAV",
-    designation: "Team Member of Chandrayaan-2 Mission ",
+    designation: "Team Member of Chandrayaan-II Mission ",
     img:
       "https://concetto-front.s3.ap-south-1.amazonaws.com/GuestTalks/dharvendra.jpg",
     about:
