@@ -55,9 +55,11 @@ class EventDetail extends Component {
           <div>
             <NavLink to="../home">
               <img
-                src={window.location.origin + "/images/logo.png"}
+                src={
+                  "https://concetto-front.s3.ap-south-1.amazonaws.com/logo.webp"
+                }
                 className="img-fluid"
-                alt={"Loading.."}
+                alt={" "}
               />
             </NavLink>
           </div>
