@@ -130,16 +130,18 @@ export const Events = [
     is_team: 1,
     max_participants: 3,
     dept: "",
-    description: "A Jeopardy style CTF",
+    description:
+      "Capture the Flag (CTF) is a special kind of information security competition. There are two common types of CTFs: Jeopardy and Attack- Defence.; In this Concetto, we are organising a Jeopardy style CTF where you will participate in a team, the maximum number of members being 3. In this CTF(Jeopardy style), there will be a couple of questions(tasks) from a range of categories such as Web, Forensic, Crypto, Binary or Miscellaneous.Teams gain some points for every solved task.The next task in chain can be unlocked only after your team solves the previous task.When the game is over the sum of points shows you the CTF winners. CTF will start from 9PM 18-10-2019 to 9PM 19-10-2019. ; It will be normal Jeopardy style CTF in which all types of challenges(Web, Forensic, Crypto, Binary, Misc) will be there.",
     is_club: 1,
     about:
       "In this CTF, there will be a couple of questions (tasks) from a range of categories such as Web, Forensic, Crypto, Binary or Miscellaneous. Teams gain some points for every solved task.The next task in chain can be unlocked only after your team solves the previous task. When the game is over the sum of point shows you the CTF winners.",
-    rules: "",
+    rules:
+      "The flag pattern will be as follows: CLCTF{flag_here};The teams may have a minimum of one member and a maximum of four members.;The competition will last for 24 hours in a row, no breaks.;For each question you solve, points are awarded based on the number of total number of teams who also solve it.;There is no penalty for incorrect flag submission.;Do NOT try to exchange flags or write- ups during the competition.;Do NOT try to use Brute Force on the flag submission system because the flags are not possible to guess.;It's strictly forbidden to perform any kind of Denial of Service Attack (DoS/DDoS) against the servers or the competition's infrastructure.;Any kind of violation of these rules will mean immediate disqualification of the team.;HackerRank admin decisions are final.;For more info check https://hackerrank.com/clctf and be active on discord server for more updates and queries.;Most important rule: Have fun and Learn a lot! :)",
     img:
       "https://concetto-front.s3.ap-south-1.amazonaws.com/events/cyberlabs.jpg",
     prizes: "",
     fee: 0,
-    timing: "",
+    timing: "9 PM to 9 PM Next Day",
     day: 1,
     scores: {
       first: 50,
@@ -194,7 +196,7 @@ export const Events = [
     prizes: "",
     fee: 0,
     timing: "",
-    day: 1,
+    day: 0,
     scores: {
       first: 50,
       second: 30,
