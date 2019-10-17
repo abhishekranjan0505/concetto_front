@@ -6,7 +6,7 @@ export const GuestTalks = [
       "https://concetto-front.s3.ap-south-1.amazonaws.com/GuestTalks/GabeGabrielle.jpg",
     about:
       "Gabe Gabrielle is the former Director of Engineering for the US Air Force’s Special Operations Command as well as a former contractor/engineer at Kennedy Space Center for NASA where he was a member of NASA’s Speakers Bureau for 10 years.;Gabe has visited 375 schools from 2007-2018 throughout the US, speaking to over 65,000 students from K-College. In 2014, the American Embassy in Qatar asked him to support a week long community outreach on the 10th year anniversary of Mars Rovers.; He has visited 185 schools in Norway, Denmark, Germany, Trinidad, Qatar, England, Brazil, Singapore, and Australia from 2008 to 2018 speaking with 46,000 students. Visited South Africa in March 07, June 08, and Oct 2010, spoke to more than 8,000 students while supporting both NASA and American Embassy outreach.;Gabe was a member of Kennedy Space Center’s Disability Awareness and Action Working Group (DAAWG) for 14 years…devoted to improving the work environment for personnel with disabilities. In 2016, he was the recipient of the Central Florida Aerospace Academy’s Ray Lien Award for Excellence In Aerospace Education.; Gabe is also a sighted guide for a tri-athlete who is blind.For a man with so many accolades to his name, we feel honoured to have the opportunity to share some time and witness an evening where he imparts wisdom to the budding minds of the Institute.",
-    time: "18th October",
+    time: "18th October;18.00-20.00",
     place: "",
     link: "https://solarsystem1.jpl.nasa.gov/ssa/biography.cfm?US_ID=1877"
   },
