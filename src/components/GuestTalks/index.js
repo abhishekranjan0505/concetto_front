@@ -90,8 +90,6 @@ class GuestTalk extends Component {
                       <i class="fa fa-map-marker fa-lg"></i>
                       <span class="row-item">
                         <strong>{talk.place}</strong>
-                        <br />
-                        534 E 1st St
                       </span>
                     </span>
                   </p>
