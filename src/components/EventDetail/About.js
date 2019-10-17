@@ -12,8 +12,6 @@ class About extends Component {
       day1 = Math.floor(event.day % 10);
       day2 = 0;
     }
-    console.log(event.name);
-    console.log(event.name === "CodeYaan 1.0");
     return (
       <div className="container" style={{ display: "block", width: "80vw" }}>
         <Helmet>
@@ -64,11 +62,15 @@ class About extends Component {
                   timings[1]
                 : " "
             } \n `}
-        {event.name === "CodeYaan 1.0" ? (
+        {event.name === "Capture the flag" ? (
           <p>
             <br />
             Enter into the contest &nbsp;
-            <a href="https://www.hackerrank.com/clctf" target="_blank">
+            <a
+              href="https://www.hackerrank.com/clctf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               here
             </a>
           </p>

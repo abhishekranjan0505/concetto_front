@@ -114,7 +114,7 @@ export const Events = [
     prizes: "",
     fee: 0,
     timing: "",
-    day: 1,
+    day: 0,
     scores: {
       first: 50,
       second: 30,
@@ -169,7 +169,7 @@ export const Events = [
     prizes: "",
     fee: 0,
     timing: "",
-    day: 1,
+    day: 0,
     scores: {
       first: 50,
       second: 30,
@@ -256,7 +256,7 @@ export const Events = [
       "https://concetto-front.s3.ap-south-1.amazonaws.com/events/bizathon.jpg",
     prizes: "",
     fee: 0,
-    timing: '',
+    timing: "",
     day: 0,
     scores: {
       first: 50,
@@ -839,7 +839,7 @@ export const Events = [
     prizes: "",
     fee: 0,
     timing: "",
-    day: 1,
+    day: 0,
     scores: {
       first: 50,
       second: 30,
