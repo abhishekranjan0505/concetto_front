@@ -14,7 +14,7 @@ export const Events = [
       "https://concetto-front.s3.ap-south-1.amazonaws.com/events/robo+war.jpg",
     prizes: "",
     fee: 0,
-    timing: "19.00-22.00",
+    timing: "19:00-22:00",
     day: 1,
     scores: {
       first: 50,
@@ -46,7 +46,7 @@ export const Events = [
       "https://concetto-front.s3.ap-south-1.amazonaws.com/events/Autonomous.jpg",
     prizes: "",
     fee: 0,
-    timing: "14.00-18.00",
+    timing: "14:00-18:00",
     day: 1,
     scores: {
       first: 50,
@@ -219,7 +219,7 @@ export const Events = [
       "https://concetto-front.s3.ap-south-1.amazonaws.com/events/maestronics.jpg",
     prizes: "",
     fee: 0,
-    timing: "8.00-10.00",
+    timing: "8:00-10:00",
     day: 1,
     scores: {
       first: 50,
@@ -254,7 +254,7 @@ export const Events = [
       "https://concetto-front.s3.ap-south-1.amazonaws.com/events/bizathon.jpg",
     prizes: "",
     fee: 0,
-    timing: "10.00-18.00;21:00-12:00NextDay",
+    timing: "10:00-18:00 ; 21:00-12:00 Day 2",
     day: 1,
     scores: {
       first: 50,
@@ -342,7 +342,7 @@ export const Events = [
       "https://concetto-front.s3.ap-south-1.amazonaws.com/events/magnotech.jpg",
     prizes: "",
     fee: 0,
-    timing: "12.30-14.00",
+    timing: "12:30-14:00",
     day: 1,
     scores: {
       first: 50,
@@ -375,7 +375,7 @@ export const Events = [
     img: "https://concetto-front.s3.ap-south-1.amazonaws.com/events/IDP.jpg",
     prizes: "",
     fee: 0,
-    timing: "8.00-9.00",
+    timing: "8:00-9:00",
     day: 1,
     scores: {
       first: 50,
@@ -409,7 +409,7 @@ export const Events = [
       "https://concetto-front.s3.ap-south-1.amazonaws.com/events/rock+the+wagon.jpg",
     prizes: "",
     fee: 0,
-    timing: "11.00-12.30",
+    timing: "11:00-12:30",
     day: 1,
     scores: {
       first: 50,
@@ -441,7 +441,7 @@ export const Events = [
       "https://concetto-front.s3.ap-south-1.amazonaws.com/events/cad+crafian.jpg",
     prizes: "",
     fee: 0,
-    timing: "15.00-17.00",
+    timing: "15:00-17:00",
     day: 1,
     scores: {
       first: 50,
@@ -539,8 +539,8 @@ export const Events = [
       "https://concetto-front.s3.ap-south-1.amazonaws.com/events/invento.jpg",
     prizes: "",
     fee: 50,
-    timing: "16.00-17.30",
-    day: 1,
+    timing: "08:00-10:00",
+    day: 3,
     scores: {
       first: 50,
       second: 30,
@@ -604,7 +604,7 @@ export const Events = [
       "https://concetto-front.s3.ap-south-1.amazonaws.com/events/Tech+triathlon.jpg",
     prizes: "",
     fee: 0,
-    timing: "14.00-16.00",
+    timing: "14:00-16:00",
     day: 1,
     scores: {
       first: 50,
@@ -670,7 +670,7 @@ export const Events = [
       "https://concetto-front.s3.ap-south-1.amazonaws.com/events/circuit.jpg",
     prizes: "",
     fee: 0,
-    timing: "18.30-21.00",
+    timing: "18:30-21:00",
     day: 1,
     scores: {
       first: 50,
@@ -738,7 +738,7 @@ export const Events = [
       "https://concetto-front.s3.ap-south-1.amazonaws.com/events/extreme.jpg",
     prizes: "",
     fee: 0,
-    timing: "12.00-14.00",
+    timing: "12:00-14:00",
     day: 1,
     scores: {
       first: 50,
@@ -770,7 +770,7 @@ export const Events = [
       "https://concetto-front.s3.ap-south-1.amazonaws.com/events/chem+cruise.jpg",
     prizes: "",
     fee: 0,
-    timing: "13.00-14.00",
+    timing: "13:00-14:00",
     day: 1,
     scores: {
       first: 50,
@@ -868,7 +868,7 @@ export const Events = [
       "https://concetto-front.s3.ap-south-1.amazonaws.com/events/terra'stellar.jpg",
     prizes: "",
     fee: 0,
-    timing: "9.00-11.00",
+    timing: "9:00-11:00",
     day: 1,
     scores: {
       first: 50,
@@ -901,7 +901,7 @@ export const Events = [
       "https://concetto-front.s3.ap-south-1.amazonaws.com/events/baffking+planet.jpg",
     prizes: "",
     fee: 0,
-    timing: "21.30-22.30",
+    timing: "21:30-22:30",
     day: 1,
     scores: {
       first: 50,

@@ -48,9 +48,9 @@
           width: 90vw;
         }
       }
-      video {
+      /*video {
         pointer-events: none;
-      }
+      }*/
     </style>
     <meta charset="utf-8" />
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
@@ -87,7 +87,7 @@
   <body id="thin" style="overflow-x: hidden">
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root">
-      <div class="vertical-centered-box">
+      <!-- <div class="vertical-centered-box">
         <div class="content">
           <video autoplay loop class="loading-image">
             <source
@@ -98,8 +98,17 @@
             Loading ....
           </video>
         </div>
+      </div> -->
+      <div class="vertical-centered-box">
+        <div class="content">
+          <div class="content">
+            <!-- <img src="./composition-logo.gif" class="loading-image" /> -->
+            <img src="./pre-loader.gif" class="loading-image" />
+          </div>
+        </div>
       </div>
     </div>
+    <!-- </div> -->
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
