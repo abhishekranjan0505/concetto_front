@@ -9,6 +9,9 @@ class Sponsors extends Component{
         others: sponsors.filter(sponsor => sponsor.is_title === 0)
       };
     }
+    componentDidMount(){
+        window.scrollTo(0,0);
+    }
     render(){
         const { titles, others } = this.state;
         return(
