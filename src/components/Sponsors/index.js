@@ -1,9 +1,9 @@
- import React, { Component } from "react";
+import React, { Component } from "react";
 
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import Header from "../Header";
-import "./styles.css"
+import "./styles.css";
 class Sponsors extends Component {
   constructor(props) {
     super(props);
@@ -14,21 +14,43 @@ class Sponsors extends Component {
       general: sponsors.filter(sponsor => sponsor.cat === "General Sponsors"),
       event: sponsors.filter(sponsor => sponsor.cat === "Event Sponsors"),
       travel: sponsors.filter(sponsor => sponsor.cat === "Travel Partner"),
-      education: sponsors.filter(sponsor => sponsor.cat === "Education Partner"),
+      education: sponsors.filter(
+        sponsor => sponsor.cat === "Education Partner"
+      ),
       airlines: sponsors.filter(sponsor => sponsor.cat === "Airlines Partner"),
-      media: sponsors.filter(sponsor => sponsor.cat ==="Media Partner"),
-      beverage: sponsors.filter(sponsors => sponsors.cat === "Beverage Partner"),
+      media: sponsors.filter(sponsor => sponsor.cat === "Media Partner"),
+      beverage: sponsors.filter(
+        sponsors => sponsors.cat === "Beverage Partner"
+      ),
       food: sponsors.filter(sponsors => sponsors.cat === "Food Partner"),
-      entertainment: sponsors.filter(sponsors => sponsors.cat === "Entertainment Partner"),
+      entertainment: sponsors.filter(
+        sponsors => sponsors.cat === "Entertainment Partner"
+      ),
       coupon: sponsors.filter(sponsors => sponsors.cat === "Coupon Partner"),
-      build: sponsors.filter(sponsors => sponsors.cat === "Build-a-bit Sponsors")
+      build: sponsors.filter(
+        sponsors => sponsors.cat === "Build-a-bit Sponsors"
+      )
     };
   }
-  componentDidMount(){
-      window.scrollTo(0,0);
+  componentDidMount() {
+    window.scrollTo(0, 0);
   }
   render() {
-    const { titles, major, general, event, travel, education, airlines, media, beverage, food, entertainment, coupon, build } = this.state;
+    const {
+      titles,
+      major,
+      general,
+      event,
+      travel,
+      education,
+      airlines,
+      media,
+      beverage,
+      food,
+      entertainment,
+      coupon,
+      build
+    } = this.state;
     // console.log(window.innerWidth);
     return (
       <div className="team-page">
@@ -46,65 +68,69 @@ class Sponsors extends Component {
         <Header />
         <br />
         <br />
-          {/* <h2 align="center" style={{ color: "black" }}>
+        {/* <h2 align="center" style={{ color: "black" }}>
               OUR SPONSORS{" "}
           </h2> */}
 
         <br />
 
-     <div>
-        <h1
-          style={{
-            textAlign: "center",
-            marginTop: "-20px"
-          }}
-          className="title-sponser"
-        >
-          TITLE SPONSOR
-        </h1>
-        <div className="container" style={{paddingLeft: 'auto'}}>
-          {titles.map((title, id) => (
-            <React.Fragment key={id.toString()}>
-              <div
-                class={"col-12  offset-md-3 col-md-6 "}
-                // style={{
-                //   paddingLeft: 'auto',
-                //   display: "flex",
-                //   alignItems: "center",
-                //   flexWrap: "wrap"
-                // }}
-              >
-                <a href={title.link} target="_blank" rel="noopener noreferrer">
-                  <img
-                    src={title.img}
-                    class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-                    width="500"
-                    height="500"
-                    xmlns="http://www.w3.org/2000/svg"
-                    preserveAspectRatio="xMidYMid slice"
-                    focusable="false"
-                    aria-label="Placeholder: 500x500"
-                    alt={"Loading..."}
-                    // style={{
-                    //   display: "block",
-                    //   marginLeft: "auto",
-                    //   marginRight: "auto",
-                    //   width: "40%"
-                    // }}
-                  />
-                </a>
-              </div>
-            </React.Fragment>
-          ))}
-        </div>
-        <br />
+        <div>
+          <h1
+            style={{
+              textAlign: "center",
+              marginTop: "-20px"
+            }}
+            className="title-sponser"
+          >
+            TITLE SPONSOR
+          </h1>
+          <div className="container" style={{ paddingLeft: "auto" }}>
+            {titles.map((title, id) => (
+              <React.Fragment key={id.toString()}>
+                <div
+                  class={"col-12  offset-md-3 col-md-6 "}
+                  // style={{
+                  //   paddingLeft: 'auto',
+                  //   display: "flex",
+                  //   alignItems: "center",
+                  //   flexWrap: "wrap"
+                  // }}
+                >
+                  <a
+                    href={title.link}
+                    target={"_blank"}
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src={title.img}
+                      class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+                      width="500"
+                      height="500"
+                      xmlns="http://www.w3.org/2000/svg"
+                      preserveAspectRatio="xMidYMid slice"
+                      focusable="false"
+                      aria-label="Placeholder: 500x500"
+                      alt={"Loading..."}
+                      // style={{
+                      //   display: "block",
+                      //   marginLeft: "auto",
+                      //   marginRight: "auto",
+                      //   width: "40%"
+                      // }}
+                    />
+                  </a>
+                </div>
+              </React.Fragment>
+            ))}
+          </div>
+          <br />
           {/* {window.innerWidth > 810 ? ( */}
           <React.Fragment>
             <h1
               style={{
                 textAlign: "center",
                 marginTop: "20px",
-                color: 'black'
+                color: "black"
               }}
               className="title"
             >
@@ -112,13 +138,10 @@ class Sponsors extends Component {
             </h1>
 
             <div className="container">
-               { major.map((title, id) => (
+              {major.map((title, id) => (
                 <React.Fragment key={id.toString()}>
-
                   <div
-                    class={
-                      "col-12 col-md-6 offset-lg-1 col-lg-4 "
-                                         }
+                    class={"col-12 col-md-6 offset-lg-1 col-lg-4 "}
                     style={{
                       display: "flex",
                       alignItems: "center",
@@ -126,8 +149,8 @@ class Sponsors extends Component {
                     }}
                   >
                     <a
-                      href={title.link}
-                      target="_blank"
+                      href={title.link === "" ? "#/sponsors" : title.link}
+                      target={title.link === "" ? "" : "_blank"}
                       rel="noopener noreferrer"
                     >
                       <img
@@ -144,7 +167,6 @@ class Sponsors extends Component {
                     </a>
                   </div>
                 </React.Fragment>
-
               ))}
             </div>
 
@@ -152,7 +174,7 @@ class Sponsors extends Component {
               style={{
                 textAlign: "center",
                 marginTop: "20px",
-                color: 'black'
+                color: "black"
               }}
               className="title"
             >
@@ -162,11 +184,8 @@ class Sponsors extends Component {
             <div className="container">
               {general.map((title, id) => (
                 <React.Fragment key={id.toString()}>
-
                   <div
-                    class={
-                      "col-12 col-md-6 col-lg-4 "
-                    }
+                    class={"col-12 col-md-6 col-lg-4 "}
                     style={{
                       display: "flex",
                       alignItems: "center",
@@ -174,8 +193,8 @@ class Sponsors extends Component {
                     }}
                   >
                     <a
-                      href={title.link}
-                      target="_blank"
+                      href={title.link === "" ? "#/sponsors" : title.link}
+                      target={title.link === "" ? "" : "_blank"}
                       rel="noopener noreferrer"
                     >
                       <img
@@ -192,7 +211,6 @@ class Sponsors extends Component {
                     </a>
                   </div>
                 </React.Fragment>
-
               ))}
             </div>
 
@@ -200,7 +218,7 @@ class Sponsors extends Component {
               style={{
                 textAlign: "center",
                 marginTop: "20px",
-                color: 'black'
+                color: "black"
               }}
               className="title"
             >
@@ -210,11 +228,8 @@ class Sponsors extends Component {
             <div className="container">
               {event.map((title, id) => (
                 <React.Fragment key={id.toString()}>
-
                   <div
-                    class={
-                      "col-12 col-md-6 offset-lg-1 col-lg-4 "
-                    }
+                    class={"col-12 col-md-6 offset-lg-1 col-lg-4 "}
                     style={{
                       display: "flex",
                       alignItems: "center",
@@ -222,8 +237,8 @@ class Sponsors extends Component {
                     }}
                   >
                     <a
-                      href={title.link}
-                      target="_blank"
+                      href={title.link === "" ? "#/sponsors" : title.link}
+                      target={title.link === "" ? "" : "_blank"}
                       rel="noopener noreferrer"
                     >
                       <img
@@ -240,16 +255,14 @@ class Sponsors extends Component {
                     </a>
                   </div>
                 </React.Fragment>
-
               ))}
             </div>
-
 
             <h1
               style={{
                 textAlign: "center",
                 marginTop: "20px",
-                color: 'black'
+                color: "black"
               }}
               className="title"
             >
@@ -259,11 +272,8 @@ class Sponsors extends Component {
             <div className="container">
               {travel.map((title, id) => (
                 <React.Fragment key={id.toString()}>
-
                   <div
-                    class={
-                      "col-12 col-md-6 offset-lg-4 col-lg-4 "
-                    }
+                    class={"col-12 col-md-6 offset-lg-4 col-lg-4 "}
                     style={{
                       display: "flex",
                       alignItems: "center",
@@ -271,8 +281,8 @@ class Sponsors extends Component {
                     }}
                   >
                     <a
-                      href={title.link}
-                      target="_blank"
+                      href={title.link === "" ? "#/sponsors" : title.link}
+                      target={title.link === "" ? "" : "_blank"}
                       rel="noopener noreferrer"
                     >
                       <img
@@ -289,17 +299,14 @@ class Sponsors extends Component {
                     </a>
                   </div>
                 </React.Fragment>
-
               ))}
             </div>
-
-
 
             <h1
               style={{
                 textAlign: "center",
                 marginTop: "20px",
-                color: 'black'
+                color: "black"
               }}
               className="title"
             >
@@ -309,11 +316,8 @@ class Sponsors extends Component {
             <div className="container">
               {education.map((title, id) => (
                 <React.Fragment key={id.toString()}>
-
                   <div
-                    class={
-                      "col-12 col-md-6 offset-lg-4 col-lg-4 "
-                    }
+                    class={"col-12 col-md-6 offset-lg-4 col-lg-4 "}
                     style={{
                       display: "flex",
                       alignItems: "center",
@@ -321,8 +325,8 @@ class Sponsors extends Component {
                     }}
                   >
                     <a
-                      href={title.link}
-                      target="_blank"
+                      href={title.link === "" ? "#/sponsors" : title.link}
+                      target={title.link === "" ? "" : "_blank"}
                       rel="noopener noreferrer"
                     >
                       <img
@@ -339,19 +343,14 @@ class Sponsors extends Component {
                     </a>
                   </div>
                 </React.Fragment>
-
               ))}
             </div>
-
-
-
-
 
             <h1
               style={{
                 textAlign: "center",
                 marginTop: "20px",
-                color: 'black'
+                color: "black"
               }}
               className="title"
             >
@@ -361,11 +360,8 @@ class Sponsors extends Component {
             <div className="container">
               {airlines.map((title, id) => (
                 <React.Fragment key={id.toString()}>
-
                   <div
-                    class={
-                      "col-12 col-md-6 offset-lg-4 col-lg-4 "
-                    }
+                    class={"col-12 col-md-6 offset-lg-4 col-lg-4 "}
                     style={{
                       display: "flex",
                       alignItems: "center",
@@ -373,8 +369,8 @@ class Sponsors extends Component {
                     }}
                   >
                     <a
-                      href={title.link}
-                      target="_blank"
+                      href={title.link === "" ? "#/sponsors" : title.link}
+                      target={title.link === "" ? "" : "_blank"}
                       rel="noopener noreferrer"
                     >
                       <img
@@ -391,17 +387,14 @@ class Sponsors extends Component {
                     </a>
                   </div>
                 </React.Fragment>
-
               ))}
             </div>
-
-
 
             <h1
               style={{
                 textAlign: "center",
                 marginTop: "20px",
-                color: 'black'
+                color: "black"
               }}
               className="title"
             >
@@ -411,11 +404,8 @@ class Sponsors extends Component {
             <div className="container">
               {media.map((title, id) => (
                 <React.Fragment key={id.toString()}>
-
                   <div
-                    class={
-                      "col-12 col-md-6 offset-lg-4 col-lg-4 "
-                    }
+                    class={"col-12 col-md-6 offset-lg-4 col-lg-4 "}
                     style={{
                       display: "flex",
                       alignItems: "center",
@@ -423,8 +413,8 @@ class Sponsors extends Component {
                     }}
                   >
                     <a
-                      href={title.link}
-                      target="_blank"
+                      href={title.link === "" ? "#/sponsors" : title.link}
+                      target={title.link === "" ? "" : "_blank"}
                       rel="noopener noreferrer"
                     >
                       <img
@@ -441,17 +431,14 @@ class Sponsors extends Component {
                     </a>
                   </div>
                 </React.Fragment>
-
               ))}
             </div>
-
-
 
             <h1
               style={{
                 textAlign: "center",
                 marginTop: "20px",
-                color: 'black'
+                color: "black"
               }}
               className="title"
             >
@@ -461,11 +448,8 @@ class Sponsors extends Component {
             <div className="container">
               {beverage.map((title, id) => (
                 <React.Fragment key={id.toString()}>
-
                   <div
-                    class={
-                      "col-12 col-md-6 offset-lg-4 col-lg-4 "
-                    }
+                    class={"col-12 col-md-6 offset-lg-4 col-lg-4 "}
                     style={{
                       display: "flex",
                       alignItems: "center",
@@ -473,8 +457,8 @@ class Sponsors extends Component {
                     }}
                   >
                     <a
-                      href={title.link}
-                      target="_blank"
+                      href={title.link === "" ? "#/sponsors" : title.link}
+                      target={title.link === "" ? "" : "_blank"}
                       rel="noopener noreferrer"
                     >
                       <img
@@ -491,18 +475,14 @@ class Sponsors extends Component {
                     </a>
                   </div>
                 </React.Fragment>
-
               ))}
             </div>
-
-
-
 
             <h1
               style={{
                 textAlign: "center",
                 marginTop: "20px",
-                color: 'black'
+                color: "black"
               }}
               className="title"
             >
@@ -512,11 +492,8 @@ class Sponsors extends Component {
             <div className="container">
               {food.map((title, id) => (
                 <React.Fragment key={id.toString()}>
-
                   <div
-                    class={
-                      "col-12 col-md-6 col-lg-4 "
-                    }
+                    class={"col-12 col-md-6 col-lg-4 "}
                     style={{
                       display: "flex",
                       alignItems: "center",
@@ -524,8 +501,8 @@ class Sponsors extends Component {
                     }}
                   >
                     <a
-                      href={title.link}
-                      target="_blank"
+                      href={title.link === "" ? "#/sponsors" : title.link}
+                      target={title.link === "" ? "" : "_blank"}
                       rel="noopener noreferrer"
                     >
                       <img
@@ -542,19 +519,14 @@ class Sponsors extends Component {
                     </a>
                   </div>
                 </React.Fragment>
-
               ))}
             </div>
-
-
-
-
 
             <h1
               style={{
                 textAlign: "center",
                 marginTop: "20px",
-                color: 'black'
+                color: "black"
               }}
               className="title"
             >
@@ -564,11 +536,8 @@ class Sponsors extends Component {
             <div className="container">
               {entertainment.map((title, id) => (
                 <React.Fragment key={id.toString()}>
-
                   <div
-                    class={
-                      "col-12 col-md-6 offset-lg-4 col-lg-4 "
-                    }
+                    class={"col-12 col-md-6 offset-lg-4 col-lg-4 "}
                     style={{
                       display: "flex",
                       alignItems: "center",
@@ -576,8 +545,8 @@ class Sponsors extends Component {
                     }}
                   >
                     <a
-                      href={title.link}
-                      target="_blank"
+                      href={title.link === "" ? "#/sponsors" : title.link}
+                      target={title.link === "" ? "" : "_blank"}
                       rel="noopener noreferrer"
                     >
                       <img
@@ -594,17 +563,14 @@ class Sponsors extends Component {
                     </a>
                   </div>
                 </React.Fragment>
-
               ))}
             </div>
-
-
 
             <h1
               style={{
                 textAlign: "center",
                 marginTop: "20px",
-                color: 'black'
+                color: "black"
               }}
               className="title"
             >
@@ -614,11 +580,8 @@ class Sponsors extends Component {
             <div className="container">
               {coupon.map((title, id) => (
                 <React.Fragment key={id.toString()}>
-
                   <div
-                    class={
-                      "col-12 col-md-6 col-lg-4 "
-                    }
+                    class={"col-12 col-md-6 col-lg-4 "}
                     style={{
                       display: "flex",
                       alignItems: "center",
@@ -626,8 +589,8 @@ class Sponsors extends Component {
                     }}
                   >
                     <a
-                      href={title.link}
-                      target="_blank"
+                      href={title.link === "" ? "#/sponsors" : title.link}
+                      target={title.link === "" ? "" : "_blank"}
                       rel="noopener noreferrer"
                     >
                       <img
@@ -644,18 +607,14 @@ class Sponsors extends Component {
                     </a>
                   </div>
                 </React.Fragment>
-
               ))}
-              </div>
-
-
-
+            </div>
 
             <h1
               style={{
                 textAlign: "center",
                 marginTop: "20px",
-                color: 'black'
+                color: "black"
               }}
               className="title"
             >
@@ -665,9 +624,12 @@ class Sponsors extends Component {
             <div className="container">
               {build.map((title, id) => (
                 <React.Fragment key={id.toString()}>
-
                   <div
-                    class={id === 6 ?"col-12  offset-md-3 col-md-6 ":"col-12 col-md-6 col-lg-4 "}
+                    class={
+                      id === 6
+                        ? "col-12  offset-md-3 col-md-6 "
+                        : "col-12 col-md-6 col-lg-4 "
+                    }
                     style={{
                       display: "flex",
                       alignItems: "center",
@@ -675,8 +637,8 @@ class Sponsors extends Component {
                     }}
                   >
                     <a
-                      href={title.link}
-                      target="_blank"
+                      href={title.link === "" ? "#/sponsors" : title.link}
+                      target={title.link === "" ? "" : "_blank"}
                       rel="noopener noreferrer"
                     >
                       <img
@@ -693,16 +655,14 @@ class Sponsors extends Component {
                     </a>
                   </div>
                 </React.Fragment>
-
               ))}
             </div>
           </React.Fragment>
-         {/* : ( */}
+          {/* : ( */}
           {/* "" */}
-        {/* )} */}
+          {/* )} */}
+        </div>
       </div>
-          </div>
-
     );
   }
 }

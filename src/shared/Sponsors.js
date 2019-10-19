@@ -52,7 +52,7 @@ export const SponsorsList = [
     img:
       "https://concetto-front.s3.ap-south-1.amazonaws.com/Sponsors/POONAM-Emporium.jpeg",
     is_title: false,
-    link: "#",
+    link: "",
     cat: "Event Sponsors"
   },
   {
@@ -94,21 +94,21 @@ export const SponsorsList = [
     img:
       "https://concetto-front.s3.ap-south-1.amazonaws.com/Sponsors/Bhamas.jpg",
     is_title: false,
-    link: "#",
+    link: "",
     cat: "Food Partner"
   },
   {
     img:
       "https://concetto-front.s3.ap-south-1.amazonaws.com/Sponsors/Champaran.jpg",
     is_title: false,
-    link: "#",
+    link: "",
     cat: "Food Partner"
   },
   {
     img:
       "https://concetto-front.s3.ap-south-1.amazonaws.com/Sponsors/Pabrai-s.jpg",
     is_title: false,
-    link: "#",
+    link: "",
     cat: "Food Partner"
   },
   {
@@ -122,21 +122,21 @@ export const SponsorsList = [
     img:
       "https://concetto-front.s3.ap-south-1.amazonaws.com/Sponsors/DiscountBazaar.png",
     is_title: false,
-    link: "/#",
+    link: "",
     cat: "Coupon Partner"
   },
   {
     img:
       "https://concetto-front.s3.ap-south-1.amazonaws.com/Sponsors/Baithak.jpg",
     is_title: false,
-    link: "#",
+    link: "",
     cat: "Coupon Partner"
   },
   {
     img:
       "https://concetto-front.s3.ap-south-1.amazonaws.com/Sponsors/R-Launch.jpeg",
     is_title: false,
-    link: "#",
+    link: "",
     cat: "Coupon Partner"
   },
   {
@@ -157,7 +157,7 @@ export const SponsorsList = [
     img:
       "https://concetto-front.s3.ap-south-1.amazonaws.com/Sponsors/kanjoos.jpg",
     is_title: false,
-    link: "#",
+    link: "",
     cat: "Build-a-bit Sponsors"
   },
   {
