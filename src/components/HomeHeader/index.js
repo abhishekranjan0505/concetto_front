@@ -27,6 +27,10 @@ class Header extends Component {
   }
   render() {
     const { isMenuOpen } = this.state;
+    console.log(
+      window.innerWidth,
+      window.innerWidth < 800 && window.pageYOffset > window.innerHeight
+    );
     return (
       <div
         className="header fixed-top"
