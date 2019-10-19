@@ -667,9 +667,7 @@ class Sponsors extends Component {
                 <React.Fragment key={id.toString()}>
 
                   <div
-                    class={
-                      "col-12 col-md-6 col-lg-4 "
-                    }
+                    class={id === 6 ?"col-12  offset-md-3 col-md-6 ":"col-12 col-md-6 col-lg-4 "}
                     style={{
                       display: "flex",
                       alignItems: "center",
@@ -699,7 +697,6 @@ class Sponsors extends Component {
               ))}
             </div>
           </React.Fragment>
-        )
          {/* : ( */}
           {/* "" */}
         {/* )} */}
