@@ -61,7 +61,7 @@ class Sponsors extends Component {
           ))}
         </div>
         <br />
-        {window.innerWidth > 810 ? (
+        {/* {window.innerWidth > 810 ? ( */}
           <React.Fragment>
             <h1
               style={{
@@ -109,9 +109,10 @@ class Sponsors extends Component {
               ))}
             </div>
           </React.Fragment>
-        ) : (
-          ""
-        )}
+        )
+         {/* : ( */}
+          {/* "" */}
+        {/* )} */}
       </div>
     );
   }
